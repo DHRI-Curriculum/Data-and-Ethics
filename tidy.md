@@ -70,7 +70,8 @@ These are some (most!) of the shapes your research data might transform into.
 We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations:
 
 1. Raw
-    Raw data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Raw data might have errors in it, for instance: 
+
+Raw data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Raw data might have errors in it, for instance: 
     1. Empty fields
     2. Multiple formats, such as "yes" or "y" or "1" for a positive response.
     3. Suspect answers, like a date of birth of 00/11/1234
@@ -78,10 +79,12 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
     5. Dubious outliers
     6. Duplicated rows
     7. And many more!
-    But "raw data" is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw data".
+    
+But "raw data" is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw data".
 2. Cleaned
-    High quality data is measured in its validity, accuracy, completeness and consistency.
-    Cleaning data is the work of correcting the errors listed above. It can be done manually or programatically. It also involves normalizing data, for example, making sure phone numbers have ten digits ((555)-555-5555), not just seven (555-5555).
+
+High quality data is measured in its validity, accuracy, completeness and consistency.
+Cleaning data is the work of correcting the errors listed above. It can be done manually or programatically. It also involves normalizing data, for example, making sure phone numbers have ten digits ((555)-555-5555), not just seven (555-5555).
 
     ## Validity
     Measurements must be valid, in that they must conform to set constraints:
