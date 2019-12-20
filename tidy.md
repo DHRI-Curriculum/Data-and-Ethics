@@ -80,16 +80,23 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
     7. And many more!
     But "raw data" is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw data".
 2. Cleaned
-    High quality data is measured in its validity, accuracy, completeness and consistency.
-    Cleaning data is the work of correcting the errors listed above. It can be done manually or programatically. It also involves normalizing data, for example, making sure phone numbers have ten digits ((555)-555-5555), not just seven (555-5555).
-
+    High quality data is measured in its **validity**, **accuracy**, **completeness**, **consistency**, and **uniformity**.
+    
+    Cleaning data is the work of correcting the errors listed above, and moving towards high quality. This work can be done manually or programatically. 
     ## Validity
     Measurements must be valid, in that they must conform to set constraints:
     1. The aforementioned "yes" or "y" or "1" should all be changed to one response.
     2. Certain fields cannot be empty, or the whole observation must be thrown out.
     3. Uniqueness, for instance no two people should have the same social security number.
     ## Accuracy
-    
+        Measurements must be accurate, in that they must represent the correct values. While an observation may be valid, it might at the same time be inaccurate. 123 Fake street is a valid, inaccurate street address.
+        Unfortunately, accuracy is mostly acheived in the observation process. To be achieved in the cleaning process, an outside trusted source would have to be cross-referenced.
+    ## Completeness
+        Measurements must be complete, in that they must represent everything that might be known. This also is nearly impossible to achieve in the cleaning process! 
+    ## Consistency
+        Measurements must be consistent, in that different observations must not contradict each other. For instance, one person cannot be represented as both dead and still alive in different observations. 
+    ## Uniformity
+    It also involves normalizing data, for example, making sure phone numbers have ten digits ((555)-555-5555), not just seven (555-5555).
 3. Processed
 4. Analyzed
 5. Visualized
