@@ -23,7 +23,7 @@ By the end of this workshop, participants will:
 
 -----
 
-Session Leader: Stephen Zweibel
+Session Leader: Stephen Zweibel, Di Yoong
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
