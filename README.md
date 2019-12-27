@@ -1,4 +1,4 @@
-# Data Formats
+# Data and Data Ethics
 
 Python is a general-purpose programming language that is suitable for a wide variety of core tasks in the digital humanities. Learning Python fundamentals is a gateway to analyzing data, creating visualizations, composing interactive websites, scraping the internet, and engaging in distant reading of texts.
 
@@ -11,22 +11,15 @@ By the end of this workshop, participants will:
 - Engage with error output and use the internet and documentation to independently research language features.
 - Learn how to find and import code from external sources to solve more complex problems.
 
-[Get Started >>>](sections/repl.md)  
+[Get Started >>>](sections/forms.md)  
 
 -----
 
-[Interacting with Python](sections/repl.md)  
-[Types](sections/types.md)  
-[Variables](sections/variables.md)  
-[Running scripts](sections/run.md)  
-[Errors in Python](sections/errors.md)  
-[Lists and Loops](sections/loops.md)  
-[Conditionals](sections/conditionals.md)  
-[Input](sections/input.md)  
-[Using Google](sections/google.md)  
-[A little motivation](sections/motivate.md)  
-[Objects in Python](sections/introspection.md)  
-[Python resources](sections/resources.md)  
+[Forms of Data](sections/forms.md)  
+[Stages of Data](sections/stages.md)  
+[More Stages](sections/cleaned.md)  
+["Tidy Data"](sections/run.md)  
+
 
 -----
 
