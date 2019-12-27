@@ -1,15 +1,12 @@
 # Data and Data Ethics
 
-Python is a general-purpose programming language that is suitable for a wide variety of core tasks in the digital humanities. Learning Python fundamentals is a gateway to analyzing data, creating visualizations, composing interactive websites, scraping the internet, and engaging in distant reading of texts.
+Nearly all digital work requires dealing with data. This work has a craft to it, as well as an ethical dimension. 
 
 By the end of this workshop, participants will:
 
-- Understand what Python is and, in general terms, what it can do.
-- Run Python programs, both by interacting directly with the interpreter and by preparing and running scripts.
-- Distinguish among five core data types—integers, floats, strings, booleans, and lists.
-- Become familiar with core programming concepts, including variables, loops, and conditionals.
-- Engage with error output and use the internet and documentation to independently research language features.
-- Learn how to find and import code from external sources to solve more complex problems.
+- Understand the stages of data analysis.
+- Experience the difference between proprietary and open data formats.
+- Become familiar with the specific requirements of "high quality data."
 
 [Get Started >>>](sections/forms.md)  
 
