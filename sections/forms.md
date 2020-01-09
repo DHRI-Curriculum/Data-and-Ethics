@@ -21,45 +21,45 @@ In summary, research data is:
 
 There are many ways to represent data, just as there are many sources of data. After processing our data, we turn it into a number of products. For example:
 
-Non-digital text (lab books, field notebooks)
+*Non-digital text (lab books, field notebooks)
 
-Digital texts or digital copies of text
+*Digital texts or digital copies of text
 
-Spreadsheets
+*Spreadsheets
 
-Audio, video
+*Audio, video
 
-Computer Aided Design/CAD
+*Computer Aided Design/CAD
 
-Statistical analysis (SPSS, SAS)
+*Statistical analysis (SPSS, SAS)
 
-Databases
+*Databases
 
-Geographic Information Systems (GIS) and spatial data
+*Geographic Information Systems (GIS) and spatial data
 
-Digital copies of images
+*Digital copies of images
 
-Web files
+*Web files
 
-Scientific sample collections
+*Scientific sample collections
 
-Matlab files & 3D Models
+*Matlab files & 3D Models
 
-Metadata & Paradata
+*Metadata & Paradata
 
-Data visualizations
+*Data visualizations
 
-Computer code
+*Computer code
 
-Standard operating procedures and protocols
+*Standard operating procedures and protocols
 
-Protein or genetic sequences
+*Protein or genetic sequences
 
-Artistic products
+*Artistic products
 
-Curriculum materials
+*Curriculum materials
 
-Collection of digital objects acquired and generated during research
+*Collection of digital objects acquired and generated during research
 
 Adapted from: Georgia Tech–http://libguides.gatech.edu/content.php?pid=123776&sid=3067221
 
