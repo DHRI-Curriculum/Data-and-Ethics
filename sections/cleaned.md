@@ -44,23 +44,23 @@ Analysis can take many forms (just like the rest of this stuff!), but many techn
 
 Techniques geared towards summarizing a data set, such as:
 
-Mean
+* Mean
 
-Median
+* Median
 
-Mode
+* Mode
 
-Average
+* Average
 
-Standard deviation
+* Standard deviation
 
 #### Inferential Analysis
 
 Techniques geared towards testig a hypothesis about a population, based on your data set, such as:
 
-Extrapolation
+* Extrapolation
 
-P-Value calculation
+* P-Value calculation
 
 
 ## Visualized
