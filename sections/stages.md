@@ -60,27 +60,27 @@ A small detour to discuss (the ethics of?) data formats. For accessibility, futu
 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. A small list:
 
-ASCII
+* ASCII
 
-PDF 
+* PDF 
 
-.csv
+* .csv
 
-FLAC
+* FLAC
 
-TIFF
+* TIFF
 
-JPEG2000
+* JPEG2000
 
-MPEG-4
+* MPEG-4
 
-XML
+* XML
 
-RDF
+* RDF
 
-.txt
+* .txt
 
-.r
+* .r
 
 
 
