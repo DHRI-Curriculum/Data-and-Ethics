@@ -21,15 +21,15 @@ In summary, research data is:
 
 There are many ways to represent data, just as there are many sources of data. After processing our data, we turn it into a number of products. For example:
 
-*Non-digital text (lab books, field notebooks)
+* Non-digital text (lab books, field notebooks)
 
-*Digital texts or digital copies of text
+* Digital texts or digital copies of text
 
-*Spreadsheets
+* Spreadsheets
 
-*Audio, video
+* Audio, video
 
-*Computer Aided Design/CAD
+* Computer Aided Design/CAD
 
 *Statistical analysis (SPSS, SAS)
 
