@@ -66,27 +66,27 @@ Techniques geared towards testig a hypothesis about a population, based on your 
 ## Visualized
 
 * Comparisons
-bar & line
-side-by-side bars
-dot plot
-scatter plot
+    * bar & line
+    * side-by-side bars
+    * dot plot
+    * scatter plot
 * Time
-dot plot
-slope graph
-line graph
-sankey diagram
-timeline
+    * dot plot
+    * slope graph
+    * line graph
+    * sankey diagram
+    * timeline
 * Small numbers/percentages
-pie chart
-tree map
-waterfall
+    * pie chart
+    * tree map
+    * waterfall
 * Survey responses
-bar chart
-stacked bar
-nested map
+    * bar chart
+    * stacked bar
+    * nested map
 * Place
-chloropleth map
-hex or tile map
+    * chloropleth map
+    *hex or tile map
 
 adapted from Evergreen, Stephanie D. Effective data visualization : the right chart for the right data. Los Angeles: SAGE, 2017. Print.
 
