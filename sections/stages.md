@@ -12,7 +12,9 @@ But "raw data" is a relative term, inasmuch as when one person finishes processi
 
 ## Processed/Transformed
 
-Processing data puts it into a state more readily available to analysis. For instance it could be rendered as **structured data**, i.e., in a table. This can also take many forms. Here are a few you're likely to come across, all representing the same data:
+Processing data puts it into a state more readily available to analysis. For instance it could be rendered as **structured data**. This can also take many forms, e.g., a table. 
+
+Here are a few you're likely to come across, all representing the same data:
 
 ### XML
 
@@ -52,6 +54,7 @@ Kitty,Kitty/n
 Foots,Smith/n
 Tiger,Jaws/n
 ```
+
 #### The importance of using open data formats
 A small detour to discuss (the ethics of?) data formats. For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
 
@@ -82,6 +85,23 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 
 * .r
 
+## Tidy Data
+There are guidelines to the processing of data, sometimes referred to as **Tidy Data**. One manifestation of these rules:
+1. Each variable is in a column.
+2. Each observation is a row.
+3. Each value is a cell.
+
+Look back at our example of cats to see how they may or may not follow those guidelines. **Important note**: some data formats allow for more than one dimension of data! How might that complicate the concept of **Tidy Data**?
+
+```
+{"Cats":[
+    {"Calico":[
+    { "firstName":"Smally", "lastName":"McTiny" },
+    { "firstName":"Kitty", "lastName":"Kitty" }],
+    "Tortoiseshell":[
+    { "firstName":"Foots", "lastName":"Smith" }, 
+    { "firstName":"Tiger", "lastName":"Jaws" }]}]}
+```
 
 
 [<<< Previous](forms.md) | [Next >>>](cleaned.md)
