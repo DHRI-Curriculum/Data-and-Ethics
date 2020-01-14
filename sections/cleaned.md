@@ -86,7 +86,7 @@ Techniques geared towards testig a hypothesis about a population, based on your 
     * nested map
 * Place
     * chloropleth map
-    *hex or tile map
+    * hex or tile map
 
 adapted from Evergreen, Stephanie D. Effective data visualization : the right chart for the right data. Los Angeles: SAGE, 2017. Print.
 
