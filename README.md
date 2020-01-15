@@ -15,8 +15,6 @@ By the end of this workshop, participants will:
 [Forms of Data](sections/forms.md)  
 [Stages of Data](sections/stages.md)  
 [More Stages](sections/cleaned.md)  
-["Tidy Data"](sections/run.md)  
-
 
 -----
 
