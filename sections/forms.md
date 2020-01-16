@@ -27,7 +27,9 @@ There are many ways to represent data, just as there are many sources of data. A
 
 * Spreadsheets
 
-* Audio, video
+* Audio
+
+* Video
 
 * Computer Aided Design/CAD
 
