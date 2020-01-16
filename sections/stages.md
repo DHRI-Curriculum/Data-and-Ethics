@@ -12,7 +12,7 @@ But "raw data" is a relative term, inasmuch as when one person finishes processi
 
 ## Processed/Transformed
 
-Processing data puts it into a state more readily available to analysis. For instance it could be rendered as **structured data**. This can also take many forms, e.g., a table. 
+Processing data puts it into a state more readily available for analysis. For instance it could be rendered as **structured data**. This can also take many forms, e.g., a table. 
 
 Here are a few you're likely to come across, all representing the same data:
 
