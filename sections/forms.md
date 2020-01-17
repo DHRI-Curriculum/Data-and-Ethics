@@ -14,8 +14,11 @@ https://www.nsf.gov/bfa/dias/policy/dmpfaqs.jsp
 "(i) Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings, but not any of the following: preliminary analyses, drafts of scientific papers, plans for future research, peer reviews, or communications with colleagues."
 OMB-110, Subpart C, section 36, (d) (i), http://www.whitehouse.gov/omb/circulars_a110/
 
+Di's note: not to sure where to add this part about data:
+"The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions." Angela Bassa. https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4
+
 In summary, research data is:
-## Material or information necessary to come to your conclusion.
+**Material or information necessary, usually collected or created, to come to your conclusion.**
 
 # Forms of Data
 
