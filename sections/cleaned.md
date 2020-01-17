@@ -36,6 +36,9 @@ Measurements must be consistent, in that different observations must not contrad
 #### Uniformity
 Measurements must be uniform, in that the same unit of measure must be used in all relevant measurements. If one person's height is listed in meters and another in feet, one measurement must be converted.
 
+#### When do we stop cleaning?
+How do we know when our data is cleaned enough? What happens to the data that is removed? What are we choosing to say about our dataset as we prepare them for analysis?
+
 ## Analyzed
 
 Analysis can take many forms (just like the rest of this stuff!), but many techniques fall within a couple of categories:
@@ -56,11 +59,13 @@ Techniques geared towards summarizing a data set, such as:
 
 #### Inferential Analysis
 
-Techniques geared towards testig a hypothesis about a population, based on your data set, such as:
+Techniques geared towards testing a hypothesis about a population, based on your data set, such as:
 
 * Extrapolation
 
 * P-Value calculation
+
+As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out? How do we guide our decisions of interpretation with our choices of analyses?
 
 
 ## Visualized
@@ -89,5 +94,6 @@ Techniques geared towards testig a hypothesis about a population, based on your 
     * hex or tile map
 
 adapted from Evergreen, Stephanie D. Effective data visualization : the right chart for the right data. Los Angeles: SAGE, 2017. Print.
+
 
 [<<< Previous](stages.md) | [Next >>>](cleaned.md)
