@@ -65,8 +65,7 @@ There are many ways to represent data, just as there are many sources of data. A
 
 Adapted from: Georgia Tech–http://libguides.gatech.edu/content.php?pid=123776&sid=3067221
 
-These are some (most!) of the shapes your research data might transform into.
-
+These are some (most!) of the shapes your research data might transform into. What are some forms of data you use in your work? What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field? Where do you usually get your data from?
 
 
 
