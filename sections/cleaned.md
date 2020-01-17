@@ -95,5 +95,6 @@ As we consider the types of analysis that we choose to apply onto our data set, 
 
 adapted from Evergreen, Stephanie D. Effective data visualization : the right chart for the right data. Los Angeles: SAGE, 2017. Print.
 
+As we transform our results into visuals, we are also trying to tell a narrative about the data we collected. Data visualization can help us to decode information and share quickly and simply. What are we assuming when we choose to visually represent data in particular ways? How can data visualization mislead us?
 
 [<<< Previous](stages.md) | [Next >>>](cleaned.md)
