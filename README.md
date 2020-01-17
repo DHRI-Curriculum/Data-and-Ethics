@@ -7,6 +7,7 @@ By the end of this workshop, participants will:
 - Understand the stages of data analysis.
 - Experience the difference between proprietary and open data formats.
 - Become familiar with the specific requirements of "high quality data."
+- Have an understanding of potential ethical concerns around working with different types of data and analysis.
 
 [Get Started >>>](sections/forms.md)  
 
