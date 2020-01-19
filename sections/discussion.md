@@ -1,3 +1,5 @@
+[<<< Previous](cleaned.md)
+
 Discussion
 ================
 
@@ -33,3 +35,5 @@ risk-free approach. We often have to work through ethical dilemmas while
 thinking through information that we may not have (what are the risks of
 doing/not doing this work?). We may be approaching a moment where the
 question is no longer what we could do but what we should do.
+
+[<<< Previous](cleaned.md)
