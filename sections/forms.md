@@ -1,4 +1,4 @@
-[<<< Previous](README.md) | [Next >>>](stages.md)
+[<<< Previous](../README.md) | [Next >>>](stages.md)
 
 # Data is Foundational
 
@@ -78,4 +78,4 @@ These are some (most!) of the shapes your research data might transform into. Wh
 
 
 
-[<<< Previous](README.md) | [Next >>>](stages.md)
+[<<< Previous](../README.md) | [Next >>>](stages.md)
