@@ -86,10 +86,12 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 * .r
 
 ## Tidy Data
-There are guidelines to the processing of data, sometimes referred to as **Tidy Data**. One manifestation of these rules:
+There are guidelines to the processing of data, sometimes referred to as **Tidy Data**.<sup>1</sup> One manifestation of these rules:
 1. Each variable is in a column.
 2. Each observation is a row.
 3. Each value is a cell.
+
+
 
 Look back at our example of cats to see how they may or may not follow those guidelines. **Important note**: some data formats allow for more than one dimension of data! How might that complicate the concept of **Tidy Data**?
 
@@ -103,5 +105,6 @@ Look back at our example of cats to see how they may or may not follow those gui
     { "firstName":"Tiger", "lastName":"Jaws" }]}]}
 ```
 
+ <sup>1</sup>Wickham, Hadley. "Tidy Data". Journal of Statistical Software.
 
 [<<< Previous](forms.md) | [Next >>>](cleaned.md)
