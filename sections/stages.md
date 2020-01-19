@@ -8,7 +8,10 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
     
 Raw data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc.. It could be in any of the forms listed above.
 
-But "raw data" is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw data". For example, is "big data" "raw data"? How do we understand data that we have "scraped"?
+But "raw data" is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw data". 
+
+### Discussion: Raw Data
+For example, is "big data" "raw data"? How do we understand data that we have "scraped"?
 
 ## Processed/Transformed
 
@@ -84,6 +87,9 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 * .txt
 
 * .r
+
+### Discussion: Processed/Transformed
+How do you decide the formats to store your data when you transition from 'raw' to 'processed/transformed' data? What are some of your considerations?
 
 ## Tidy Data
 There are guidelines to the processing of data, sometimes referred to as **Tidy Data**.<sup>1</sup> One manifestation of these rules:
