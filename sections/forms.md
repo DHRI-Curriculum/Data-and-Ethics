@@ -2,7 +2,7 @@
 
 # Data is Foundational
 
-In this brief workshop we will be discussing the basics of research data, in terms of material, transformation, and presentation. We will also be focusing on the ethics of data cleaning and representation. If the rest of the course is practical, then this is a small detour to allow us to sit and think about what we are doing.
+In this brief workshop we will be discussing the basics of research data, in terms of material, transformation, and presentation. We will also be focusing on the ethics of data cleaning and representation. If the rest of the course is practical, then this is a small detour to allow us to sit and think about what we are doing. Because everyone has a different approach to data and ethics, this workshop will also include multiple sites for discussions to help us think together as a group.
 
 # What Constitutes Research Data?
 
@@ -18,7 +18,6 @@ https://www.nsf.gov/bfa/dias/policy/dmpfaqs.jsp
 "(i) Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings, but not any of the following: preliminary analyses, drafts of scientific papers, plans for future research, peer reviews, or communications with colleagues."
 OMB-110, Subpart C, section 36, (d) (i), http://www.whitehouse.gov/omb/circulars_a110/
 
-Di's note: not to sure where to add this part about data:
 "The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions." Angela Bassa. https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4
 
 In summary, research data is:
@@ -72,6 +71,7 @@ There are many ways to represent data, just as there are many sources of data. A
 
 Adapted from: Georgia Tech–http://libguides.gatech.edu/content.php?pid=123776&sid=3067221
 
+# Discussion: Forms of Data
 These are some (most!) of the shapes your research data might transform into. What are some forms of data you use in your work? What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field? Where do you usually get your data from?
 
 
