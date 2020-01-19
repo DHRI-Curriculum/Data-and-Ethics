@@ -36,7 +36,7 @@ Measurements must be consistent, in that different observations must not contrad
 #### Uniformity
 Measurements must be uniform, in that the same unit of measure must be used in all relevant measurements. If one person's height is listed in meters and another in feet, one measurement must be converted.
 
-#### When do we stop cleaning?
+### Discussion: When do we stop cleaning?
 How do we know when our data is cleaned enough? What happens to the data that is removed? What are we choosing to say about our dataset as we prepare them for analysis?
 
 ## Analyzed
@@ -65,7 +65,8 @@ Techniques geared towards testing a hypothesis about a population, based on your
 
 * P-Value calculation
 
-As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out? How do we guide our decisions of interpretation with our choices of analyses?
+### Discussion: Analysis
+As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out? How do we guide our decisions of interpretation with our choices of analyses? Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research?
 
 
 ## Visualized
@@ -95,6 +96,7 @@ As we consider the types of analysis that we choose to apply onto our data set, 
 
 Adapted from Evergreen, Stephanie D. Effective data visualization : the right chart for the right data. Los Angeles: SAGE, 2017.
 
+### Discussion: Visualizations
 As we transform our results into visuals, we are also trying to tell a narrative about the data we collected. Data visualization can help us to decode information and share quickly and simply. What are we assuming when we choose to visually represent data in particular ways? How can data visualization mislead us?
 
 [<<< Previous](stages.md) | [Next >>>](cleaned.md)
