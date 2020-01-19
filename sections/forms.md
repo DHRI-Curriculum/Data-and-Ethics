@@ -18,7 +18,7 @@ Di's note: not to sure where to add this part about data:
 "The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions." Angela Bassa. https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4
 
 In summary, research data is:
-**Material or information necessary, usually collected or created, to come to your conclusion.**
+**Material or information necessary to come to your conclusion.**
 
 # Forms of Data
 
