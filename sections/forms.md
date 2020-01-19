@@ -1,5 +1,9 @@
 [<<< Previous](README.md) | [Next >>>](stages.md)
 
+# Data is Foundational
+
+In this brief workshop we will be discussing the basics of research data, in terms of material, transformation, and presentation. We will also be focusing on the ethics of data cleaning and representation.
+
 # What Constitutes Research Data?
 
 "Material or information on which an argument, theory, test or hypothesis, or another research output is based."
