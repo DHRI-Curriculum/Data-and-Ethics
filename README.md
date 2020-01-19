@@ -17,6 +17,7 @@ By the end of this workshop, participants will:
 [Stages of Data](sections/stages.md)  
 [More Stages](sections/cleaned.md)  
 [Discussion](sections/discussion.md)
+
 -----
 
 Session Leader: Stephen Zweibel, Di Yoong
