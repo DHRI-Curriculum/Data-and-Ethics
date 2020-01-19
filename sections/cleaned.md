@@ -66,7 +66,7 @@ Techniques geared towards testing a hypothesis about a population, based on your
 * P-Value calculation
 
 ### Discussion: Analysis
-As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out? How do we guide our decisions of interpretation with our choices of analyses? Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research?
+As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out? How do we guide our decisions of interpretation with our choices of analyses? Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? What are potential misuses of our outputs? What can happen when we are trying to just go for the next big thing (tool/methods/algorithms) or just ran out of time and/or budget for our project?
 
 
 ## Visualized
