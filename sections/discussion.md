@@ -16,7 +16,7 @@ potential concerns that might come up in the scenario below and discuss
 how you might approach them:
 
 You are interested in looking at the reactions to the democratic party
-presidential debates across time. You decided that you would ‘use’ data
+presidential debates across time. You decided that you would use data
 from twitter to analyze the responses. After collecting your data, you
 learned that your data has information from users who were later banned
 and included some tweets that were removed/deleted from the site.
