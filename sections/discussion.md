@@ -25,8 +25,7 @@ and included some tweets that were removed/deleted from the site.
 
   - Would your approach differ if the responses were anonymized v. not?
   - Would the number of tweets generated impact your decisions?
-  - Would the stages of data and analysis (e.g. raw v. cleaned v.
-    analyzed) where you are at impact your decisions?
+  - How might where you are at in your project (e.g. "raw" data v. "cleaned" data v. analysed) affect your choices?
 
 ## Some concluding thoughts
 
