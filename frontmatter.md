@@ -2,9 +2,9 @@
 
 ## Abstract
 
-Nearly all digital work requires dealing with data and databases. This work has a craft to it, as well as an ethical dimension. 
+Nearly all digital work requires dealing with data and databases. A database is a collection of data that is structured to allow for manipulation. 
 
-A database is a collection of data that is structured to allow for manipulation. This session will introduce one type of database, the relational database, using SQLite, a portable implementation often used in mobile phones and distributed systems.
+In this brief workshop we will be discussing the basics of research data, in terms of material, transformation, and presentation. This session will also introduce one type of database, the relational database, using SQLite, a portable implementation often used in mobile phones and distributed systems.
 
 ## Learning Objectives
 
@@ -42,11 +42,9 @@ By the end of this workshop, participants will:
 
 ### Ethical Considerations  
 
-- What is publically available data? For example, twitter data from public user profiles seem to constitute public data and is really attractive for researchers to scrape; however, what happens when the data that was initially pulled is removed from the user's profile (e.g. they deleted the tweet)? What happens if 1000 tweets are removed between your last scrape and the present moment? How would you find out that there are removed tweets?
-- Data and data analysis is not free from bias. There is no magic blackbox for which data emerges from and is contextually driven. As we think about the automation process of looking at "big" data, we have to be aware of [the biases that gets reproduced that is "hidden."](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
+- Data and data analysis is [not free from bias](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4). There is no magic blackbox for which data emerges from and is contextually driven. As we think about the automation process of looking at "big" data, we have to be aware of [the biases that gets reproduced that is "hidden."](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
 - De-identified information can be [reconstructed from piecemeal data](https://techscience.org/a/2015092903/)found across different sources. When we consider what we are doing with the data we have collected, we also need to think about the possible re-identification of our participants. 
 - Big data projects often times requiring sharing data sets across different individuals and teams. In addition, to ensure that our work is reproducable and accountable, we may also feel inclined to share the data collected. As such, figuring out [how to share such data](https://techscience.org/a/2015101601/) is crucial in the project planning stage. 
-- Consider reading [Perspectives on Big Data, Ethics, and Society](https://bdes.datasociety.net/council-output/perspectives-on-big-data-ethics-and-society/)for a deeper discussion on the ethics around big data, especially in research. 
 
 
 ## Resources (optional)
