@@ -1,0 +1,60 @@
+# Frontmatter
+
+## Abstract
+
+Nearly all digital work requires dealing with data and databases. This work has a craft to it, as well as an ethical dimension. 
+
+A database is a collection of data that is structured to allow for manipulation. This session will introduce one type of database, the relational database, using SQLite, a portable implementation often used in mobile phones and distributed systems.
+
+## Learning Objectives
+
+By the end of this workshop, participants will:
+
+- Understand the stages of data analysis.
+- Experience the difference between proprietary and open data formats.
+- Become familiar with the specific requirements of "high quality data."
+- Create database tables in an SQLite database using Python and SQL statements
+- Insert, read, and delete data
+- Understand the beginning of cleaning/tidying data
+- Have an understanding of potential ethical concerns around working with different types of data and analysis.
+
+## Estimated time
+
+
+
+## Prerequisites
+
+- Introduction to Command Line
+
+## Contexts
+
+### Pre-reading suggestions
+
+- [Big? Smart? Clean? Messy? Data in the Humanities](http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/)
+- [Bit By Bit: Social Research in Digital Age](https://www.bitbybitbook.com/en/1st-ed/preface/)
+- [Ten Simple Rules for Responsible Big Data Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5373508/) 
+
+
+### Projects that use these skills
+
+- [Data for Public Good](https://dataforgood.commons.gc.cuny.edu/): Graduate student fellows creates a semester-long collaborative project that makes public-interest dataset useful and informative to a public audience.
+- [SAFElab](https://safelab.socialwork.columbia.edu/): Uses computational and social work approaches to understand mechanisms of violence and how to prevent and intervene in violence that occur in neighbourhoods and on social media. 
+
+### Ethical Considerations  
+
+- What is publically available data? For example, twitter data from public user profiles seem to constitute public data and is really attractive for researchers to scrape; however, what happens when the data that was initially pulled is removed from the user's profile (e.g. they deleted the tweet)? What happens if 1000 tweets are removed between your last scrape and the present moment? How would you find out that there are removed tweets?
+- Data and data analysis is not free from bias. There is no magic blackbox for which data emerges from and is contextually driven. As we think about the automation process of looking at "big" data, we have to be aware of [the biases that gets reproduced that is "hidden."](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
+- De-identified information can be [reconstructed from piecemeal data](https://techscience.org/a/2015092903/)found across different sources. When we consider what we are doing with the data we have collected, we also need to think about the possible re-identification of our participants. 
+- Big data projects often times requiring sharing data sets across different individuals and teams. In addition, to ensure that our work is reproducable and accountable, we may also feel inclined to share the data collected. As such, figuring out [how to share such data](https://techscience.org/a/2015101601/) is crucial in the project planning stage. 
+- Consider reading [Perspectives on Big Data, Ethics, and Society](https://bdes.datasociety.net/council-output/perspectives-on-big-data-ethics-and-society/)for a deeper discussion on the ethics around big data, especially in research. 
+
+
+## Resources (optional)
+
+- [SQLite](https://www.sqlite.org/index.html)
+
+## Acknowledgements
+
+- Stephen Zweibel
+- Di Yoong
+- Ian Phillips
