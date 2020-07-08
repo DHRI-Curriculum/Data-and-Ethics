@@ -1,5 +1,3 @@
-[<<< Previous](stages.md) | [Next >>>](discussion.md)
-
 # More Stages of Data
 
 ## Cleaned
@@ -17,23 +15,23 @@ Processed data, even in a table, is going to be full of errors:
 
 Cleaning data is the work of correcting the errors listed above, and moving towards high quality. This work can be done manually or programatically. 
     
-#### Validity
+**Validity**
 Measurements must be valid, in that they must conform to set constraints:
 1. The aforementioned "yes" or "y" or "1" should all be changed to one response.
 2. Certain fields cannot be empty, or the whole observation must be thrown out.
 3. Uniqueness, for instance no two people should have the same social security number.
     
-#### Accuracy
+**Accuracy**
 Measurements must be accurate, in that they must represent the correct values. While an observation may be valid, it might at the same time be inaccurate. 123 Fake street is a valid, inaccurate street address.
 Unfortunately, accuracy is mostly acheived in the observation process. To be achieved in the cleaning process, an outside trusted source would have to be cross-referenced.
 
-#### Completeness
+**Completeness**
 Measurements must be complete, in that they must represent everything that might be known. This also is nearly impossible to achieve in the cleaning process! For instance in a survey, it would be necessary to re-interview someone whose previous answer to a question was left blank. 
     
-#### Consistency
+**Consistency**
 Measurements must be consistent, in that different observations must not contradict each other. For instance, one person cannot be represented as both dead and still alive in different observations. 
     
-#### Uniformity
+**Uniformity**
 Measurements must be uniform, in that the same unit of measure must be used in all relevant measurements. If one person's height is listed in meters and another in feet, one measurement must be converted.
 
 ### Discussion: When do we stop cleaning?
@@ -43,7 +41,7 @@ How do we know when our data is cleaned enough? What happens to the data that is
 
 Analysis can take many forms (just like the rest of this stuff!), but many techniques fall within a couple of categories:
 
-#### Descriptive Analysis
+### Descriptive Analysis
 
 Techniques geared towards summarizing a data set, such as:
 
@@ -57,7 +55,7 @@ Techniques geared towards summarizing a data set, such as:
 
 * Standard deviation
 
-#### Inferential Analysis
+### Inferential Analysis
 
 Techniques geared towards testing a hypothesis about a population, based on your data set, such as:
 
@@ -99,4 +97,4 @@ Adapted from Evergreen, Stephanie D. Effective data visualization : the right ch
 ### Discussion: Visualizations
 As we transform our results into visuals, we are also trying to tell a narrative about the data we collected. Data visualization can help us to decode information and share quickly and simply. What are we assuming when we choose to visually represent data in particular ways? How can data visualization mislead us?
 
-[<<< Previous](stages.md) | [Next >>>](discussion.md)
+

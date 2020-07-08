@@ -1,10 +1,10 @@
-[<<< Previous](../README.md) | [Next >>>](stages.md)
+
 
 # Data is Foundational
 
 In this brief workshop we will be discussing the basics of research data, in terms of material, transformation, and presentation. We will also be focusing on the ethics of data cleaning and representation. If the rest of the course is practical, then this is a small detour to allow us to sit and think about what we are doing. Because everyone has a different approach to data and ethics, this workshop will also include multiple sites for discussions to help us think together as a group.
 
-# What Constitutes Research Data?
+## What Constitutes Research Data?
 
 "Material or information on which an argument, theory, test or hypothesis, or another research output is based."
 Queensland University of Technology. Manual of Procedures and Policies. Section 2.8.3. http://www.mopp.qut.edu.au/D/D_02_08.jsp
@@ -23,7 +23,7 @@ OMB-110, Subpart C, section 36, (d) (i), http://www.whitehouse.gov/omb/circulars
 In summary, research data is:
 **Material or information necessary to come to your conclusion.**
 
-# Forms of Data
+## Forms of Data
 
 There are many ways to represent data, just as there are many sources of data. After processing our data, we turn it into a number of products. For example:
 
@@ -71,11 +71,11 @@ There are many ways to represent data, just as there are many sources of data. A
 
 Adapted from: Georgia Tech–http://libguides.gatech.edu/content.php?pid=123776&sid=3067221
 
-## Discussion: Forms of Data
+### Discussion: Forms of Data
 These are some (most!) of the shapes your research data might transform into. What are some forms of data you use in your work? What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field? Where do you usually get your data from?
 
 
 
 
 
-[<<< Previous](../README.md) | [Next >>>](stages.md)
+

@@ -2,20 +2,16 @@
 
 ## Abstract
 
-Nearly all digital work requires dealing with data and databases. A database is a collection of data that is structured to allow for manipulation. 
-
-In this brief workshop we will be discussing the basics of research data, in terms of material, transformation, and presentation. This session will also introduce one type of database, the relational database, using SQLite, a portable implementation often used in mobile phones and distributed systems.
+What is data? Nearly all digital work requires dealing with data. In this workshop we will be discussing the basics of research data, in terms of material, transformation, and presentation. 
 
 ## Learning Objectives
 
 By the end of this workshop, participants will:
 
 - Understand the stages of data analysis.
+- Understand the beginning of cleaning/tidying data
 - Experience the difference between proprietary and open data formats.
 - Become familiar with the specific requirements of "high quality data."
-- Create database tables in an SQLite database using Python and SQL statements
-- Insert, read, and delete data
-- Understand the beginning of cleaning/tidying data
 - Have an understanding of potential ethical concerns around working with different types of data and analysis.
 
 ## Estimated time
@@ -49,7 +45,7 @@ By the end of this workshop, participants will:
 
 ## Resources (optional)
 
-- [SQLite](https://www.sqlite.org/index.html)
+-
 
 ## Acknowledgements
 
