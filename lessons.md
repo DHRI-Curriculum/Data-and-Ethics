@@ -1,6 +1,6 @@
 # Data is Foundational
 
-In this brief workshop we will be discussing the basics of research data, in terms of material, transformation, and presentation. We will also be focusing on the ethics of data cleaning and representation. If the rest of the course is practical, then this is a small detour to allow us to sit and think about what we are doing. Because everyone has a different approach to data and ethics, this workshop will also include multiple sites for discussions to help us think together as a group.
+In this brief workshop we will be discussing the basics of research data, in terms of material, transformation, and presentation. We will also be focusing on the ethics of data cleaning and representation. Because everyone has a different approach to data and ethics, this workshop will also include multiple sites for discussions to help us think together as a group.
 
 ## What Constitutes Research Data?
 
