@@ -29,29 +29,9 @@ There are many ways to represent data, just as there are many sources of data. A
 
 * Digital texts or digital copies of text
 
-* Spreadsheets
-
-* Audio
-
-* Video
-
-* Computer Aided Design/CAD
-
-* Statistical analysis (SPSS, SAS)
-
-* Databases
-
-* Geographic Information Systems (GIS) and spatial data
-
-* Digital copies of images
-
-* Web files
+* Statistical analysis (SPSS, SAS, R)
 
 * Scientific sample collections
-
-* Matlab files & 3D Models
-
-* Metadata & Paradata
 
 * Data visualizations
 
@@ -64,6 +44,26 @@ There are many ways to represent data, just as there are many sources of data. A
 * Artistic products
 
 * Curriculum materials
+
+* Spreadsheets (e.g. .xlsx, .csv, .tsv)
+
+* Audio (e.g. .mp3, .wav, .aac)
+
+* Video (e.g. .mov, .mp4)
+
+* Computer Aided Design/CAD (.cad)
+
+* Databases (e.g. .sql)
+
+* Geographic Information Systems (GIS) and spatial data (e.g. .shp, .dbf, .shx)
+
+* Digital copies of images (e.g. .png, .jpeg, .tiff)
+
+* Web files (e.g. .html, .asp, .php)
+
+* Matlab files & 3D Models (e.g. .stl, .dae, .3ds)
+
+* Metadata & Paradata (e.g. .xml, .json)
 
 * Collection of digital objects acquired and generated during research
 
