@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" media="table" href="files/markdown_styles.css" />
+
 # Data is Foundational
 
 In this brief workshop we will be discussing the basics of research data, in terms of material, transformation, and presentation. We will also be focusing on the ethics of data cleaning and representation. Because everyone has a different approach to data and ethics, this workshop will also include multiple sites for discussions to help us think together as a group.
@@ -85,7 +87,7 @@ But "raw data" is a relative term, inasmuch as when one person finishes processi
 
 ## Data and Labor
 
-As we think about data collection, we should also consider the labor involved in the process. Many researchers rely on Amazon Mechanical Turk (sometimes also refered to as MTurk) for data collection, [often paying less than minimum wage for the task.](https://www.theatlantic.com/business/archive/2018/01/amazon-mechanical-turk/551192/) Often the assumption made of these workers is someone who is retired, bored, and participating in online gig work for fun or to kill time. While this may be true for some, [more than half of those surveyed in a Pew Research study cite that the income from this work is essential or important.](https://www.pewresearch.org/internet/2016/11/17/labor-platforms-technology-enabled-gig-work/) Often, those who view the income from this work as essential or important are also from underserved communities. 
+As we think about data collecction, we should also consider the labor involved in the process. Many researchers rely on Amazon Mechanical Turk (sometimes also refered to as MTurk) for data collection, [often paying less than minimum wage for the task.](https://www.theatlantic.com/business/archive/2018/01/amazon-mechanical-turk/551192/) Often the assumption made of these workers is someone who is retired, bored, and participating in online gig work for fun or to kill time. While this may be true for some, [more than half of those surveyed in a Pew Research study cite that the income from this work is essential or important.](https://www.pewresearch.org/internet/2016/11/17/labor-platforms-technology-enabled-gig-work/) Often, those who view the income from this work as essential or important are also from underserved communities. 
 
 In addition to being mindful of paying a fair wage to the workers on such platforms, this working environment also brings some further considerations to the data that is collected. Often times, for workers to get close to minimum wage, they cannot afford to spend much time on each task, increasing potential errors in the collected data. 
 
@@ -282,8 +284,7 @@ Techniques geared towards testing a hypothesis about a population, based on your
 Visualizing your data helps you tell a story and construct a narrative that guides your audience in understanding your interpretation of a collected, cleaned, and analyzed dataset. Depending on the type of analysis you ran, different kinds of visualization can be more effective than others. Below are some examples of data visualization that can help you convey the message of your data.
 
 <table>
-    <caption align = "bottom">Adapted from <a href="https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_">Evergreen, Stephanie D. (2019) Effective data visualization : The right chart for the right data</a>, <a href="https://datavizcatalogue.com/">The Data Visualisation Catalogue</a>, and <a href="
-    https://www.data-to-viz.com/">From Data to Viz</a></caption>
+    <caption>Examples of Data Visualization</caption>
     <tr>
         <th>Types of Analysis</th>
         <th>Types of Visualization</th>
@@ -355,6 +356,10 @@ Visualizing your data helps you tell a story and construct a narrative that guid
         <td>Similar to Choropleth with the hexbin/tile representing regions equally rather than by geographic size</td>
         <td><img src="/images/rgraph_hexbin.png" alt="Hexbin graph"><figcaption>From R Graph Gallery.</figcaption></td>
     </tr>
+    <tr>
+        <th colspan = "4"> Adapted from <a href="https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_">Evergreen, Stephanie D. (2019) Effective data visualization : The right chart for the right data</a>, <a href="https://datavizcatalogue.com/">The Data Visualisation Catalogue</a>, and <a href="
+    https://www.data-to-viz.com/">From Data to Viz</a></th>
+    <tr>
 </table>
 
 This table is a teaser for the many possibilities of what data visualization can be. Creating a visual for your data is an art form and you can sometimes find yourself spending a significant amount of time looking for the best ways to visualize your data.
