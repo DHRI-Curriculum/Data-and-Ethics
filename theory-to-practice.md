@@ -6,10 +6,12 @@
 - Queensland University of Technology's [Management of Research Data](http://www.mopp.qut.edu.au/D/D_02_08.jsp).
 - The Council for Big Data, Ethics, and Society's publication [Perspectives on Big Data, Ethics, and Society](https://bdes.datasociety.net/council-output/perspectives-on-big-data-ethics-and-society/).
 
+
 ## Other Tutorials
 
 - [Computational social science with R](https://compsocialscience.github.io/summer-institute/curriculum#day_2) by the Summer Institutes in Computational Social Science
-- [SQLite Tutorial](https://www.sqlitetutorial.net/) by SQLiteTutorial
+- [The Data Visualisation Catalogue](https://datavizcatalogue.com/search.html) by Severino Ribecca
+- [From Data to Viz](https://www.data-to-viz.com/) by From Data to Viz
 
 ## Projects or Challenges to Try
 

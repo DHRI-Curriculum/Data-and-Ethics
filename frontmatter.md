@@ -46,6 +46,7 @@ By the end of this workshop, participants will:
 ## Resources (optional)
 
 - [National Science Foundataion's open datasets](https://catalog.data.gov/organization/nsf-gov)
+- [Resources to Find the Data You Need (2016)](https://flowingdata.com/2016/11/10/find-the-data-you-need-2016-edition/)
 
 ## Acknowledgements
 
