@@ -281,92 +281,93 @@ Techniques geared towards testing a hypothesis about a population, based on your
 
 Visualizing your data helps you tell a story and construct a narrative that guides your audience in understanding your interpretation of a collected, cleaned, and analyzed dataset. Depending on the type of analysis you ran, different kinds of visualization can be more effective than others. Below are some examples of data visualization that can help you convey the message of your data.
 
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    caption-side: bottom;
+    width: 100%
+}
+
+tr:nth-child(even){
+    background-color: #D8D8D8;
+}
+</style>
 <table>
-    <caption style="caption-side:bottom">Data Visualization</caption>
+    <caption>Adapted from <a href="https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_">Evergreen, Stephanie D. (2019) Effective data visualization : The right chart for the right data</a>, <a href="https://datavizcatalogue.com/">The Data Visualisation Catalogue</a>, and <a href="
+    https://www.data-to-viz.com/">From Data to Viz</a></caption>
     <tr>
         <th>Types of Analysis</th>
         <th>Types of Visualization</th>
          <th>When to Use</th>
         <th>Example of Visualization</th>
     </tr>
-    <tr>
+    <tr height="300px">
         <th rowspan="3">Comparisons</th>
          <td>Bar charts</td>
          <td>Comparison across distinct categories</td>
-        <td><img src="/images/D4PG_bar.png" alt="Bar Chart" style =
-        "width:300px;height:300px;"><figcaption>From The Data for Public Good at the Graduate Center.</figcaption></td>
+        <td><img src="/images/D4PG_bar.png" alt="Bar Chart"><figcaption>From The Data for Public Good at the Graduate Center.</figcaption></td>
     </tr>
-    <tr>
+    <tr height="300px">
         <td>Histograms</td>
         <td>Comparison across continuous variable</td>
-        <td><img src="/images/PolicyViz_histogram.png" alt="Histogram" style =
-        "width:300px;height:300px;"><figcaption>From Policy Viz.</figcaption></td>
+        <td><img src="/images/PolicyViz_histogram.png" alt="Histogram"><figcaption>From Policy Viz.</figcaption></td>
     </tr>
-    <tr>
+    <tr height="300px">
         <td>Scatter plots</td>
         <td>Useful to check for correlation (not causation!)</td>
-        <td><img src="/images/538_scatter.png" alt="Scatter plot" style ="width:300px;height:300px;"><figcaption>From FiveThirtyEight.</figcaption>/td>
+        <td><img src="/images/538_scatter.png" alt="Scatter plot"><figcaption>From FiveThirtyEight.</figcaption>/td>
     </tr>
-    <tr>
+    <tr height="300px">
         <th rowspan="3">Time</th>
         <td>Stacked area charts</td>
         <td>Evolution of value across different groups</td>
-        <td><img src="/images/DatatoViz_stackedarea.png" alt="Stacked area chart" style =
-        "width:300px;height:300px;"><figcaption>From From Data to Viz.</figcaption></td>
+        <td><img src="/images/DatatoViz_stackedarea.png" alt="Stacked area chart"><figcaption>From From Data to Viz.</figcaption></td>
     </tr>
-    <tr>
+    <tr height="300px">
         <td>Sankey Diagrams</td>
         <td>Displaying flows of changes</td>
-        <td><img src="/images/DatatoViz_sankey.png" alt="Sankey" style =
-        "width:300px;height:300px;"><figcaption>From From Data to Viz.</figcaption></td>
+        <td><img src="/images/DatatoViz_sankey.png" alt="Sankey"><figcaption>From From Data to Viz.</figcaption></td>
     </tr>
-   <tr>
+   <tr height="300px">
         <td>Line graphs</td>
         <td>Tracking changes over time</td>
-        <td><img src="/images/D4PG_line.jpg" alt="Line Graph" style ="width:300px;height:300px;"><figcaption>From The Library of Congress.</figcaption></td>
+        <td><img src="/images/D4PG_line.jpg" alt="Line Graph"><figcaption>From The Library of Congress.</figcaption></td>
     </tr>
-     <tr>
+    <tr height="300px">
         <th rowspan="2">Small numbers/percentages</th>
         <td>Pie charts</td>
         <td>Demonstrate proportions between categories</td>
-        <td><img src="/images/DB_pie.jpg" alt="Pie chart" style =
-        "width:300px;height:300px;"><figcaption>From The Library of Congress.</figcaption></td>
+        <td><img src="/images/DB_pie.jpg" alt="Pie chart"><figcaption>From The Library of Congress.</figcaption></td>
     </tr>
-    <tr>
+    <tr height="300px">
         <td>Tree maps</td>
         <td>Demonstrate hierarchy and proportion</td>
-        <td><img src="/images/DataViz_treemap.png" alt="Tree map" style =
-        "width:300px;height:300px;"><figcaption>From The Data Visualization Catalogue.</figcaption></td>
+        <td><img src="/images/DataViz_treemap.png" alt="Tree map"><figcaption>From The Data Visualization Catalogue.</figcaption></td>
     </tr>
-    <tr>
+    <tr height="300px">
         <th rowspan="2">Survey responses</th>
         <td>Stacked bar charts</td>
         <td>Compares total amount across each group (e.g. plotting Likert scale)</td>
-        <td><img src="/images/DB_stackedbar.jpg" alt="Stacked bar charts" style =
-        "width:300px;height:300px;"><figcaption>From The Library of Congress.</figcaption></td>
+        <td><img src="/images/DB_stackedbar.jpg" alt="Stacked bar charts"><figcaption>From The Library of Congress.</figcaption></td>
     </tr>
-    <tr>
+    <tr height="300px">
         <td>Nested area graphs</td>
         <td>Visualize branching/nested questions</td>
-        <td><img src="/images/evergreen_nestedarea.jpg" alt="Nested area graph" style =
-        "width:300px;height:300px;"><figcaption>From Evergreen Data.</figcaption></td>
+        <td><img src="/images/evergreen_nestedarea.jpg" alt="Nested area graph"><figcaption>From Evergreen Data.</figcaption></td>
     </tr>
-    <tr>
+    <tr height="300px">
         <th rowspan="2">Place</th>
         <td>Choropleth maps</td>
         <td>Visualize values over a geographic area to demonstrate pattern</td>
-        <td><img src="/images/DB_choropleth.jpg" alt="Choropleth map" style =
-        "width:300px;height:300px;"><figcaption>From The Library of Congress.</figcaption></td>
+        <td><img src="/images/DB_choropleth.jpg" alt="Choropleth map"><figcaption>From The Library of Congress.</figcaption></td>
     </tr>
-    <tr>
+    <tr height="300px">
         <td>Hex(bin) or Tile maps</td>
         <td>Similar to Choropleth with the hexbin/tile representing regions equally rather than by geographic size</td>
-        <td><img src="/images/rgraph_hexbin.png" alt="Hexbin graph" style =
-        "width:300px;height:300px;"><figcaption>From R Graph Gallery.</figcaption></td>
+        <td><img src="/images/rgraph_hexbin.png" alt="Hexbin graph"><figcaption>From R Graph Gallery.</figcaption></td>
     </tr>
 </table>
-    
-Adapted from [Evergreen, Stephanie D. (2019) Effective data visualization : The right chart for the right data](https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_), [The Data Visualisation Catalogue](https://datavizcatalogue.com/), and [From Data to Viz](https://www.data-to-viz.com/)
 
 This table is a teaser for the many possibilities of what data visualization can be. Creating a visual for your data is an art form and you can sometimes find yourself spending a significant amount of time looking for the best ways to visualize your data.
 
