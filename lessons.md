@@ -15,8 +15,8 @@ In this brief workshop we will be discussing the basics of research data, in ter
 
 "The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions." [Angela Bassa](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4)
 
-In summary, research data is:
-**Material or information necessary to come to your conclusion.**
+In summary, research data is
+**material or information necessary to come to your conclusion.**
 
 ## Forms of Data
 
@@ -64,7 +64,7 @@ There are many ways to represent data, just as there are many sources of data. A
 
 * Collection of digital objects acquired and generated during research
 
-Adapted from: [Georgia Tech](http://libguides.gatech.edu/content.php?pid=123776&sid=3067221)
+Adapted from: Georgia Tech
 
 ### Challenge: Forms of Data
 
@@ -143,7 +143,7 @@ Tiger,Jaws/n
 
 A small detour to discuss (the ethics of?) data formats. For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
 
-1. Open [this file](cats.csv) in a text editor, and then in an app like Excel. This is a CSV, an open, text-only, file format.
+1. Open [this file](sections/cats.csv) in a text editor, and then in an app like Excel. This is a CSV, an open, text-only, file format.
 2. Now do the same with [this one](cats.xlsx). This is a proprietary format! 
 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. A small list:
@@ -172,7 +172,8 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 
 ### Challenge: Processed/Transformed
 
-How do you decide the formats to store your data when you transition from 'raw' to 'processed/transformed' data? What are some of your considerations?
+1. How do you decide the formats to store your data when you transition from 'raw' to 'processed/transformed' data? 
+2. What are some of your considerations?
 
 ## Tidy Data
 
@@ -239,7 +240,9 @@ Measurements must be uniform, in that the same unit of measure must be used in a
 
 ### Challenge: When do we stop cleaning?  
 
-How do we know when our data is cleaned enough? What happens to the data that is removed? What are we choosing to say about our dataset as we prepare them for analysis?
+1. How do we know when our data is cleaned enough? 
+2. What happens to the data that is removed? 
+3. What are we choosing to say about our dataset as we prepare them for analysis?
 
 ## Analyzed
 
@@ -269,9 +272,14 @@ Techniques geared towards testing a hypothesis about a population, based on your
 
 ### Challenge: Analysis
 
-As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out? How do we guide our decisions of interpretation with our choices of analyses? Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? What are potential misuses of our outputs? What can happen when we are trying to just go for the next big thing (tool/methods/algorithms) or just ran out of time and/or budget for our project?
+1. As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out? 
+2. How do we guide our decisions of interpretation with our choices of analyses? 
+3. Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? What are potential misuses of our outputs? 
+4. What can happen when we are trying to just go for the next big thing (tool/methods/algorithms) or just ran out of time and/or budget for our project?
 
 ## Visualized
+
+Visualizing your data helps you tell a story and construct a narrative that guides your audience in understanding your interpretation of a collected, cleaned, and analyzed dataset. Depending on the type of analysis you ran, different kinds of visualization can be more effective than others. Below are some examples of data visualization that can help you convey the message of your data.
 
 * Comparisons
     * bar & line
@@ -293,14 +301,18 @@ As we consider the types of analysis that we choose to apply onto our data set, 
     * stacked bar
     * nested map
 * Place
-    * chloropleth map
+    * choropleth map
     * hex or tile map
 
 Adapted from Evergreen, Stephanie D. Effective data visualization : the right chart for the right data. Los Angeles: SAGE, 2017.
 
+An example of effective data visualization can be seen in W.E.B. Du Bois [data potraits at the Paris Exposition in 1900](https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic), as part of [the Exhibit of American Negroes](https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes_). Using engaging hand-drawn visualizations, he tells the narrative of what it meant to be Black in post-Emancipation America as he translates sociological research and census data to reach beyond the academy. Head [here](https://hyperallergic.com/476334/how-w-e-b-du-bois-meticulously-visualized-20th-century-black-america/) to read more about Du Bois' project. 
+
 ### Challenge: Visualizations
 
-As we transform our results into visuals, we are also trying to tell a narrative about the data we collected. Data visualization can help us to decode information and share quickly and simply. What are we assuming when we choose to visually represent data in particular ways? How can data visualization mislead us?
+As we transform our results into visuals, we are also trying to tell a narrative about the data we collected. Data visualization can help us to decode information and share quickly and simply.   
+1. What are we assuming when we choose to visually represent data in particular ways? 
+2. How can data visualization mislead us? (for e.g. [Nathan Yau discusses how data visualization can lie](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
 
 # Data Literacy and Ethics
 
@@ -330,11 +342,7 @@ and included some tweets that were removed/deleted from the site.
 
 ## Some concluding thoughts
 
-Data and ethics are contextually driven. As such, there isn’t always a
-risk-free approach. We often have to work through ethical dilemmas while
-thinking through information that we may not have (what are the risks of
-doing/not doing this work?). We may be approaching a moment where the
-question is no longer what we could do but what we should do.
+Data and ethics are contextually driven. As such, there isn’t always a risk-free approach. We often have to work through ethical dilemmas while thinking through information that we may not have (what are the risks of doing/not doing this work?). We may be approaching a moment where the question is no longer what we could do but what we should do.
 
 
 
