@@ -5,18 +5,17 @@ In this brief workshop we will be discussing the basics of research data, in ter
 ## What Constitutes Research Data?
 
 "Material or information on which an argument, theory, test or hypothesis, or another research output is based."
-Queensland University of Technology. Manual of Procedures and Policies. Section 2.8.3. http://www.mopp.qut.edu.au/D/D_02_08.jsp
+[Queensland University of Technology. Manual of Procedures and Policies. Section 2.8.3](http://www.mopp.qut.edu.au/D/D_02_08.jsp)
 
 "What constitutes such data will be determined by the community of interest through the process of peer review and program management. This may include, but is not limited to: data, publications, samples, physical collections, software and models"
-Marieke Guy. http://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management , #2
+[Marieke Guy](http://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management)
 
-"Units of information created in the course of research"
-https://www.nsf.gov/bfa/dias/policy/dmpfaqs.jsp
+"Units of information created in the course of research" [NSF](https://www.nsf.gov/bfa/dias/policy/dmpfaqs.jsp)
 
 "(i) Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings, but not any of the following: preliminary analyses, drafts of scientific papers, plans for future research, peer reviews, or communications with colleagues."
-OMB-110, Subpart C, section 36, (d) (i), http://www.whitehouse.gov/omb/circulars_a110/
+[OMB-110, Subpart C, section 36, (d) (i)](http://www.whitehouse.gov/omb/circulars_a110/)
 
-"The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions." Angela Bassa. https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4
+"The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions." [Angela Bassa](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4)
 
 In summary, research data is:
 **Material or information necessary to come to your conclusion.**
@@ -67,7 +66,7 @@ There are many ways to represent data, just as there are many sources of data. A
 
 * Collection of digital objects acquired and generated during research
 
-Adapted from: Georgia Tech–http://libguides.gatech.edu/content.php?pid=123776&sid=3067221
+Adapted from: [Georgia Tech](http://libguides.gatech.edu/content.php?pid=123776&sid=3067221)
 
 ### Challenge: Forms of Data
 
