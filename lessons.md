@@ -364,8 +364,9 @@ Visualizing your data helps you tell a story and construct a narrative that guid
         <td><img src="/images/rgraph_hexbin.png" alt="Hexbin graph" style =
         "width:300px;height:300px;"><figcaption>From R Graph Gallery.</figcaption></td>
     </tr>
+</table>
     
-Adapted from E[vergreen, Stephanie D. (2019) Effective data visualization : The right chart for the right data](https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_), [The Data Visualisation Catalogue](https://datavizcatalogue.com/), and [From Data to Viz](https://www.data-to-viz.com/)
+Adapted from [Evergreen, Stephanie D. (2019) Effective data visualization : The right chart for the right data](https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_), [The Data Visualisation Catalogue](https://datavizcatalogue.com/), and [From Data to Viz](https://www.data-to-viz.com/)
 
 This table is a teaser for the many possibilities of what data visualization can be. Creating a visual for your data is an art form and you can sometimes find yourself spending a significant amount of time looking for the best ways to visualize your data.
 
