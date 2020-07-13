@@ -319,7 +319,7 @@ tr:nth-child(even){
     <tr height="300px">
         <td>Scatter plots</td>
         <td>Useful to check for correlation (not causation!)</td>
-        <td><img src="/images/538_scatter.png" alt="Scatter plot"><figcaption>From FiveThirtyEight.</figcaption>/td>
+        <td><img src="/images/538_scatter.png" alt="Scatter plot"><figcaption>From FiveThirtyEight.</figcaption></td>
     </tr>
     <tr height="300px">
         <th rowspan="3">Time</th>
