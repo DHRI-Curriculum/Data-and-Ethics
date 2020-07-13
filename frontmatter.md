@@ -45,7 +45,7 @@ By the end of this workshop, participants will:
 
 ## Resources (optional)
 
--
+- [National Science Foundataion's open datasets](https://catalog.data.gov/organization/nsf-gov)
 
 ## Acknowledgements
 
