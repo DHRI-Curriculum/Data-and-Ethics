@@ -357,8 +357,7 @@ Visualizing your data helps you tell a story and construct a narrative that guid
         <td><img src="/images/rgraph_hexbin.png" alt="Hexbin graph"><figcaption>From R Graph Gallery.</figcaption></td>
     </tr>
     <tr>
-        <th colspan = "4"> Adapted from <a href="https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_">Evergreen, Stephanie D. (2019) Effective data visualization : The right chart for the right data</a>, <a href="https://datavizcatalogue.com/">The Data Visualisation Catalogue</a>, and <a href="
-    https://www.data-to-viz.com/">From Data to Viz</a></th>
+        <th colspan = "4"> Adapted from <a href="https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_"> Stephanie D. Evergreen (2019) Effective data visualization : The right chart for the right data</a>, <a href="https://datavizcatalogue.com/">The Data Visualisation Catalogue</a>, and <a href="https://www.data-to-viz.com/">From Data to Viz</a></th>
     <tr>
 </table>
 
