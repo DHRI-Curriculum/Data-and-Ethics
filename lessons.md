@@ -281,23 +281,8 @@ Techniques geared towards testing a hypothesis about a population, based on your
 
 Visualizing your data helps you tell a story and construct a narrative that guides your audience in understanding your interpretation of a collected, cleaned, and analyzed dataset. Depending on the type of analysis you ran, different kinds of visualization can be more effective than others. Below are some examples of data visualization that can help you convey the message of your data.
 
-<html>
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    caption-side: bottom;
-    width: 100%
-}
-
-tr:nth-child(even){
-    background-color: #D8D8D8;
-}
-</style>
-
-
 <table>
-    <caption>Adapted from <a href="https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_">Evergreen, Stephanie D. (2019) Effective data visualization : The right chart for the right data</a>, <a href="https://datavizcatalogue.com/">The Data Visualisation Catalogue</a>, and <a href="
+    <caption align = "bottom">Adapted from <a href="https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_">Evergreen, Stephanie D. (2019) Effective data visualization : The right chart for the right data</a>, <a href="https://datavizcatalogue.com/">The Data Visualisation Catalogue</a>, and <a href="
     https://www.data-to-viz.com/">From Data to Viz</a></caption>
     <tr>
         <th>Types of Analysis</th>
@@ -371,7 +356,6 @@ tr:nth-child(even){
         <td><img src="/images/rgraph_hexbin.png" alt="Hexbin graph"><figcaption>From R Graph Gallery.</figcaption></td>
     </tr>
 </table>
-</html>
 
 This table is a teaser for the many possibilities of what data visualization can be. Creating a visual for your data is an art form and you can sometimes find yourself spending a significant amount of time looking for the best ways to visualize your data.
 
