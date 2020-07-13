@@ -143,8 +143,8 @@ Tiger,Jaws/n
 
 A small detour to discuss (the ethics of?) data formats. For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
 
-1. Open [this file](sections/cats.csv) in a text editor, and then in an app like Excel. This is a CSV, an open, text-only, file format.
-2. Now do the same with [this one](cats.xlsx). This is a proprietary format! 
+1. Open [this file](files/cats.csv) in a text editor, and then in an app like Excel. This is a CSV, an open, text-only, file format.
+2. Now do the same with [this one](files/cats.xlsx). This is a proprietary format! 
 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. A small list:
 
@@ -281,30 +281,93 @@ Techniques geared towards testing a hypothesis about a population, based on your
 
 Visualizing your data helps you tell a story and construct a narrative that guides your audience in understanding your interpretation of a collected, cleaned, and analyzed dataset. Depending on the type of analysis you ran, different kinds of visualization can be more effective than others. Below are some examples of data visualization that can help you convey the message of your data.
 
-* Comparisons
-    * bar & line
-    * side-by-side bars
-    * dot plot
-    * scatter plot
-* Time
-    * dot plot
-    * slope graph
-    * line graph
-    * sankey diagram
-    * timeline
-* Small numbers/percentages
-    * pie chart
-    * tree map
-    * waterfall
-* Survey responses
-    * bar chart
-    * stacked bar
-    * nested map
-* Place
-    * choropleth map
-    * hex or tile map
+<table>
+    <caption style="caption-side:bottom">Data Visualization</caption>
+    <tr>
+        <th>Types of Analysis</th>
+        <th>Types of Visualization</th>
+         <th>When to Use</th>
+        <th>Example of Visualization</th>
+    </tr>
+    <tr>
+        <th rowspan="3">Comparisons</th>
+         <td>Bar charts</td>
+         <td>Comparison across distinct categories</td>
+        <td><img src="/images/D4PG_bar.png" alt="Bar Chart" style =
+        "width:300px;height:300px;"><figcaption>From The Data for Public Good at the Graduate Center.</figcaption></td>
+    </tr>
+    <tr>
+        <td>Histograms</td>
+        <td>Comparison across continuous variable</td>
+        <td><img src="/images/PolicyViz_histogram.png" alt="Histogram" style =
+        "width:300px;height:300px;"><figcaption>From Policy Viz.</figcaption></td>
+    </tr>
+    <tr>
+        <td>Scatter plots</td>
+        <td>Useful to check for correlation (not causation!)</td>
+        <td><img src="/images/538_scatter.png" alt="Scatter plot" style ="width:300px;height:300px;"><figcaption>From FiveThirtyEight.</figcaption>/td>
+    </tr>
+    <tr>
+        <th rowspan="3">Time</th>
+        <td>Stacked area charts</td>
+        <td>Evolution of value across different groups</td>
+        <td><img src="/images/DatatoViz_stackedarea.png" alt="Stacked area chart" style =
+        "width:300px;height:300px;"><figcaption>From From Data to Viz.</figcaption></td>
+    </tr>
+    <tr>
+        <td>Sankey Diagrams</td>
+        <td>Displaying flows of changes</td>
+        <td><img src="/images/DatatoViz_sankey.png" alt="Sankey" style =
+        "width:300px;height:300px;"><figcaption>From From Data to Viz.</figcaption></td>
+    </tr>
+   <tr>
+        <td>Line graphs</td>
+        <td>Tracking changes over time</td>
+        <td><img src="/images/D4PG_line.jpg" alt="Line Graph" style ="width:300px;height:300px;"><figcaption>From The Library of Congress.</figcaption></td>
+    </tr>
+     <tr>
+        <th rowspan="2">Small numbers/percentages</th>
+        <td>Pie charts</td>
+        <td>Demonstrate proportions between categories</td>
+        <td><img src="/images/DB_pie.jpg" alt="Pie chart" style =
+        "width:300px;height:300px;"><figcaption>From The Library of Congress.</figcaption></td>
+    </tr>
+    <tr>
+        <td>Tree maps</td>
+        <td>Demonstrate hierarchy and proportion</td>
+        <td><img src="/images/DataViz_treemap.png" alt="Tree map" style =
+        "width:300px;height:300px;"><figcaption>From The Data Visualization Catalogue.</figcaption></td>
+    </tr>
+    <tr>
+        <th rowspan="2">Survey responses</th>
+        <td>Stacked bar charts</td>
+        <td>Compares total amount across each group (e.g. plotting Likert scale)</td>
+        <td><img src="/images/DB_stackedbar.jpg" alt="Stacked bar charts" style =
+        "width:300px;height:300px;"><figcaption>From The Library of Congress.</figcaption></td>
+    </tr>
+    <tr>
+        <td>Nested area graphs</td>
+        <td>Visualize branching/nested questions</td>
+        <td><img src="/images/evergreen_nestedarea.jpg" alt="Nested area graph" style =
+        "width:300px;height:300px;"><figcaption>From Evergreen Data.</figcaption></td>
+    </tr>
+    <tr>
+        <th rowspan="2">Place</th>
+        <td>Choropleth maps</td>
+        <td>Visualize values over a geographic area to demonstrate pattern</td>
+        <td><img src="/images/DB_choropleth.jpg" alt="Choropleth map" style =
+        "width:300px;height:300px;"><figcaption>From The Library of Congress.</figcaption></td>
+    </tr>
+    <tr>
+        <td>Hex(bin) or Tile maps</td>
+        <td>Similar to Choropleth with the hexbin/tile representing regions equally rather than by geographic size</td>
+        <td><img src="/images/rgraph_hexbin.png" alt="Hexbin graph" style =
+        "width:300px;height:300px;"><figcaption>From R Graph Gallery.</figcaption></td>
+    </tr>
+    
+Adapted from E[vergreen, Stephanie D. (2019) Effective data visualization : The right chart for the right data](https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_), [The Data Visualisation Catalogue](https://datavizcatalogue.com/), and [From Data to Viz](https://www.data-to-viz.com/)
 
-Adapted from Evergreen, Stephanie D. Effective data visualization : the right chart for the right data. Los Angeles: SAGE, 2017.
+This table is a teaser for the many possibilities of what data visualization can be. Creating a visual for your data is an art form and you can sometimes find yourself spending a significant amount of time looking for the best ways to visualize your data.
 
 An example of effective data visualization can be seen in W.E.B. Du Bois [data potraits at the Paris Exposition in 1900](https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic), as part of [the Exhibit of American Negroes](https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes_). Using engaging hand-drawn visualizations, he tells the narrative of what it meant to be Black in post-Emancipation America as he translates sociological research and census data to reach beyond the academy. Head [here](https://hyperallergic.com/476334/how-w-e-b-du-bois-meticulously-visualized-20th-century-black-america/) to read more about Du Bois' project. 
 
@@ -312,6 +375,7 @@ An example of effective data visualization can be seen in W.E.B. Du Bois [data p
 
 As we transform our results into visuals, we are also trying to tell a narrative about the data we collected. Data visualization can help us to decode information and share quickly and simply.   
 1. What are we assuming when we choose to visually represent data in particular ways? 
+2. As you may have realized, many of the visualization examples work with quantitative data, as such, how do you think we can visualize qualitative data? (e.g. Word Clouds, Heat Map)
 2. How can data visualization mislead us? (for e.g. [Nathan Yau discusses how data visualization can lie](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
 
 # Data Literacy and Ethics
