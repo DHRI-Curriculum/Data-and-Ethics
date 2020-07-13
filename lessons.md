@@ -5,12 +5,10 @@ In this brief workshop we will be discussing the basics of research data, in ter
 ## What Constitutes Research Data?
 
 "Material or information on which an argument, theory, test or hypothesis, or another research output is based."
-[Queensland University of Technology. Manual of Procedures and Policies. Section 2.8.3](http://www.mopp.qut.edu.au/D/D_02_08.jsp)
+[Queensland University of Technology. Manual of Procedures and Policies. Section 2.8.3.](http://www.mopp.qut.edu.au/D/D_02_08.jsp)
 
 "What constitutes such data will be determined by the community of interest through the process of peer review and program management. This may include, but is not limited to: data, publications, samples, physical collections, software and models"
-[Marieke Guy](http://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management)
-
-"Units of information created in the course of research" [NSF](https://www.nsf.gov/bfa/dias/policy/dmpfaqs.jsp)
+[Marieke Guy.](http://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management)
 
 "(i) Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings, but not any of the following: preliminary analyses, drafts of scientific papers, plans for future research, peer reviews, or communications with colleagues."
 [OMB-110, Subpart C, section 36, (d) (i)](http://www.whitehouse.gov/omb/circulars_a110/)
