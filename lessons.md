@@ -1,5 +1,3 @@
-<link rel="stylesheet" type="text/css" media="table" href="files/markdown_styles.css" />
-
 # Data is Foundational
 
 In this brief workshop we will be discussing the basics of research data, in terms of material, transformation, and presentation. We will also be focusing on the ethics of data cleaning and representation. Because everyone has a different approach to data and ethics, this workshop will also include multiple sites for discussions to help us think together as a group.
@@ -24,53 +22,34 @@ In summary, research data is
 
 There are many ways to represent data, just as there are many sources of data. After processing our data, we turn it into a number of products. For example:
 
-* Non-digital text (lab books, field notebooks)
-
-* Digital texts or digital copies of text
-
-* Statistical analysis (SPSS, SAS, R)
-
-* Scientific sample collections
-
-* Data visualizations
-
-* Computer code
-
-* Standard operating procedures and protocols
-
-* Protein or genetic sequences
-
-* Artistic products
-
-* Curriculum materials
-
-* Spreadsheets (e.g. .xlsx, .csv, .tsv)
-
-* Audio (e.g. .mp3, .wav, .aac)
-
-* Video (e.g. .mov, .mp4)
-
-* Computer Aided Design/CAD (.cad)
-
-* Databases (e.g. .sql)
-
-* Geographic Information Systems (GIS) and spatial data (e.g. .shp, .dbf, .shx)
-
-* Digital copies of images (e.g. .png, .jpeg, .tiff)
-
-* Web files (e.g. .html, .asp, .php)
-
-* Matlab files & 3D Models (e.g. .stl, .dae, .3ds)
-
-* Metadata & Paradata (e.g. .xml, .json)
-
-* Collection of digital objects acquired and generated during research
+- Non-digital text (lab books, field notebooks)
+- Digital texts or digital copies of text
+- Statistical analysis (SPSS, SAS, R)
+- Scientific sample collections
+- Data visualizations
+- Computer code
+- Standard operating procedures and protocols
+- Protein or genetic sequences
+- Artistic products
+- Curriculum materials
+- Spreadsheets (e.g. .xlsx, .csv, .tsv)
+- Audio (e.g. .mp3, .wav, .aac)
+- Video (e.g. .mov, .mp4)
+- Computer Aided Design/CAD (.cad)
+- Databases (e.g. .sql)
+- Geographic Information Systems (GIS) and spatial data (e.g. .shp, .dbf, .shx)
+- Digital copies of images (e.g. .png, .jpeg, .tiff)
+- Web files (e.g. .html, .asp, .php)
+- Matlab files & 3D Models (e.g. .stl, .dae, .3ds)
+- Metadata & Paradata (e.g. .xml, .json)
+- Collection of digital objects acquired and generated during research
 
 Adapted from: Georgia Tech
 
 ### Challenge: Forms of Data
 
 These are some (most!) of the shapes your research data might transform into. 
+
 1. What are some forms of data you use in your work? 
 2. What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field. 
 3. Where do you usually get your data from?
@@ -123,22 +102,36 @@ Here are a few you're likely to come across, all representing the same data:
 **JSON**
 
 ```json
-{"Cats":[ 
-    { "firstName":"Smally", "lastName":"McTiny" }, 
-    { "firstName":"Kitty", "lastName":"Kitty" }, 
-    { "firstName":"Foots", "lastName":"Smith" }, 
-    { "firstName":"Tiger", "lastName":"Jaws" } 
-]} 
+{
+    "Cats": [ 
+        {
+            "firstName": "Smally",
+            "lastName": "McTiny"
+        }, 
+        {
+            "firstName": "Kitty",
+            "lastName": "Kitty"
+        },
+        {
+            "firstName": "Foots",
+            "lastName":"Smith"
+        }, 
+        {
+            "firstName": "Tiger",
+            "lastName":"Jaws"
+        } 
+    ]
+} 
 ```
 
 **CSV**
 
-```csv
-First Name,Last Name/n
-Smally,McTiny/n
-Kitty,Kitty/n
-Foots,Smith/n
-Tiger,Jaws/n
+```
+First Name,Last Name
+Smally,McTiny
+Kitty,Kitty
+Foots,Smith
+Tiger,Jaws
 ```
 
 ### The importance of using open data formats
@@ -150,27 +143,17 @@ A small detour to discuss (the ethics of?) data formats. For accessibility, futu
 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. A small list:
 
-* ASCII
-
-* PDF 
-
-* .csv
-
-* FLAC
-
-* TIFF
-
-* JPEG2000
-
-* MPEG-4
-
-* XML
-
-* RDF
-
-* .txt
-
-* .r
+- ASCII
+- PDF 
+- .csv
+- FLAC
+- TIFF
+- JPEG2000
+- MPEG-4
+- XML
+- RDF
+- .txt
+- .r
 
 ### Challenge: Processed/Transformed
 
@@ -180,6 +163,7 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 ## Tidy Data
 
 There are guidelines to the processing of data, sometimes referred to as **Tidy Data**.<sup>1</sup> One manifestation of these rules:
+
 1. Each variable is in a column.
 2. Each observation is a row.
 3. Each value is a cell.
@@ -187,17 +171,35 @@ There are guidelines to the processing of data, sometimes referred to as **Tidy 
 Look back at our example of cats to see how they may or may not follow those guidelines. **Important note**: some data formats allow for more than one dimension of data! How might that complicate the concept of **Tidy Data**?
 
 ```json
-{"Cats":[
-    {"Calico":[
-    { "firstName":"Smally", "lastName":"McTiny" },
-    { "firstName":"Kitty", "lastName":"Kitty" }],
-    "Tortoiseshell":[
-    { "firstName":"Foots", "lastName":"Smith" }, 
-    { "firstName":"Tiger", "lastName":"Jaws" }]}]}
+{
+    "Cats": [
+            {
+                "Calico": [
+                    {
+                        "firstName": "Smally",
+                        "lastName":"McTiny"
+                    },
+                    {
+                        "firstName": "Kitty",
+                        "lastName": "Kitty"
+                    }
+                ],
+                "Tortoiseshell": [
+                    {
+                        "firstName": "Foots",
+                        "lastName":"Smith"
+                    },
+                    {
+                        "firstName": "Tiger",
+                        "lastName":"Jaws"
+                    }
+                ]
+            }
+        ]
+}
 ```
 
- <sup>1</sup>Wickham, Hadley. "Tidy Data". Journal of Statistical Software.
-
+<sup>1</sup>Wickham, Hadley. "Tidy Data". Journal of Statistical Software.
 
 # More Stages of Data
 
@@ -206,6 +208,7 @@ Look back at our example of cats to see how they may or may not follow those gui
 High quality data is measured in its **validity**, **accuracy**, **completeness**, **consistency**, and **uniformity**.
 
 Processed data, even in a table, is going to be full of errors:
+
 1. Empty fields
 2. Multiple formats, such as "yes" or "y" or "1" for a positive response.
 3. Suspect answers, like a date of birth of 00/11/1234
@@ -216,31 +219,33 @@ Processed data, even in a table, is going to be full of errors:
 
 Cleaning data is the work of correcting the errors listed above, and moving towards high quality. This work can be done manually or programatically. 
     
-**Validity**  
+### Validity
 
 Measurements must be valid, in that they must conform to set constraints:
+
 1. The aforementioned "yes" or "y" or "1" should all be changed to one response.
 2. Certain fields cannot be empty, or the whole observation must be thrown out.
 3. Uniqueness, for instance no two people should have the same social security number.
     
-**Accuracy**  
+### Accuracy
 
 Measurements must be accurate, in that they must represent the correct values. While an observation may be valid, it might at the same time be inaccurate. 123 Fake street is a valid, inaccurate street address.
+
 Unfortunately, accuracy is mostly acheived in the observation process. To be achieved in the cleaning process, an outside trusted source would have to be cross-referenced.
 
-**Completeness**
+### Completeness
 
 Measurements must be complete, in that they must represent everything that might be known. This also is nearly impossible to achieve in the cleaning process! For instance in a survey, it would be necessary to re-interview someone whose previous answer to a question was left blank. 
     
-**Consistency**  
+### Consistency
 
 Measurements must be consistent, in that different observations must not contradict each other. For instance, one person cannot be represented as both dead and still alive in different observations. 
     
-**Uniformity**  
+### Uniformity 
 
 Measurements must be uniform, in that the same unit of measure must be used in all relevant measurements. If one person's height is listed in meters and another in feet, one measurement must be converted.
 
-### Challenge: When do we stop cleaning?  
+## Challenge: When do we stop cleaning?  
 
 1. How do we know when our data is cleaned enough? 
 2. What happens to the data that is removed? 
@@ -254,23 +259,18 @@ Analysis can take many forms (just like the rest of this stuff!), but many techn
 
 Techniques geared towards summarizing a data set, such as:
 
-* Mean
-
-* Median
-
-* Mode
-
-* Average
-
-* Standard deviation
+- Mean
+- Median
+- Mode
+- Average
+- Standard deviation
 
 ### Inferential Analysis
 
 Techniques geared towards testing a hypothesis about a population, based on your data set, such as:
 
-* Extrapolation
-
-* P-Value calculation
+- Extrapolation
+- P-Value calculation
 
 ### Challenge: Analysis
 
@@ -357,7 +357,7 @@ Visualizing your data helps you tell a story and construct a narrative that guid
         <td><img src="/images/rgraph_hexbin.png" alt="Hexbin graph"><figcaption>From R Graph Gallery.</figcaption></td>
     </tr>
     <tr>
-        <th colspan = "4"> Adapted from <a href="https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_"> Stephanie D. Evergreen (2019) Effective data visualization : The right chart for the right data</a>, <a href="https://datavizcatalogue.com/">The Data Visualisation Catalogue</a>, and <a href="https://www.data-to-viz.com/">From Data to Viz</a></th>
+        <th colspan="4"> Adapted from <a href="https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_"> Stephanie D. Evergreen (2019) Effective data visualization : The right chart for the right data</a>, <a href="https://datavizcatalogue.com/">The Data Visualisation Catalogue</a>, and <a href="https://www.data-to-viz.com/">From Data to Viz</a></th>
     <tr>
 </table>
 
@@ -367,45 +367,28 @@ An example of effective data visualization can be seen in W.E.B. Du Bois [data p
 
 ### Challenge: Visualizations
 
-As we transform our results into visuals, we are also trying to tell a narrative about the data we collected. Data visualization can help us to decode information and share quickly and simply.   
+As we transform our results into visuals, we are also trying to tell a narrative about the data we collected. Data visualization can help us to decode information and share quickly and simply.
+
 1. What are we assuming when we choose to visually represent data in particular ways? 
 2. As you may have realized, many of the visualization examples work with quantitative data, as such, how do you think we can visualize qualitative data? (e.g. Word Clouds, Heat Map)
-2. How can data visualization mislead us? (for e.g. [Nathan Yau discusses how data visualization can lie](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
+3. How can data visualization mislead us? (for e.g. [Nathan Yau discusses how data visualization can lie](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
 
 # Data Literacy and Ethics
 
-Throughout the workshop we have been thinking together through some of
-the potential ethical concerns that might crop up as we proceed with our
-own projects. Just as we have disucssed thus far, we hope that you see
-that data and ethics is an ongoing process throughout the lifespans of
-your project(s) and don’t often come with easy answers.
+Throughout the workshop we have been thinking together through some of the potential ethical concerns that might crop up as we proceed with our own projects. Just as we have disucssed thus far, we hope that you see that data and ethics is an ongoing process throughout the lifespans of your project(s) and don’t often come with easy answers.
 
 ## Activity
 
-In this final activity, we would like for you to think about some of the
-potential concerns that might come up in the scenario below and discuss
-how you might approach them:
+In this final activity, we would like for you to think about some of the potential concerns that might come up in the scenario below and discuss how you might approach them:
 
-You are interested in looking at the reactions to the democratic party
-presidential debates across time. You decided that you would use data
-from twitter to analyze the responses. After collecting your data, you
-learned that your data has information from users who were later banned
-and included some tweets that were removed/deleted from the site.
+You are interested in looking at the reactions to the democratic party presidential debates across time. You decided that you would use data from twitter to analyze the responses. After collecting your data, you learned that your data has information from users who were later banned and included some tweets that were removed/deleted from the site.
 
 ### If you would like some guiding questions:
 
-  - Would your approach differ if the responses were anonymized v. not?
-  - Would the number of tweets generated impact your decisions?
-  - How might where you are at in your project (e.g. "raw" data v. "cleaned" data v. analysed) affect your choices?
+- Would your approach differ if the responses were anonymized v. not?
+- Would the number of tweets generated impact your decisions?
+- How might where you are at in your project (e.g. "raw" data v. "cleaned" data v. analysed) affect your choices?
 
 ## Some concluding thoughts
 
 Data and ethics are contextually driven. As such, there isn’t always a risk-free approach. We often have to work through ethical dilemmas while thinking through information that we may not have (what are the risks of doing/not doing this work?). We may be approaching a moment where the question is no longer what we could do but what we should do.
-
-
-
-
-
-
-
-
