@@ -1,6 +1,6 @@
 # Data is Foundational
 
-In this brief workshop we will be discussing the basics of research data, in terms of material, transformation, and presentation. We will also be focusing on the ethics of data cleaning and representation. Because everyone has a different approach to data and ethics, this workshop will also include multiple sites for discussions to help us think together as a group.
+In this brief workshop we will be discussing the basics of research data in terms of material, transformation, and presentation. We will also be discussing the complicated ethics of data collection, cleaning and representation. Because everyone has a different approach and understanding to data and ethics, this workshop will also include multiple sites for discussions to help us think through what data literacy means within our projects and broader applications.
 
 ## What Constitutes Research Data?
 
@@ -15,8 +15,7 @@ In this brief workshop we will be discussing the basics of research data, in ter
 
 "The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions." [Angela Bassa](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4)
 
-In summary, research data is
-**material or information necessary to come to your conclusion.**
+In summary, research data is **material or information necessary to come to your conclusion.**
 
 ## Forms of Data
 
@@ -31,7 +30,7 @@ There are many ways to represent data, just as there are many sources of data. A
 - Standard operating procedures and protocols
 - Protein or genetic sequences
 - Artistic products
-- Curriculum materials
+- Curriculum materials (e.g. course syllabi)
 - Spreadsheets (e.g. .xlsx, .csv, .tsv)
 - Audio (e.g. .mp3, .wav, .aac)
 - Video (e.g. .mov, .mp4)
@@ -60,7 +59,7 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
 
 ## Raw
     
-Raw data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc.. It could be in any of the forms listed above.
+Raw data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc.. It could be in any of the forms listed in the previous section.
 
 But "raw data" is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw data". 
 
@@ -73,6 +72,7 @@ In addition to being mindful of paying a fair wage to the workers on such platfo
 ### Challenge: Raw Data and Labor
 
 1. For example, is "big data" "raw data"? How do we understand data that we have "scraped"? 
+<!--- Any suggestions for questions regarding labor and data participants consider collecting/analysing? ---> 
 
 ## Processed/Transformed
 
@@ -136,24 +136,85 @@ Tiger,Jaws
 
 ### The importance of using open data formats
 
-A small detour to discuss (the ethics of?) data formats. For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
+A small detour to discuss data formats. For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
 
-1. Open [this file](https://raw.githubusercontent.com/DHRI-Curriculum/Data-and-Ethics/v2.0-di-edits/files/cats.csv) in a text editor, and then in an app like Excel. This is a CSV, an open, text-only, file format.
+1. Open [this file](https://raw.githubusercontent.com/DHRI-Curriculum/Data-and-Ethics/v2.0-di-edits/files/cats.csv) in a text editor (e.g. VS Code  <!--- what's the texteditor that ships with Mac and Windows? ---> ), and then in an app like Excel. This is a CSV, an open, text-only, file format.
 2. Now do the same with [this one](https://github.com/DHRI-Curriculum/Data-and-Ethics/blob/v2.0-di-edits/files/cats.xlsx). This is a proprietary format! 
 
-Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. A small list:
+Sustainable formats are generally unencrypted, uncompressed, and follow an open standard.
 
-- ASCII
-- PDF 
-- .csv
-- FLAC
-- TIFF
-- JPEG2000
-- MPEG-4
-- XML
-- RDF
-- .txt
-- .r
+<table>
+    <caption>A small list of open formats<sup>1</sup></caption>
+    <tr>
+        <th>Types of multimedia</th>
+        <th>Examples</th>
+         <th>Common file extensions</th>
+    </tr>
+    <tr>
+        <th rowspan="3">Images</th>
+         <td><a href="https://www.lifewire.com/tif-tiff-file-2622393">TIFF</a> (Tagged Image File Format) </td>
+         <td>.tiff</td>
+    </tr>
+        <tr>
+        <td><a href="https://en.wikipedia.org/wiki/JPEG_2000">JPEG2000</a></td>
+        <td>.jp2, .jpf, .jpx</td>
+    </tr>
+    </tr>
+        <tr>
+        <td><a href="http://www.libpng.org/pub/png/pngintro.html">PNG</a> (Portable Network Graphics)</td>
+        <td>.png</td>
+    </tr>
+        <tr>
+        <th rowspan="3">Text</th>
+         <td><a href="https://help.ceda.ac.uk/article/4429-ascii-formats">ASCII</a>  (American Standard Code for Information Interchange)</td>
+         <td>.ascii, .dat, .txt</td>
+    </tr>
+        <tr>
+        <td><a href="https://en.wikipedia.org/wiki/PDF">PDF</a> (Portable Document Format)</td>
+        <td>.pdf</td>
+    </tr>
+        <tr>
+        <td><a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV</a> (Comma-Seperated Values</td>
+        <td>.csv</td>
+    </tr>
+    </tr>
+        <tr>
+        <th rowspan="2">Audio</th>
+         <td><a href="https://xiph.org/flac/index.html">FLAC</a> (Free Lossless Audio Codec)</td>
+         <td>.flac</td>
+    </tr>
+        <tr>
+        <td><a href="https://xiph.org/ogg/">ogg</a></td>
+        <td>.ogg</td>
+    </tr>
+    </tr>
+        <tr>
+        <th rowspan="2">Video</th>
+         <td><a href="https://www.lifewire.com/mp4-file-2622024">MPEG-4</a></td>
+         <td>.mp4</td>
+    </tr>
+        <tr>
+        <td><a href="https://xiph.org/ogg/">ogg</a></td>
+        <td>.ogg</td>
+    </tr>
+    </tr>
+        <tr>
+        <th rowspan="3">Others</th>
+         <td><a href="https://www.w3schools.com/xml/xml_whatis.asp">XML</a> (Extensible Markup Language)</td>
+         <td>.xml</td>
+    </tr>
+        <tr>
+        <td><a href="https://www.json.org/json-en.html">JSON</a> (JavaScript Object Notation</td>
+        <td>.json</td>
+    </tr>
+        <tr>
+        <td><a href="https://www.3dsystems.com/quickparts/learning-center/what-is-stl-file">STL</a> (STereoLithography file format -- used in 3D modeling)</td>
+        <td>.stl</td>
+    <tr>
+        <th colspan="3"><sup>1</sup>More information on the file formats are linked in each example. For a list of file formats, consider the Library of Congress' list of <a href="https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml#"> Sustainability of Digital Formats</a>.</th>
+    <tr>
+</table>
+
 
 ### Challenge: Processed/Transformed
 
@@ -372,6 +433,9 @@ As we transform our results into visuals, we are also trying to tell a narrative
 1. What are we assuming when we choose to visually represent data in particular ways? 
 2. As you may have realized, many of the visualization examples work with quantitative data, as such, how do you think we can visualize qualitative data? (e.g. Word Clouds, Heat Map)
 3. How can data visualization mislead us? (for e.g. [Nathan Yau discusses how data visualization can lie](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
+4. How can data visualization help us tell a story? (for e.g. [Data Feminism's On rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints](https://mitpressonpubpub.mitpress.mit.edu/pub/8tjbs2x5/release/2))
+
+
 
 # Data Literacy and Ethics
 
@@ -385,10 +449,20 @@ You are interested in looking at the reactions to the democratic party president
 
 ### If you would like some guiding questions:
 
-- Would your approach differ if the responses were anonymized v. not?
+- What are some reasons you might have for anonymizing (or not) your data? 
+    - Would your approach differ if the responses were anonymized v. not?
+- Would you remove the data in your initially downloaded corpus?
+    - How might you be aware of the differences in the corpus you downloaded v. the most current information?
 - Would the number of tweets generated impact your decisions?
 - How might where you are at in your project (e.g. "raw" data v. "cleaned" data v. analysed) affect your choices?
 
-## Some concluding thoughts
+### Some additional exploration:
 
-Data and ethics are contextually driven. As such, there isn’t always a risk-free approach. We often have to work through ethical dilemmas while thinking through information that we may not have (what are the risks of doing/not doing this work?). We may be approaching a moment where the question is no longer what we could do but what we should do.
+- If you were collecting and/or analyzing data on folx in power, such as looking at the data from [Tweets of Congress's](https://alexlitel.github.io/congresstweets/) project, wouuld that change the way you consider your answers to the previous questions?
+- Current [ethical guidelines](https://safelab.socialwork.columbia.edu/content/ethics) from SAFE Lab at Columbia University have decided to alter the text of social media post to render it unsearchable. Why and when would you consider (or not) altering the collected tweets for publication? 
+
+# Some concluding thoughts
+
+Data and ethics are contextually driven. As such, there isn’t always a risk-free approach. We often have to work through ethical dilemmas while thinking through information that we may not have (what are the risks of doing/not doing this work?). We have approached a moment where the question is no longer what we could do but what we should do. Given this saturated data-driven world we currently live in, there is value is pausing and consider why and what we are collecting, researching, analyzing, and understanding. Starting on a new project, especially one dealing with "big" data can be exciting but we now also have to first consider who does the data collected benefit and why is it important are important.
+
+For a set of great questions to help you think through your data exploration and project planning, please check out Kristen Hackett's Tagging the Tower post, *[What to Consider when Planning a Digital Project.](https://digitalfellows.commons.gc.cuny.edu/2019/10/30/what-to-consider-when-planning-a-digital-project/)*
