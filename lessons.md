@@ -140,8 +140,8 @@ Tiger,Jaws
 
 A small detour to discuss data formats. For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
 
-1. Open [this file](https://raw.githubusercontent.com/DHRI-Curriculum/Data-and-Ethics/v2.0-di-edits/files/cats.csv) in a text editor (e.g. VS Code  <!--- what's the texteditor that ships with Mac and Windows? ---> ), and then in an app like Excel. This is a CSV, an open, text-only, file format.
-2. Now do the same with [this one](https://github.com/DHRI-Curriculum/Data-and-Ethics/blob/v2.0-di-edits/files/cats.xlsx). This is a proprietary format! 
+1. Open [this file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0-di-edits/files/cats.csv) in a text editor (e.g. VS Code  <!--- what's the texteditor that ships with Mac and Windows? ---> ), and then in an app like Excel. This is a CSV, an open, text-only, file format.
+2. Now do the same with [this one](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.xlsx). This is a proprietary format! 
 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard.
 
