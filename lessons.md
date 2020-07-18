@@ -146,7 +146,7 @@ A small detour to discuss data formats. For accessibility, future-proofing, and 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard.
 
 <table>
-    <caption>A small list of open formats<sup>1</sup></caption>
+    <caption>A small list of open formats:<sup>1</sup></caption>
     <tr>
         <th>Types of multimedia</th>
         <th>Examples</th>
@@ -212,10 +212,9 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
         <tr>
         <td><a href="https://www.3dsystems.com/quickparts/learning-center/what-is-stl-file">STL</a> (STereoLithography file format -- used in 3D modeling)</td>
         <td>.stl</td>
-    <tr>
-        <th colspan="3"><sup>1</sup>More information on the file formats are linked in each example. For a list of file formats, consider the Library of Congress' list of <a href="https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml#"> Sustainability of Digital Formats</a>.</th>
-    <tr>
 </table>
+
+<sup>1</sup>More information on the file formats are linked in each example. For a list of file formats, consider the Library of Congress' list of <a href="https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml#"> Sustainability of Digital Formats</a>.
 
 
 ### Challenge: Processed/Transformed
