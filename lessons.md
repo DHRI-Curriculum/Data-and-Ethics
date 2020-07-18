@@ -69,6 +69,8 @@ As we think about data collecction, we should also consider the labor involved i
 
 In addition to being mindful of paying a fair wage to the workers on such platforms, this working environment also brings some further considerations to the data that is collected. Often times, for workers to get close to minimum wage, they cannot afford to spend much time on each task, increasing potential errors in the collected data. 
 
+For a deeper discussion on data and labor, consider Catherine D'Ignazio and Lauren Klein's chapter [Show Your Work](https://mitpressonpubpub.mitpress.mit.edu/pub/9m0tiz66/release/3) in *[Data Feminism](https://mitpress.mit.edu/books/data-feminism)*.
+
 ### Challenge: Raw Data and Labor
 
 1. For example, is "big data" "raw data"? How do we understand data that we have "scraped"? 
