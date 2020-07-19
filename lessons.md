@@ -7,8 +7,8 @@ In this brief workshop we will be discussing the basics of research data in term
 "Material or information on which an argument, theory, test or hypothesis, or another research output is based."
 [Queensland University of Technology. Manual of Procedures and Policies. Section 2.8.3.](http://www.mopp.qut.edu.au/D/D_02_08.jsp)
 
-"What constitutes such data will be determined by the community of interest through the process of peer review and program management. This may include, but is not limited to: data, publications, samples, physical collections, software and models"
-[Marieke Guy.](http://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management)
+"What constitutes such data will be determined by the community of interest through the process of peer review and program management. This may include, but is not limited to: data, publications, samples, physical collections, software and models."
+[Marieke Guy](http://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management)
 
 "(i) Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings, but not any of the following: preliminary analyses, drafts of scientific papers, plans for future research, peer reviews, or communications with colleagues."
 [OMB-110, Subpart C, section 36, (d) (i)](http://www.whitehouse.gov/omb/circulars_a110/)
@@ -45,7 +45,7 @@ There are many ways to represent data, just as there are many sources of data. A
 
 Adapted from: Georgia Tech
 
-### Challenge: Forms of Data
+## Challenge: Forms of Data
 
 These are some (most!) of the shapes your research data might transform into. 
 
@@ -61,24 +61,24 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
     
 Raw data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc.. It could be in any of the forms listed in the previous section.
 
-But "raw data" is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw data". 
+But "raw data" is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw data." 
 
 ## Data and Labor
 
-As we think about data collecction, we should also consider the labor involved in the process. Many researchers rely on Amazon Mechanical Turk (sometimes also refered to as MTurk) for data collection, [often paying less than minimum wage for the task.](https://www.theatlantic.com/business/archive/2018/01/amazon-mechanical-turk/551192/) Often the assumption made of these workers is someone who is retired, bored, and participating in online gig work for fun or to kill time. While this may be true for some, [more than half of those surveyed in a Pew Research study cite that the income from this work is essential or important.](https://www.pewresearch.org/internet/2016/11/17/labor-platforms-technology-enabled-gig-work/) Often, those who view the income from this work as essential or important are also from underserved communities. 
+As we think about data collection, we should also consider the labor involved in the process. Many researchers rely on Amazon Mechanical Turk (sometimes also refered to as MTurk) for data collection, [often paying less than minimum wage for the task.](https://www.theatlantic.com/business/archive/2018/01/amazon-mechanical-turk/551192/) Often the assumption made of these workers is someone who is retired, bored, and participating in online gig work for fun or to kill time. While this may be true for some, [more than half of those surveyed in a Pew Research study cite that the income from this work is essential or important.](https://www.pewresearch.org/internet/2016/11/17/labor-platforms-technology-enabled-gig-work/) Often, those who view the income from this work as essential or important are also from underserved communities. 
 
 In addition to being mindful of paying a fair wage to the workers on such platforms, this working environment also brings some further considerations to the data that is collected. Often times, for workers to get close to minimum wage, they cannot afford to spend much time on each task, increasing potential errors in the collected data. 
 
 For a deeper discussion on data and labor, consider Catherine D'Ignazio and Lauren Klein's chapter [Show Your Work](https://mitpressonpubpub.mitpress.mit.edu/pub/9m0tiz66/release/3) in *[Data Feminism](https://mitpress.mit.edu/books/data-feminism)*.
 
-### Challenge: Raw Data and Labor
+## Challenge: Raw Data and Labor
 
-1. For example, is "big data" "raw data"? How do we understand data that we have "scraped"? 
+For example, is "big data" "raw data"? How do we understand data that we have "scraped"? 
 <!--- Any suggestions for questions regarding labor and data participants consider collecting/analysing? ---> 
 
 ## Processed/Transformed
 
-Processing data puts it into a state more readily available for analysis, and makes the data legible. For instance it could be rendered as **structured data**. This can also take many forms, e.g., a table. 
+Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, _e.g._, a table. 
 
 Here are a few you're likely to come across, all representing the same data:
 
@@ -140,8 +140,8 @@ Tiger,Jaws
 
 A small detour to discuss data formats. For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
 
-1. Open [this file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0-di-edits/files/cats.csv) in a text editor (e.g. VS Code  <!--- what's the texteditor that ships with Mac and Windows? ---> ), and then in an app like Excel. This is a CSV, an open, text-only, file format.
-2. Now do the same with [this one](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.xlsx). This is a proprietary format! 
+1. Open [this file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0-di-edits/files/cats.csv) in a [text editor](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/sections/13-text-editors-ides.md) (e.g. VS Code, TextEdit (MacOs), NotePad (Windows) ), and then in an app like Excel. This is a CSV, an open, text-only, file format.
+2. Now do the same with [this Excel file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.xlsx). Unlike the previous, this is a proprietary format! 
 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard.
 
@@ -357,7 +357,7 @@ Visualizing your data helps you tell a story and construct a narrative that guid
         <th rowspan="3">Comparisons</th>
          <td>Bar charts</td>
          <td>Comparison across distinct categories</td>
-        <td><img src="/images/D4PG_bar.png" alt="Bar Chart"><figcaption>From The Data for Public Good at the Graduate Center.</figcaption></td>
+        <td><img src="/images/D4PG_bar.png" alt="Bar Chart"><figcaption>From [The Data for Public Good](https://dataforgood.commons.gc.cuny.edu/) at the Graduate Center.</figcaption></td>
     </tr>
     <tr height="300px">
         <td>Histograms</td>
