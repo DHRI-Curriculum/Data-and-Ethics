@@ -1,9 +1,0 @@
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    background-color: #D8D8D8;
-}
-
-th {
-    height: 300px;
-}
