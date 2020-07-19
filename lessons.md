@@ -1,6 +1,6 @@
 # Data is Foundational
 
-In this brief workshop we will be discussing the basics of research data in terms of material, transformation, and presentation. We will also be discussing the complicated ethics of data collection, cleaning and representation. Because everyone has a different approach and understanding to data and ethics, this workshop will also include multiple sites for discussions to help us think through what data literacy means within our projects and broader applications.
+In this brief workshop we will be discussing the basics of research data in terms of material, transformation, and presentation. We will also be discussing the complicated ethics of data collection, cleaning, and representation. Because everyone has a different approach and understanding to data and ethics, this workshop will also include multiple sites for discussions to help us think through what data literacy means within our projects and broader applications.
 
 ## What Constitutes Research Data?
 
