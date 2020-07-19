@@ -8,15 +8,15 @@ What is data? Nearly all digital work requires dealing with data. In this worksh
 
 By the end of this workshop, participants will:
 
-- Understand the stages of data analysis.
+- Understand the stages of data analysis
 - Understand the beginning of cleaning/tidying data
-- Experience the difference between proprietary and open data formats.
-- Become familiar with the specific requirements of "high quality data."
-- Have an understanding of potential ethical concerns around working with different types of data and analysis.
+- Experience the difference between proprietary and open data formats
+- Become familiar with the specific requirements of "high quality data"
+- Have an understanding of potential ethical concerns around working with different types of data and analysis
 
 ## Estimated time
 
-
+[TBD]
 
 ## Prerequisites
 
@@ -39,7 +39,7 @@ By the end of this workshop, participants will:
 ### Ethical Considerations  
 
 - Data and data analysis is [not free from bias](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4). There is no magic blackbox for which data emerges from and is contextually driven. As we think about the automation process of looking at "big" data, we have to be aware of [the biases that gets reproduced that is "hidden."](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
-- De-identified information can be [reconstructed from piecemeal data](https://techscience.org/a/2015092903/)found across different sources. When we consider what we are doing with the data we have collected, we also need to think about the possible re-identification of our participants. 
+- De-identified information can be [reconstructed from piecemeal data](https://techscience.org/a/2015092903/) found across different sources. When we consider what we are doing with the data we have collected, we also need to think about the possible re-identification of our participants. 
 - Big data projects often times requiring sharing data sets across different individuals and teams. In addition, to ensure that our work is reproducable and accountable, we may also feel inclined to share the data collected. As such, figuring out [how to share such data](https://techscience.org/a/2015101601/) is crucial in the project planning stage. 
 
 
