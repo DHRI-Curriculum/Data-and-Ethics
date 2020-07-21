@@ -8,11 +8,11 @@ What is data? Nearly all digital work requires dealing with data. In this worksh
 
 By the end of this workshop, participants will:
 
-- Understand the stages of data analysis
-- Understand the beginning of cleaning/tidying data
-- Experience the difference between proprietary and open data formats
+- Know the stages of data analysis
+- Learn how to clean/tidy data
+- Understand the difference between proprietary and open data formats
 - Become familiar with the specific requirements of "high quality data"
-- Have an understanding of potential ethical concerns around working with different types of data and analysis
+- Learn about potential ethical concerns around working with different types of data and analysis
 
 ## Estimated time
 
