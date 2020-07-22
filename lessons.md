@@ -45,7 +45,7 @@ There are many ways to represent data, just as there are many sources of data. W
 - Metadata & Paradata (e.g. .xml, .json)
 - Collection of digital objects acquired and generated during research
 
-Adapted from: Georgia Tech
+Adapted from: [Georgia Tech](https://www.gatech.edu/)
 
 ## Challenge: Forms of Data
 
@@ -56,10 +56,12 @@ These are some (most!) of the shapes your research data might transform into.
 3. Where do you usually get your data from?
 
 - - - 
-## Example Solution: Forms of Data
+### Example Solution: Forms of Data
 1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS. 
 2. Often times outputs are statistical analysis and various data visualizations. This is also pretty comment in my field of psychology. 
 3. I can get them from large databases like pushshift.io or scrape certain social media outlets directly such as Twitter. 
+
+- - - 
 
 # Stages of Data
 
@@ -77,7 +79,13 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
 
 This is one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data.
 
-## Raw
+### Directory structure naming
+
+Before beginning your data collection, manipulation, and transformation, a good practice is to determine your file naming conventions. How many times have named something as "XXX_FinalFINALFINAL.pdf" or have difficulty searching for a version of the file that contained all that good idea that was edited out in the "XXX_FinalFINALFINALFINAL.pdf" version? While tools like version controlling with [git](https://github.com/DHRI-Curriculum/git/blob/v2.0-kristen-edits/frontmatter.md) can be helpful, we can also begin with setting up conventions that can help us succeed! Here's an example from [Stanford](https://library.stanford.edu/research/data-management-services/case-studies/case-study-file-naming) that demonstrates the problems of badly name files in our projects.
+
+For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a subfolder for the parts of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`). 
+
+# Raw
     
 "Raw" data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc.. It could be in any of the forms listed in the previous section.
 
@@ -100,12 +108,16 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 3. How do you collect "raw" data? What are some of your practices? What are your field's practices?
 
 - - - 
-## Example Solution: Raw Data and Labor
+
+### Example Solution: Raw Data and Labor 
+
 1. I think big data can be raw data depending on how the data is obtained and the processes I need to take before I can apply an analysis. I think that with large datasets, I always assume "rawness" because I won't need all of the variables or there will be decisions that need to be made about missing entries. 
 2. I think my approach to scraped data is similar to big data. 
 3. Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications. 
 
-## Processed/Transformed
+- - - 
+
+# Processed/Transformed
 
 Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, _e.g._, a table. Other common examples of file types you are likely to come across are (they all represent the same data!):
 
@@ -135,7 +147,7 @@ XML: Or eXstensible Markup Language, uses a nested structure, where the "tags" l
 ```
 
 ![Screenshot of XML cats file](/images/cats_XML.png)
-This file is opened viewed on my Firefox browser from my local directory (right click on the file and choose to open in Firefox). You can also [download the XML file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.xml) if you would like to see what it looks like in other viewers. 
+This file is viewer on a online [XML Viewer](https://www.xmlviewer.org/). If you would like to, you can either copy the code chunk above to try it out on [XML Viewer](https://www.xmlviewer.org) or [download the XML file](https://github.com/DHRI-Curriculum/data-literacies/tree/v2.0-di-edits/files) to try it out in other viewers. To save the file onto your local computer, right click on `cats.xml` and click `Save Link As` to download the file to your local computer. For example, after downloading the file, can you try to open this file in your browser? (Psst! Try right clicking on `cats.xml` in your local directory and choosing `Open with Other Application` in the drop down menu to select the browser of your choice.)
 
 - - - 
 
@@ -167,7 +179,7 @@ JSON: Or JavaScript Object Notation, also uses a nesting structure, but with the
 ```
 
 ![Screenshot of JSON cats file](/images/cats_JSON.png)
-This file is opened viewed on my Firefox browser from my local directory (drag and drop the file onto a open tab/window). You can also [download the JSON file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.json) if you would like to see what it looks like in other viewers. 
+This file is viewed on my Firefox browser from my local directory. To view it in your browser, you can drag and drop the local file onto a open tab/window. You can also [download the JSON file](https://github.com/DHRI-Curriculum/data-literacies/tree/v2.0-di-edits/files) to try opening it in other viewers (e.g. R Studio, webviewers like Code Beautify's [JSON Viewer](https://codebeautify.org/jsonviewer)). To save the file onto your local computer, right click on `cats.json` and click `Save Link As` to download the file to your local computer. 
 
 - - -
 
@@ -184,10 +196,10 @@ Tiger,Jaws
 ```
 
 ![Screenshot of CSV cats file](/images/cats_CSV.png)
-This file is opened viewed on my Firefox browser from my local directory (drag and drop the file onto a open tab/window). You can also [download the CSV file](https://github.com/DHRI-Curriculum/data-literacies/tree/v2.0-di-edits/files) (right click on `cats.csv` and click `save link as` to download the file to your local computer) if you would like to see what it looks like in other viewers. 
+This file is viewed on my VSCode with the extension `Excel Viewer`. To view on VSCode, install the extension and then right click on the file and click `Open Preview`. You can also [download the CSV file](https://github.com/DHRI-Curriculum/data-literacies/tree/v2.0-di-edits/files) to open it in other viewers (e.g. Microsoft Excel, Notepad). To save the file onto your local computer, right click on `cats.csv` and click `Save Link As` to download the file to your local computer. 
 
 
-### The importance of using open data formats
+## The importance of using open data formats
 
 A small detour to discuss data formats. For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
 
@@ -197,7 +209,7 @@ A small detour to discuss data formats. For accessibility, future-proofing, and 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard.
 
 <table>
-    <caption>A small list of open formats:<sup>1</sup></caption>
+    <caption>A small list of open formats:</caption>
     <tr>
         <th>Types of multimedia</th>
         <th>Examples</th>
@@ -265,17 +277,24 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
         <td>.stl</td>
 </table>
 
-<sup>1</sup>More information on the file formats are linked in each example. For a list of file formats, consider the Library of Congress' list of <a href="https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml#"> Sustainability of Digital Formats</a>.
+More information on the file formats are linked in each example. For a list of file formats, consider the Library of Congress' list of <a href="https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml#"> Sustainability of Digital Formats</a>.
 
 
-### Challenge: Processed/Transformed
+## Challenge: Processed/Transformed
 
-1. How do you decide the formats to store your data when you transition from 'raw' to 'processed/transformed' data? 
-2. What are some of your considerations?
+1. How do you decide the formats to store your data when you transition from 'raw' to 'processed/transformed' data? What are some of your considerations?
 
-## Tidy Data
+- - - 
 
-There are guidelines to the processing of data, sometimes referred to as **Tidy Data**.<sup>1</sup> One manifestation of these rules:
+### Example solution: Processed/Transformed
+
+1. I usually go with the conventions of the field as it allows me to share my "in progress" work easily with my research lab and collaborators. The file conventions can range from CSVs to JSONs.
+
+- - - 
+
+# Tidy Data
+
+There are guidelines to the processing of data, sometimes referred to as [**Tidy Data**](https://www.jstatsoft.org/article/view/v059i10). One manifestation of these rules:
 
 1. Each variable is in a column.
 2. Each observation is a row.
@@ -311,8 +330,6 @@ Look back at our example of cats to see how they may or may not follow those gui
         ]
 }
 ```
-
-<sup>1</sup>Wickham, Hadley. "Tidy Data". Journal of Statistical Software.
 
 # More Stages of Data
 
@@ -362,7 +379,15 @@ Measurements must be uniform, in that the same unit of measure must be used in a
 
 1. How do we know when our data is cleaned enough? 
 2. What happens to the data that is removed? 
-3. What are we choosing to say about our dataset as we prepare them for analysis?
+
+- - - 
+
+### Example solution: When do we stop cleaning?
+
+1. I think this is often decided before the cleaning process begins, perhaps after some quick visualization or analysis of the "raw" data. I generally remove empty entries from my data sets. Working with social media data, I also usually remove URLs as these influence the topic modelling algorithms (e.g. "http" may end up being the most prominent topic of the corpus). This is usually where I stop cleaning. Some might suggest the removal of stop words like "the" "a" "an," but I have always felt very uncertain about the removal of these words. This is especially because the dictionary of stop words were generated through canon western texts that is not representative of the many variations of English. For example, if I were looking at the tweets of Singaporean youths, the stop word dictionary may not be appropriate.
+2. For me, the data is often destroyed (usually because IRB desires it) or it remains in the original "raw" file. The file that I clean will always be a duplicate file to allow for recovery in case I made a poor decision in the process of cleaning. 
+
+- - -
 
 ## Analyzed
 
@@ -385,12 +410,21 @@ Techniques geared towards testing a hypothesis about a population, based on your
 - Extrapolation
 - P-Value calculation
 
-### Challenge: Analysis
+## Challenge: Analysis
 
 1. As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out? 
 2. How do we guide our decisions of interpretation with our choices of analyses? 
 3. Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? What are potential misuses of our outputs? 
 4. What can happen when we are trying to just go for the next big thing (tool/methods/algorithms) or just ran out of time and/or budget for our project?
+
+- - -
+
+### Example solution: Analysis
+
+1. I may choose to leave out data that are perceived to be outliers, especially if they differ to much from the "normal" curve. I end up representing only those who fall within the "normal" curve which may not actually be an equitible representation.
+2. The interpretation of the results should align itself with the type of analyses that I ran. In addition, it should be guided in some capacity by previous work in this area to inform my understanding.
+3. Potential misuse that I am always concern with is the weaponziation of marginalized participants' words and thoughts. I think I remain somewhat uncomfortable with the unintended use of my research because I don't think I can ever consider every circumstances that the analysis can be misused or misquoted. When I was working on an oral history project, I have set up some layers of boundaries to prevent too easy of an access to audio files as an attempt at negotiating access and protection of my narrators. 
+4. In chasing the next big thing, the original intentions for beginning the project might be lost. For me, making sure that my work is meaningful to my communities is important and the excitement of exploring a new tool can sometimes distract me from this intention. Running out of time and/or budget can also mean that the project may end abruptly, and relationships built could be strained in a haphazard wrap up. This brings me back to making sure that before the project begins to spend a significant amount of time on project planning to reduce the chances of this happening.
 
 ## Visualized
 
@@ -487,17 +521,27 @@ As we transform our results into visuals, we are also trying to tell a narrative
 3. How can data visualization mislead us? (for e.g. [Nathan Yau discusses how data visualization can lie](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
 4. How can data visualization help us tell a story? (for e.g. [Data Feminism's On rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints](https://mitpressonpubpub.mitpress.mit.edu/pub/8tjbs2x5/release/2))
 
+- - - 
+
+### Example solution: Visualizations  
+
+1. An underlying assumption we make is that the conventions of top-down, left-right is universal or at least universal enough for most folx to understand. This neglects potential right-to-left readers. Certain conventions that use color as a way to represent good and bad (e.g. green as good and red as bad) also assumes that this is an effective differentiation that excludes those who have visual impairments can decipher the data in a similar fashion. 
+2. Exploring [Voyant-Tools](https://voyant-tools.org/) can be a good place to start to see how visualization of qualitative data can look like. 
+3. Exaggerated differences through the choice of scales on the x and y-axis can misled a casual viewer to think that the data is representing a larger difference than it actually is reporting.
+4. Data visualization can help us convey dense information quickly. The casual viewer can glance at the visualization and understand what we are trying to communicate with our data. Data visualization also can be affective device, like the DuBois' examples which helps to tell the urgency of the narrative/story. 
 
 
 # Data Literacy and Ethics
 
 Throughout the workshop we have been thinking together through some of the potential ethical concerns that might crop up as we proceed with our own projects. Just as we have disucssed thus far, we hope that you see that data and ethics is an ongoing process throughout the lifespans of your project(s) and don’t often come with easy answers.
 
-## Activity
+## Final Activity
 
-In this final activity, we would like for you to think about some of the potential concerns that might come up in the scenario below and discuss how you might approach them:
+In this final activity, we would like for you to think about some of the potential concerns that might come up in the scenario below and think about how you might approach them.
 
 You are interested in looking at the reactions to the democratic party presidential debates across time. You decided that you would use data from twitter to analyze the responses. After collecting your data, you learned that your data has information from users who were later banned and included some tweets that were removed/deleted from the site.
+
+You can definitely choose to discuss this with your partner! And we encourage you to do so! Different perspectives can offer us different insights to our own gaps and help us think through our decisions more concretly. Be prepared to discuss your thoughts and ideas when we "meet" for our sessions. 
 
 ### If you would like some guiding questions:
 
@@ -510,7 +554,7 @@ You are interested in looking at the reactions to the democratic party president
 
 ### Some additional exploration:
 
-- If you were collecting and/or analyzing data on folx in power, such as looking at the data from [Tweets of Congress's](https://alexlitel.github.io/congresstweets/) project, wouuld that change the way you consider your answers to the previous questions?
+- If you were collecting and/or analyzing data on folx in power, such as looking at the data from [Tweets of Congress'](https://alexlitel.github.io/congresstweets/) project, wouuld that change the way you consider your answers to the previous questions?
 - Current [ethical guidelines](https://safelab.socialwork.columbia.edu/content/ethics) from SAFE Lab at Columbia University have decided to alter the text of social media post to render it unsearchable. Why and when would you consider (or not) altering the collected tweets for publication? 
 
 # Some concluding thoughts
