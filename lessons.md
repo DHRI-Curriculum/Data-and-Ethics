@@ -56,7 +56,7 @@ These are some (most!) of the shapes your research data might transform into.
 3. Where do you usually get your data from?
 
 - - - 
-### An Example Response: Forms of Data
+### An example: 
 1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS. 
 2. Often times outputs are statistical analysis and various data visualizations. This is also pretty comment in my field of psychology. 
 3. I can get them from large databases like pushshift.io or scrape certain social media outlets directly such as Twitter. 
@@ -110,7 +110,7 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 
 - - - 
 
-### An Example Response: Raw Data and Labor 
+### An example: 
 
 1. I think big data can be raw data depending on how the data is obtained and the processes I need to take before I can apply an analysis. I think that with large datasets, I always assume "rawness" because I won't need all of the variables or there will be decisions that need to be made about missing entries. 
 2. I think my approach to scraped data is similar to big data. 
@@ -281,7 +281,7 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 
 - - - 
 
-### An Example Response: Processed/Transformed
+### An example:
 
 1. I usually go with the conventions of the field as it allows me to share my "in progress" work easily with my research lab and collaborators. The file conventions can range from CSVs to JSONs.
 
@@ -376,7 +376,7 @@ Measurements must be uniform, in that the same unit of measure must be used in a
 
 - - - 
 
-### An Example Response: When do we stop cleaning?
+### An example:
 
 1. I think this is often decided before the cleaning process begins, perhaps after some quick visualization or analysis of the "raw" data. I generally remove empty entries from my data sets. Working with social media data, I also usually remove URLs as these influence the topic modelling algorithms (e.g. "http" may end up being the most prominent topic of the corpus). This is usually where I stop cleaning. Some might suggest the removal of stop words like "the" "a" "an," but I have always felt very uncertain about the removal of these words. This is especially because the dictionary of stop words were generated through canon western texts that is not representative of the many variations of English. For example, if I were looking at the tweets of Singaporean youths, the stop word dictionary may not be appropriate.
 2. For me, the data is often destroyed (usually because IRB desires it) or it remains in the original "raw" file. The file that I clean will always be a duplicate file to allow for recovery in case I made a poor decision in the process of cleaning. 
@@ -412,7 +412,7 @@ Techniques geared towards testing a hypothesis about a population, based on your
 
 - - -
 
-### An Example Response: Analysis
+### An example: 
 
 1. I may choose to leave out data that are perceived to be outliers, especially if they differ to much from the "normal" curve. I end up representing only those who fall within the "normal" curve which may not actually be an equitable representation.
 2. The interpretation of the results should align itself with the type of analyses that I ran. In addition, it should be guided in some capacity by previous work in this area to inform my understanding.
@@ -516,7 +516,7 @@ As we transform our results into visuals, we are also trying to tell a narrative
 
 - - - 
 
-### An Example Response: Visualizations  
+### An example:  
 
 1. An underlying assumption we make is that the conventions of top-down, left-right is universal or at least universal enough for most folx to understand. This neglects potential right-to-left readers. Certain conventions that use color as a way to represent good and bad (e.g. green as good and red as bad) also assumes that this is an effective differentiation that excludes those who have visual impairments can decipher the data in a similar fashion. 
 2. Exploring [Voyant-Tools](https://voyant-tools.org/) can be a good place to start to see how visualization of qualitative data can look like. 
