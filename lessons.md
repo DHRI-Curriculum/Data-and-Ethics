@@ -83,9 +83,9 @@ This is one cycle in which data goes from collection to transformation to visual
 
 Before beginning your data collection, manipulation, and transformation, a good practice is to determine your file naming conventions. How many times have named something as "XXX_FinalFINALFINAL.pdf" or have difficulty searching for a version of the file that contained all that good idea that was edited out in the "XXX_FinalFINALFINALFINAL.pdf" version? While tools like version controlling with [git](https://github.com/DHRI-Curriculum/git/blob/v2.0-kristen-edits/frontmatter.md) can be helpful, we can also begin with setting up conventions that can help us succeed! Here's an example from [Stanford](https://library.stanford.edu/research/data-management-services/case-studies/case-study-file-naming) that demonstrates the problems of badly name files in our projects.
 
-For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a subfolder for the parts of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`). 
+For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a subfolder of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`). 
 
-# Raw
+# Stages of Data: Raw
     
 "Raw" data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc.. It could be in any of the forms listed in the previous section.
 
@@ -115,9 +115,8 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 2. I think my approach to scraped data is similar to big data. 
 3. Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications. 
 
-- - - 
 
-# Processed/Transformed
+# Stages of Data: Processed/Transformed
 
 Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, _e.g._, a table. Other common examples of file types you are likely to come across are (they all represent the same data!):
 
@@ -290,9 +289,8 @@ More information on the file formats are linked in each example. For a list of f
 
 1. I usually go with the conventions of the field as it allows me to share my "in progress" work easily with my research lab and collaborators. The file conventions can range from CSVs to JSONs.
 
-- - - 
 
-# Tidy Data
+# Side Note on Data Structures: Tidy Data
 
 There are guidelines to the processing of data, sometimes referred to as [**Tidy Data**](https://www.jstatsoft.org/article/view/v059i10). One manifestation of these rules:
 
@@ -331,9 +329,9 @@ Look back at our example of cats to see how they may or may not follow those gui
 }
 ```
 
-# More Stages of Data
+While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data. 
 
-## Cleaned
+# More Stages of Data: Cleaned
     
 High quality data is measured in its **validity**, **accuracy**, **completeness**, **consistency**, and **uniformity**.
 
@@ -387,9 +385,8 @@ Measurements must be uniform, in that the same unit of measure must be used in a
 1. I think this is often decided before the cleaning process begins, perhaps after some quick visualization or analysis of the "raw" data. I generally remove empty entries from my data sets. Working with social media data, I also usually remove URLs as these influence the topic modelling algorithms (e.g. "http" may end up being the most prominent topic of the corpus). This is usually where I stop cleaning. Some might suggest the removal of stop words like "the" "a" "an," but I have always felt very uncertain about the removal of these words. This is especially because the dictionary of stop words were generated through canon western texts that is not representative of the many variations of English. For example, if I were looking at the tweets of Singaporean youths, the stop word dictionary may not be appropriate.
 2. For me, the data is often destroyed (usually because IRB desires it) or it remains in the original "raw" file. The file that I clean will always be a duplicate file to allow for recovery in case I made a poor decision in the process of cleaning. 
 
-- - -
 
-## Analyzed
+# More Stages of Data: Analyzed
 
 Analysis can take many forms (just like the rest of this stuff!), but many techniques fall within a couple of categories:
 
@@ -426,7 +423,7 @@ Techniques geared towards testing a hypothesis about a population, based on your
 3. Potential misuse that I am always concern with is the weaponziation of marginalized participants' words and thoughts. I think I remain somewhat uncomfortable with the unintended use of my research because I don't think I can ever consider every circumstances that the analysis can be misused or misquoted. When I was working on an oral history project, I have set up some layers of boundaries to prevent too easy of an access to audio files as an attempt at negotiating access and protection of my narrators. 
 4. In chasing the next big thing, the original intentions for beginning the project might be lost. For me, making sure that my work is meaningful to my communities is important and the excitement of exploring a new tool can sometimes distract me from this intention. Running out of time and/or budget can also mean that the project may end abruptly, and relationships built could be strained in a haphazard wrap up. This brings me back to making sure that before the project begins to spend a significant amount of time on project planning to reduce the chances of this happening.
 
-## Visualized
+# More Stages of Data: Visualized
 
 Visualizing your data helps you tell a story and construct a narrative that guides your audience in understanding your interpretation of a collected, cleaned, and analyzed dataset. Depending on the type of analysis you ran, different kinds of visualization can be more effective than others. Below are some examples of data visualization that can help you convey the message of your data.
 
@@ -512,7 +509,7 @@ This table is a teaser for the many possibilities of what data visualization can
 
 An example of effective data visualization can be seen in W.E.B. Du Bois [data potraits at the Paris Exposition in 1900](https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic), as part of [the Exhibit of American Negroes](https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes_). Using engaging hand-drawn visualizations, he tells the narrative of what it meant to be Black in post-Emancipation America as he translates sociological research and census data to reach beyond the academy. Head [here](https://hyperallergic.com/476334/how-w-e-b-du-bois-meticulously-visualized-20th-century-black-america/) to read more about Du Bois' project. 
 
-### Challenge: Visualizations
+## Challenge: Visualizations
 
 As we transform our results into visuals, we are also trying to tell a narrative about the data we collected. Data visualization can help us to decode information and share quickly and simply.
 
