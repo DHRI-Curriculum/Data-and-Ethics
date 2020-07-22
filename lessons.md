@@ -75,7 +75,7 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
 - We then run our preliminary analysis of the data. 
     - E..g. topic modelling to look at themes that emerge from the corpus.
 - At the end of our analysis, a decision is then made about how would we would present the data and its analysis. 
-    - E.g. is a word cloud useful to represent prevelant themes? Maybe a bar chart of proportion across the entire corpus?
+    - E.g. is a word cloud useful to represent prevalent themes? Maybe a bar chart of proportion across the entire corpus?
 
 This is one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data.
 
@@ -95,7 +95,7 @@ If you are interested in further exploration and discussion of the ethics of "ra
 
 ## Data and Labor
 
-As we think about data collection, we should also consider the labor involved in the process. Many researchers rely on Amazon Mechanical Turk (sometimes also refered to as MTurk) for data collection, [often paying less than minimum wage for the task.](https://www.theatlantic.com/business/archive/2018/01/amazon-mechanical-turk/551192/) Often the assumption made of these workers is someone who is retired, bored, and participating in online gig work for fun or to kill time. While this may be true for some, [more than half of those surveyed in a Pew Research study cite that the income from this work is essential or important.](https://www.pewresearch.org/internet/2016/11/17/labor-platforms-technology-enabled-gig-work/) Often, those who view the income from this work as essential or important are also from underserved communities. 
+As we think about data collection, we should also consider the labor involved in the process. Many researchers rely on Amazon Mechanical Turk (sometimes also referred to as MTurk) for data collection, [often paying less than minimum wage for the task.](https://www.theatlantic.com/business/archive/2018/01/amazon-mechanical-turk/551192/) Often the assumption made of these workers is someone who is retired, bored, and participating in online gig work for fun or to kill time. While this may be true for some, [more than half of those surveyed in a Pew Research study cite that the income from this work is essential or important.](https://www.pewresearch.org/internet/2016/11/17/labor-platforms-technology-enabled-gig-work/) Often, those who view the income from this work as essential or important are also from underserved communities. 
 
 In addition to being mindful of paying a fair wage to the workers on such platforms, this working environment also brings some further considerations to the data that is collected. Often times, for workers to get close to minimum wage, they cannot afford to spend much time on each task, increasing potential errors in the collected data. 
 
@@ -237,7 +237,7 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
         <td>.pdf</td>
     </tr>
     <tr>
-        <td><a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV</a> (Comma-Seperated Values</td>
+        <td><a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV</a> (Comma-Separated Values</td>
         <td>.csv</td>
     </tr>
     <tr>
@@ -345,7 +345,7 @@ Processed data, even in a table, is going to be full of errors:
 6. Duplicated rows
 7. And many more!
 
-Cleaning data is the work of correcting the errors listed above, and moving towards high quality. This work can be done manually or programatically. 
+Cleaning data is the work of correcting the errors listed above, and moving towards high quality. This work can be done manually or programmatically. 
     
 ### Validity
 
@@ -359,7 +359,7 @@ Measurements must be valid, in that they must conform to set constraints:
 
 Measurements must be accurate, in that they must represent the correct values. While an observation may be valid, it might at the same time be inaccurate. 123 Fake street is a valid, inaccurate street address.
 
-Unfortunately, accuracy is mostly acheived in the observation process. To be achieved in the cleaning process, an outside trusted source would have to be cross-referenced.
+Unfortunately, accuracy is mostly achieved in the observation process. To be achieved in the cleaning process, an outside trusted source would have to be cross-referenced.
 
 ### Completeness
 
@@ -418,7 +418,7 @@ Techniques geared towards testing a hypothesis about a population, based on your
 
 ### Example solution: Analysis
 
-1. I may choose to leave out data that are perceived to be outliers, especially if they differ to much from the "normal" curve. I end up representing only those who fall within the "normal" curve which may not actually be an equitible representation.
+1. I may choose to leave out data that are perceived to be outliers, especially if they differ to much from the "normal" curve. I end up representing only those who fall within the "normal" curve which may not actually be an equitable representation.
 2. The interpretation of the results should align itself with the type of analyses that I ran. In addition, it should be guided in some capacity by previous work in this area to inform my understanding.
 3. Potential misuse that I am always concern with is the weaponziation of marginalized participants' words and thoughts. I think I remain somewhat uncomfortable with the unintended use of my research because I don't think I can ever consider every circumstances that the analysis can be misused or misquoted. When I was working on an oral history project, I have set up some layers of boundaries to prevent too easy of an access to audio files as an attempt at negotiating access and protection of my narrators. 
 4. In chasing the next big thing, the original intentions for beginning the project might be lost. For me, making sure that my work is meaningful to my communities is important and the excitement of exploring a new tool can sometimes distract me from this intention. Running out of time and/or budget can also mean that the project may end abruptly, and relationships built could be strained in a haphazard wrap up. This brings me back to making sure that before the project begins to spend a significant amount of time on project planning to reduce the chances of this happening.
@@ -501,13 +501,13 @@ Visualizing your data helps you tell a story and construct a narrative that guid
         <td><img src="/images/rgraph_hexbin.png" alt="Hexbin graph"><figcaption>From <a href="https://www.r-graph-gallery.com/328-hexbin-map-of-the-usa.html" target="_blank">R Graph Gallery.</figcaption></td>
     </tr>
     <tr>
-        <th colspan="4"> Adapted from <a href="https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_"> Stephanie D. Evergreen (2019) Effective data visualization : The right chart for the right data</a>, <a href="https://datavizcatalogue.com/">The Data Visualisation Catalogue</a>, and <a href="https://www.data-to-viz.com/">From Data to Viz</a></th>
+        <th colspan="4"> Adapted from <a href="https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_"> Stephanie D. Evergreen (2019) Effective data visualization : The right chart for the right data</a>, <a href="https://datavizcatalogue.com/">The Data Visualization Catalogue</a>, and <a href="https://www.data-to-viz.com/">From Data to Viz</a></th>
     <tr>
 </table>
 
 This table is a teaser for the many possibilities of what data visualization can be. Creating a visual for your data is an art form and you can sometimes find yourself spending a significant amount of time looking for the best ways to visualize your data.
 
-An example of effective data visualization can be seen in W.E.B. Du Bois [data potraits at the Paris Exposition in 1900](https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic), as part of [the Exhibit of American Negroes](https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes_). Using engaging hand-drawn visualizations, he tells the narrative of what it meant to be Black in post-Emancipation America as he translates sociological research and census data to reach beyond the academy. Head [here](https://hyperallergic.com/476334/how-w-e-b-du-bois-meticulously-visualized-20th-century-black-america/) to read more about Du Bois' project. 
+An example of effective data visualization can be seen in W.E.B. Du Bois [data portraits at the Paris Exposition in 1900](https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic), as part of [the Exhibit of American Negroes](https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes_). Using engaging hand-drawn visualizations, he tells the narrative of what it meant to be Black in post-Emancipation America as he translates sociological research and census data to reach beyond the academy. Head [here](https://hyperallergic.com/476334/how-w-e-b-du-bois-meticulously-visualized-20th-century-black-america/) to read more about Du Bois' project. 
 
 ## Challenge: Visualizations
 
@@ -530,7 +530,7 @@ As we transform our results into visuals, we are also trying to tell a narrative
 
 # Data Literacy and Ethics
 
-Throughout the workshop we have been thinking together through some of the potential ethical concerns that might crop up as we proceed with our own projects. Just as we have disucssed thus far, we hope that you see that data and ethics is an ongoing process throughout the lifespans of your project(s) and don’t often come with easy answers.
+Throughout the workshop we have been thinking together through some of the potential ethical concerns that might crop up as we proceed with our own projects. Just as we have discussed thus far, we hope that you see that data and ethics is an ongoing process throughout the lifespans of your project(s) and don’t often come with easy answers.
 
 ## Final Activity
 
@@ -538,7 +538,7 @@ In this final activity, we would like for you to think about some of the potenti
 
 You are interested in looking at the reactions to the democratic party presidential debates across time. You decided that you would use data from twitter to analyze the responses. After collecting your data, you learned that your data has information from users who were later banned and included some tweets that were removed/deleted from the site.
 
-You can definitely choose to discuss this with your partner! And we encourage you to do so! Different perspectives can offer us different insights to our own gaps and help us think through our decisions more concretly. Be prepared to discuss your thoughts and ideas when we "meet" for our sessions. 
+You can definitely choose to discuss this with your partner! And we encourage you to do so! Different perspectives can offer us different insights to our own gaps and help us think through our decisions more concretely. Be prepared to discuss your thoughts and ideas when we "meet" for our sessions. 
 
 ### If you would like some guiding questions:
 
@@ -551,7 +551,7 @@ You can definitely choose to discuss this with your partner! And we encourage yo
 
 ### Some additional exploration:
 
-- If you were collecting and/or analyzing data on folx in power, such as looking at the data from [Tweets of Congress'](https://alexlitel.github.io/congresstweets/) project, wouuld that change the way you consider your answers to the previous questions?
+- If you were collecting and/or analyzing data on folx in power, such as looking at the data from [Tweets of Congress'](https://alexlitel.github.io/congresstweets/) project, would that change the way you consider your answers to the previous questions?
 - Current [ethical guidelines](https://safelab.socialwork.columbia.edu/content/ethics) from SAFE Lab at Columbia University have decided to alter the text of social media post to render it unsearchable. Why and when would you consider (or not) altering the collected tweets for publication? 
 
 # Some concluding thoughts
