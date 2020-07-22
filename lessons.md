@@ -119,8 +119,7 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 
 # Stages of Data: Processed/Transformed
 
- we want to nest elements like a sentence within a paragraph, for example. XML does not carry any information about how to be displayed and can be used in a variety of presentation scenarios
-
+XML: Or eXstensible Markup Language, uses a nested structure, where the "tags" like <Cat> contain other tags inside them, like <firstName>. This format is good for organizing the layout of a document in a tree-like format, just like HTML, where we want to nest elements like a sentence within a paragraph, for example. XML does not carry any information about how to be displayed and can be used in a variety of presentation scenarios. 
 **XML**
 
 ```xml
