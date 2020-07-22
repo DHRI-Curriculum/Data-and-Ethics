@@ -53,3 +53,6 @@ By the end of this workshop, participants will:
 
 - Current author: Di Yoong
 - Contributing author: Stephen Zweibel
+- Reviewer: Stefano Morello
+- Reviewer: Filipa Calado
+
