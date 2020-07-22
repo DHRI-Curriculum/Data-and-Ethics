@@ -212,71 +212,71 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
     <tr>
         <th>Types of multimedia</th>
         <th>Examples</th>
-         <th>Common file extensions</th>
+        <th>Common file extensions</th>
     </tr>
     <tr>
         <th rowspan="3">Images</th>
-         <td><a href="https://www.lifewire.com/tif-tiff-file-2622393">TIFF</a> (Tagged Image File Format) </td>
-         <td>.tiff</td>
+        <td><a href="https://www.lifewire.com/tif-tiff-file-2622393">TIFF</a> (Tagged Image File Format) </td>
+        <td>.tiff</td>
     </tr>
-        <tr>
+    <tr>
         <td><a href="https://en.wikipedia.org/wiki/JPEG_2000">JPEG2000</a></td>
         <td>.jp2, .jpf, .jpx</td>
     </tr>
-    </tr>
-        <tr>
+    <tr>
         <td><a href="http://www.libpng.org/pub/png/pngintro.html">PNG</a> (Portable Network Graphics)</td>
         <td>.png</td>
     </tr>
-        <tr>
+    <tr>
         <th rowspan="3">Text</th>
-         <td><a href="https://help.ceda.ac.uk/article/4429-ascii-formats">ASCII</a>  (American Standard Code for Information Interchange)</td>
-         <td>.ascii, .dat, .txt</td>
+        <td><a href="https://help.ceda.ac.uk/article/4429-ascii-formats">ASCII</a>  (American Standard Code for Information Interchange)</td>
+        <td>.ascii, .dat, .txt</td>
     </tr>
-        <tr>
+    <tr>
         <td><a href="https://en.wikipedia.org/wiki/PDF">PDF</a> (Portable Document Format)</td>
         <td>.pdf</td>
     </tr>
-        <tr>
+    <tr>
         <td><a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV</a> (Comma-Seperated Values</td>
         <td>.csv</td>
     </tr>
-    </tr>
-        <tr>
+    <tr>
         <th rowspan="2">Audio</th>
-         <td><a href="https://xiph.org/flac/index.html">FLAC</a> (Free Lossless Audio Codec)</td>
-         <td>.flac</td>
+        <td><a href="https://xiph.org/flac/index.html">FLAC</a> (Free Lossless Audio Codec)</td>
+        <td>.flac</td>
     </tr>
         <tr>
         <td><a href="https://xiph.org/ogg/">ogg</a></td>
         <td>.ogg</td>
     </tr>
-    </tr>
-        <tr>
+    <tr>
         <th rowspan="2">Video</th>
-         <td><a href="https://www.lifewire.com/mp4-file-2622024">MPEG-4</a></td>
-         <td>.mp4</td>
+        <td><a href="https://www.lifewire.com/mp4-file-2622024">MPEG-4</a></td>
+        <td>.mp4</td>
     </tr>
-        <tr>
+    <tr>
         <td><a href="https://xiph.org/ogg/">ogg</a></td>
         <td>.ogg</td>
     </tr>
-    </tr>
-        <tr>
+    <tr>
         <th rowspan="3">Others</th>
-         <td><a href="https://www.w3schools.com/xml/xml_whatis.asp">XML</a> (Extensible Markup Language)</td>
-         <td>.xml</td>
+        <td><a href="https://www.w3schools.com/xml/xml_whatis.asp">XML</a> (Extensible Markup Language)</td>
+        <td>.xml</td>
     </tr>
-        <tr>
+    <tr>
         <td><a href="https://www.json.org/json-en.html">JSON</a> (JavaScript Object Notation</td>
         <td>.json</td>
     </tr>
-        <tr>
+    <tr>
         <td><a href="https://www.3dsystems.com/quickparts/learning-center/what-is-stl-file">STL</a> (STereoLithography file format -- used in 3D modeling)</td>
         <td>.stl</td>
+    </tr>
+    <tr>
+        <th colspan="3"> More information on the file formats are linked in each example. For a list of file formats, consider the Library of Congress' list of <a href="https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml#"> Sustainability of Digital Formats</a>.</th>
+    <tr>
 </table>
 
-More information on the file formats are linked in each example. For a list of file formats, consider the Library of Congress' list of <a href="https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml#"> Sustainability of Digital Formats</a>.
+
 
 
 ## Challenge: Processed/Transformed
