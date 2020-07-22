@@ -119,7 +119,7 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 
 # Stages of Data: Processed/Transformed
 
-**XML:** Or eXstensible Markup Language, uses a nested structure, where the "tags" like <Cat> contain other tags inside them, like <firstName>. This format is good for organizing the layout of a document in a tree-like format, just like HTML, where we want to nest elements like a sentence within a paragraph, for example. XML does not carry any information about how to be displayed and can be used in a variety of presentation scenarios. 
+**XML:** Or eXstensible Markup Language, uses a nested structure, where the "tags" like `<Cat>` contain other tags inside them, like `<firstName>`. This format is good for organizing the layout of a document in a tree-like format, just like HTML, where we want to nest elements like a sentence within a paragraph, for example. XML does not carry any information about how to be displayed and can be used in a variety of presentation scenarios. 
 
 ```xml
 <Cats> 
@@ -177,7 +177,7 @@ This file is viewed on my Firefox browser from my local directory. To view it in
 
 - - -
 
-**CSV:** Or Comma Separated Values uses---you guessed it!---commas to separate values. Each line (First Name, Last Name) is a new "record" and each column (separated by a comma) is a new "field." This data format stores tabular data it a clean way that facilitates the transfer of data between different data architectures. As data types go, it is very rudimentary (even predating computers!) and is easy to type, without needing special characters beyond a comma.
+**CSV:** Or Comma Separated Values uses---you guessed it!---commas to separate values. Each line (First Name, Last Name) is a new "record" and each column (separated by a comma) is a new "field." This data format stores tabular data in a clean way that facilitates the transfer between different data architectures. As data types go, it is very rudimentary (even predating computers!) and is easy to type, without needing special characters beyond a comma.
 
 ```
 First Name,Last Name
