@@ -4,6 +4,8 @@ In this brief workshop we will be discussing the basics of research data in term
 
 ## What Constitutes Research Data?
 
+These quotes below offers a variety of perspectives to understanding research data across different stakeholders. The inclusion of these different approaches to research data is to suggest that there is no singular, definitive approach, and is dependent on multiple factors, including your project considerations. 
+
 "Material or information on which an argument, theory, test or hypothesis, or another research output is based."
 [Queensland University of Technology. Manual of Procedures and Policies. Section 2.8.3.](http://www.mopp.qut.edu.au/D/D_02_08.jsp)
 
@@ -15,11 +17,11 @@ In this brief workshop we will be discussing the basics of research data in term
 
 "The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions." [Angela Bassa](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4)
 
-In summary, research data is **material or information necessary to come to your conclusion.**
+Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information is depends on your project. 
 
 ## Forms of Data
 
-There are many ways to represent data, just as there are many sources of data. After processing our data, we turn it into a number of products. For example:
+There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities: 
 
 - Non-digital text (lab books, field notebooks)
 - Digital texts or digital copies of text
@@ -53,15 +55,35 @@ These are some (most!) of the shapes your research data might transform into.
 2. What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field. 
 3. Where do you usually get your data from?
 
+- - - 
+## Example Solution: Forms of Data
+1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS. 
+2. Often times outputs are statistical analysis and various data visualizations. This is also pretty comment in my field of psychology. 
+3. I can get them from large databases like pushshift.io or scrape certain social media outlets directly such as Twitter. 
+
 # Stages of Data
 
-We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations:
+We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. For example, we can consider the stages in the following way:   
+- We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s). 
+    - E.g. What have young voters in Singapore discussed in the weeks leading up to the election? 
+- In the process of setting up the project, we make decisions on what kind of data we think can help us to answer the question 
+    - E.g. I think I can get the data from Twitter where young folx are engaging in political conversations online. I will search a set of keywords and hashtags to collect a set of data for analysis. 
+- After collecting our data we then consider and make decisions in the processes of cleaning. 
+    - E.g. removing empty fields, coding particular responses as 1 or 0s
+- We then run our preliminary analysis of the data. 
+    - E..g. topic modelling to look at themes that emerge from the corpus.
+- At the end of our analysis, a decision is then made about how would we would present the data and its analysis. 
+    - E.g. is a word cloud useful to represent prevelant themes? Maybe a bar chart of proportion across the entire corpus?
+
+This is one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data.
 
 ## Raw
     
-Raw data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc.. It could be in any of the forms listed in the previous section.
+"Raw" data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc.. It could be in any of the forms listed in the previous section.
 
-But "raw data" is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw data." 
+But "raw" data is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw" data. For example, I may consider the [General Social Survey](http://gss.norc.org/) data to be "raw" as it will require me to filter out missing entries and collapse variables or fields before I can run my analysis. A researcher who participated in the creation of this survey may not consider the version on the site as "raw" because the "raw" version is the physical paper copies of the file. As you can see, this consideration of what is "raw" is non-definitive and is dependent on the project you are working on and the narrative you want to tell with the results. 
+
+If you are interested in further exploration and discussion of the ethics of "raw" data, please consider reading [Drucker's article](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html) who has made useful distinctions between "data" (understood as given) and "capta (taken or "captured") that also troubles the distinction between "raw" and "processed" data. 
 
 ## Data and Labor
 
@@ -73,33 +95,51 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 
 ## Challenge: Raw Data and Labor
 
-For example, is "big data" "raw data"? How do we understand data that we have "scraped"? 
-<!--- Any suggestions for questions regarding labor and data participants consider collecting/analysing? ---> 
+1. Do you think "big data" is "raw data"? Why or why not? Do quantity of data play into our assumptions of "rawness"?
+2. How should we approached data that we have "scraped"? 
+3. How do you collect "raw" data? What are some of your practices? What are your field's practices?
+
+- - - 
+## Example Solution: Raw Data and Labor
+1. I think big data can be raw data depending on how the data is obtained and the processes I need to take before I can apply an analysis. I think that with large datasets, I always assume "rawness" because I won't need all of the variables or there will be decisions that need to be made about missing entries. 
+2. I think my approach to scraped data is similar to big data. 
+3. Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications. 
 
 ## Processed/Transformed
 
-Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, _e.g._, a table. 
+Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, _e.g._, a table. Other common examples of file types you are likely to come across are (they all represent the same data!):
 
-Here are a few you're likely to come across, all representing the same data:
+XML: Or eXstensible Markup Language, uses a nested structure, where the "tags" like <Cat> contain other tags inside them, like <firstName>. This format is good for organizing the layout of a document in a tree-like format, just like HTML, where we want to nest elements like a sentence within a paragraph, for example. XML does not carry any information about how to be displayed and can be used in a variety of presentation scenarios
 
 **XML**
 
 ```xml
 <Cats> 
     <Cat> 
-        <firstName>Smally</firstName> <lastName>McTiny</lastName> 
+        <firstName>Smally</firstName> 
+        <lastName>McTiny</lastName> 
     </Cat> 
     <Cat> 
-        <firstName>Kitty</firstName> <lastName>Kitty</lastName> 
+        <firstName>Kitty</firstName> 
+        <lastName>Kitty</lastName> 
     </Cat> 
     <Cat> 
-        <firstName>Foots</firstName> <lastName>Smith</lastName> 
+        <firstName>Foots</firstName> 
+        <lastName>Smith</lastName> 
     </Cat> 
     <Cat> 
-        <firstName>Tiger</firstName> <lastName>Jaws</lastName> 
+        <firstName>Tiger</firstName> 
+        <lastName>Jaws</lastName> 
     </Cat> 
 </Cats> 
 ```
+
+![Screenshot of XML cats file](/images/cats_XML.png)
+This file is opened viewed on my Firefox browser from my local directory (right click on the file and choose to open in Firefox). You can also [download the XML file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.xml) if you would like to see what it looks like in other viewers. 
+
+- - - 
+
+JSON: Or JavaScript Object Notation, also uses a nesting structure, but with the addition of "key/value" pairs, like the firstName key which is tied to the Smally value (at least for the first cat!). JSON is popular with web applications that save and send data from your browser to web servers, because it uses the main language of web browsers, JavaScript, to work with data.
 
 **JSON**
 
@@ -126,6 +166,13 @@ Here are a few you're likely to come across, all representing the same data:
 } 
 ```
 
+![Screenshot of JSON cats file](/images/cats_JSON.png)
+This file is opened viewed on my Firefox browser from my local directory (drag and drop the file onto a open tab/window). You can also [download the JSON file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.json) if you would like to see what it looks like in other viewers. 
+
+- - -
+
+CSV: Or Comma Separated Values uses---you guessed it!---commas to separate values. Each line (First Name, Last Name) is a new "record" and each column (separated by a comma) is a new "field." This data format stores tabular data it a clean way that facilitates the transfer of data between different data architectures. As data types go, it is very rudimentary (even predating computers!) and is easy to type, without needing special characters beyond a comma.
+
 **CSV**
 
 ```
@@ -135,6 +182,10 @@ Kitty,Kitty
 Foots,Smith
 Tiger,Jaws
 ```
+
+![Screenshot of CSV cats file](/images/cats_CSV.png)
+This file is opened viewed on my Firefox browser from my local directory (drag and drop the file onto a open tab/window). You can also [download the CSV file](https://github.com/DHRI-Curriculum/data-literacies/tree/v2.0-di-edits/files) (right click on `cats.csv` and click `save link as` to download the file to your local computer) if you would like to see what it looks like in other viewers. 
+
 
 ### The importance of using open data formats
 
@@ -357,66 +408,66 @@ Visualizing your data helps you tell a story and construct a narrative that guid
         <th rowspan="3">Comparisons</th>
          <td>Bar charts</td>
          <td>Comparison across distinct categories</td>
-        <td><img src="/images/D4PG_bar.png" alt="Bar Chart"><figcaption>From [The Data for Public Good](https://dataforgood.commons.gc.cuny.edu/) at the Graduate Center.</figcaption></td>
+        <td><img src="/images/D4PG_bar.png" alt="Bar Chart">From <a href="https://dataforgood.commons.gc.cuny.edu/report-on-covid-19s-impact-on-cuny-students/" target="_blank">The Data for Public Good</a> at the Graduate Center.</figcaption></td>
     </tr>
     <tr height="300px">
         <td>Histograms</td>
         <td>Comparison across continuous variable</td>
-        <td><img src="/images/PolicyViz_histogram.png" alt="Histogram"><figcaption>From Policy Viz.</figcaption></td>
+        <td><img src="/images/PolicyViz_histogram.png" alt="Histogram"><figcaption>From <a href="https://policyviz.com/2018/11/27/histogram-design-decisions/" target="_blank">Policy Viz.</figcaption></td>
     </tr>
     <tr height="300px">
         <td>Scatter plots</td>
         <td>Useful to check for correlation (not causation!)</td>
-        <td><img src="/images/538_scatter.png" alt="Scatter plot"><figcaption>From FiveThirtyEight.</figcaption></td>
+        <td><img src="/images/538_scatter.png" alt="Scatter plot"><figcaption>From <a href="https://fivethirtyeight.com/features/the-gops-primary-rules-might-doom-carson-and-cruz/" target="_blank">FiveThirtyEight.</figcaption></td>
     </tr>
     <tr height="300px">
         <th rowspan="3">Time</th>
         <td>Stacked area charts</td>
         <td>Evolution of value across different groups</td>
-        <td><img src="/images/DatatoViz_stackedarea.png" alt="Stacked area chart"><figcaption>From From Data to Viz.</figcaption></td>
+        <td><img src="/images/DatatoViz_stackedarea.png" alt="Stacked area chart"><figcaption>From <a href="https://www.data-to-viz.com/graph/stackedarea.html" target="_blank">From Data to Viz.</figcaption></td>
     </tr>
     <tr height="300px">
         <td>Sankey Diagrams</td>
         <td>Displaying flows of changes</td>
-        <td><img src="/images/DatatoViz_sankey.png" alt="Sankey"><figcaption>From From Data to Viz.</figcaption></td>
+        <td><img src="/images/DatatoViz_sankey.png" alt="Sankey"><figcaption>From <a href="https://www.data-to-viz.com/graph/sankey.html" target="_blank">From Data to Viz.</figcaption></td>
     </tr>
    <tr height="300px">
         <td>Line graphs</td>
         <td>Tracking changes over time</td>
-        <td><img src="/images/D4PG_line.jpg" alt="Line Graph"><figcaption>From The Library of Congress.</figcaption></td>
+        <td><img src="/images/D4PG_line.jpg" alt="Line Graph"><figcaption>From <a href="https://dataforgood.commons.gc.cuny.edu/report-on-covid-19s-impact-on-cuny-students/" target="_blank">The Data for Public Good</a> at the Graduate Center.</figcaption></td>
     </tr>
     <tr height="300px">
         <th rowspan="2">Small numbers/percentages</th>
         <td>Pie charts</td>
         <td>Demonstrate proportions between categories</td>
-        <td><img src="/images/DB_pie.jpg" alt="Pie chart"><figcaption>From The Library of Congress.</figcaption></td>
+        <td><img src="/images/DB_pie.jpg" alt="Pie chart"><figcaption>From <a href="https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic" target="_blank">The Library of Congress.</figcaption></td>
     </tr>
     <tr height="300px">
         <td>Tree maps</td>
         <td>Demonstrate hierarchy and proportion</td>
-        <td><img src="/images/DataViz_treemap.png" alt="Tree map"><figcaption>From The Data Visualization Catalogue.</figcaption></td>
+        <td><img src="/images/DataViz_treemap.png" alt="Tree map"><figcaption>From <a href="https://datavizcatalogue.com/methods/treemap.html" target="_blank">The Data Visualization Catalogue.</figcaption></td>
     </tr>
     <tr height="300px">
         <th rowspan="2">Survey responses</th>
         <td>Stacked bar charts</td>
         <td>Compares total amount across each group (e.g. plotting Likert scale)</td>
-        <td><img src="/images/DB_stackedbar.jpg" alt="Stacked bar charts"><figcaption>From The Library of Congress.</figcaption></td>
+        <td><img src="/images/DB_stackedbar.jpg" alt="Stacked bar charts"><figcaption>From <a href="https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic" target="_blank">The Library of Congress.</figcaption></td>
     </tr>
     <tr height="300px">
         <td>Nested area graphs</td>
         <td>Visualize branching/nested questions</td>
-        <td><img src="/images/evergreen_nestedarea.jpg" alt="Nested area graph"><figcaption>From Evergreen Data.</figcaption></td>
+        <td><img src="/images/evergreen_nestedarea.jpg" alt="Nested area graph"><figcaption>From <a href="https://stephanieevergreen.com/nested-area-graph/" target="_blank">Evergreen Data.</figcaption></td>
     </tr>
     <tr height="300px">
         <th rowspan="2">Place</th>
         <td>Choropleth maps</td>
         <td>Visualize values over a geographic area to demonstrate pattern</td>
-        <td><img src="/images/DB_choropleth.jpg" alt="Choropleth map"><figcaption>From The Library of Congress.</figcaption></td>
+        <td><img src="/images/DB_choropleth.jpg" alt="Choropleth map"><figcaption>From <a href="https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic" target="_blank">The Library of Congress.</figcaption></td>
     </tr>
     <tr height="300px">
         <td>Hex(bin) or Tile maps</td>
         <td>Similar to Choropleth with the hexbin/tile representing regions equally rather than by geographic size</td>
-        <td><img src="/images/rgraph_hexbin.png" alt="Hexbin graph"><figcaption>From R Graph Gallery.</figcaption></td>
+        <td><img src="/images/rgraph_hexbin.png" alt="Hexbin graph"><figcaption>From <a href="https://www.r-graph-gallery.com/328-hexbin-map-of-the-usa.html" target="_blank">R Graph Gallery.</figcaption></td>
     </tr>
     <tr>
         <th colspan="4"> Adapted from <a href="https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_"> Stephanie D. Evergreen (2019) Effective data visualization : The right chart for the right data</a>, <a href="https://datavizcatalogue.com/">The Data Visualisation Catalogue</a>, and <a href="https://www.data-to-viz.com/">From Data to Viz</a></th>
