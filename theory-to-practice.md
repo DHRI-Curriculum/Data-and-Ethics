@@ -4,6 +4,7 @@
 
 - Marieke Guy's [data management presentation](https://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management)
 - Queensland University of Technology's [Management of Research Data](http://www.mopp.qut.edu.au/D/D_02_08.jsp)
+- The Graduate Center, CUNY's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045072) guide
 - The Council for Big Data, Ethics, and Society's publication [Perspectives on Big Data, Ethics, and Society](https://bdes.datasociety.net/council-output/perspectives-on-big-data-ethics-and-society/)
 - Catherine D'Ignazio & Lauren F. Klein's [Data Feminism](https://data-feminism.mitpress.mit.edu/). Click [here for access to the (free) manuscript review copy](https://mitpressonpubpub.mitpress.mit.edu/data-feminism)
 - Feminist Data [Manifest-No](https://www.manifestno.com) 
