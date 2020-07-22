@@ -2,7 +2,7 @@
 
 ## Abstract
 
-What is data? Nearly all digital work requires dealing with data. In this workshop we will be discussing the basics of research data, in terms of material, transformation, and presentation. 
+What is data? What counts as data? Data is the foundation of nearly all digital projects and often help us to understand and express ideas and narratives. Rarely are we presented with data that is already cleaned and ready for analysis. Hence, in order to do digital work, we ought to know how data is captured, constructed, and manipulated. In this workshop we will be discussing the basics of research data, in terms of material, transformation, and presentation. We will also engage with the ethical dimensions of what it means to work with data, from collection to visualization and representation. 
 
 ## Learning Objectives
 
@@ -51,6 +51,5 @@ By the end of this workshop, participants will:
 
 ## Acknowledgements
 
-- Stephen Zweibel
-- Di Yoong
-- Ian Phillips
+- Current author: Di Yoong
+- Contributing author: Stephen Zweibel
