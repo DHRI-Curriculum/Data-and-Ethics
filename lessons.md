@@ -56,7 +56,7 @@ These are some (most!) of the shapes your research data might transform into.
 3. Where do you usually get your data from?
 
 - - - 
-### Example Solution: Forms of Data
+### Example Response: Forms of Data
 1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS. 
 2. Often times outputs are statistical analysis and various data visualizations. This is also pretty comment in my field of psychology. 
 3. I can get them from large databases like pushshift.io or scrape certain social media outlets directly such as Twitter. 
@@ -65,7 +65,8 @@ These are some (most!) of the shapes your research data might transform into.
 
 # Stages of Data
 
-We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. For example, we can consider the stages in the following way:   
+We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. Stages of data typically consist of a) collection of "raw" data, b) processing and/or transforming data, c) cleaning, d) analysis, and e) visualization. For example, we can consider the stages in the following way:   
+
 - We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s). 
     - E.g. What have young voters in Singapore discussed in the weeks leading up to the election? 
 - In the process of setting up the project, we make decisions on what kind of data we think can help us to answer the question 
@@ -79,11 +80,9 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
 
 This is one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data.
 
-### Directory structure naming
+## Directory structure naming
 
-Before beginning your data collection, manipulation, and transformation, a good practice is to determine your file naming conventions. How many times have named something as "XXX_FinalFINALFINAL.pdf" or have difficulty searching for a version of the file that contained all that good idea that was edited out in the "XXX_FinalFINALFINALFINAL.pdf" version? While tools like version controlling with [git](https://github.com/DHRI-Curriculum/git/blob/v2.0-kristen-edits/lessons.md#what-is-git) can be helpful, we can also begin with setting up conventions that can help us succeed! Here's an example from [Stanford](https://library.stanford.edu/research/data-management-services/case-studies/case-study-file-naming) that demonstrates the problems of badly name files in our projects.
-
-For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a subfolder of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`). 
+Before beginning your data collection, manipulation, and transformation, a good practice is to determine your file naming conventions. How many times have named something as "XXX_FinalFINALFINAL.pdf" or have difficulty searching for a version of the file that contained all that good idea that was edited out in the "XXX_FinalFINALFINALFINAL.pdf" version? While tools like version controlling with [git](https://githu*nt](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a subfolder of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`). 
 
 # Stages of Data: Raw
     
@@ -109,7 +108,7 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 
 - - - 
 
-### Example Solution: Raw Data and Labor 
+### Example Response: Raw Data and Labor 
 
 1. I think big data can be raw data depending on how the data is obtained and the processes I need to take before I can apply an analysis. I think that with large datasets, I always assume "rawness" because I won't need all of the variables or there will be decisions that need to be made about missing entries. 
 2. I think my approach to scraped data is similar to big data. 
@@ -118,9 +117,7 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 
 # Stages of Data: Processed/Transformed
 
-Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, _e.g._, a table. Other common examples of file types you are likely to come across are (they all represent the same data!):
-
-XML: Or eXstensible Markup Language, uses a nested structure, where the "tags" like <Cat> contain other tags inside them, like <firstName>. This format is good for organizing the layout of a document in a tree-like format, just like HTML, where we want to nest elements like a sentence within a paragraph, for example. XML does not carry any information about how to be displayed and can be used in a variety of presentation scenarios
+ we want to nest elements like a sentence within a paragraph, for example. XML does not carry any information about how to be displayed and can be used in a variety of presentation scenarios
 
 **XML**
 
@@ -150,7 +147,7 @@ This file is viewer on a online [XML Viewer](https://www.xmlviewer.org/). If you
 
 - - - 
 
-JSON: Or JavaScript Object Notation, also uses a nesting structure, but with the addition of "key/value" pairs, like the firstName key which is tied to the Smally value (at least for the first cat!). JSON is popular with web applications that save and send data from your browser to web servers, because it uses the main language of web browsers, JavaScript, to work with data.
+**JSON:** Or JavaScript Object Notation, also uses a nesting structure, but with the addition of "key/value" pairs, like the firstName key which is tied to the Smally value (at least for the first cat!). JSON is popular with web applications that save and send data from your browser to web servers, because it uses the main language of web browsers, JavaScript, to work with data.
 
 **JSON**
 
@@ -182,7 +179,7 @@ This file is viewed on my Firefox browser from my local directory. To view it in
 
 - - -
 
-CSV: Or Comma Separated Values uses---you guessed it!---commas to separate values. Each line (First Name, Last Name) is a new "record" and each column (separated by a comma) is a new "field." This data format stores tabular data it a clean way that facilitates the transfer of data between different data architectures. As data types go, it is very rudimentary (even predating computers!) and is easy to type, without needing special characters beyond a comma.
+**CSV:** Or Comma Separated Values uses---you guessed it!---commas to separate values. Each line (First Name, Last Name) is a new "record" and each column (separated by a comma) is a new "field." This data format stores tabular data it a clean way that facilitates the transfer of data between different data architectures. As data types go, it is very rudimentary (even predating computers!) and is easy to type, without needing special characters beyond a comma.
 
 **CSV**
 
@@ -276,16 +273,13 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
     <tr>
 </table>
 
-
-
-
 ## Challenge: Processed/Transformed
 
 1. How do you decide the formats to store your data when you transition from 'raw' to 'processed/transformed' data? What are some of your considerations?
 
 - - - 
 
-### Example solution: Processed/Transformed
+### Example Response: Processed/Transformed
 
 1. I usually go with the conventions of the field as it allows me to share my "in progress" work easily with my research lab and collaborators. The file conventions can range from CSVs to JSONs.
 
@@ -380,7 +374,7 @@ Measurements must be uniform, in that the same unit of measure must be used in a
 
 - - - 
 
-### Example solution: When do we stop cleaning?
+### Example Response: When do we stop cleaning?
 
 1. I think this is often decided before the cleaning process begins, perhaps after some quick visualization or analysis of the "raw" data. I generally remove empty entries from my data sets. Working with social media data, I also usually remove URLs as these influence the topic modelling algorithms (e.g. "http" may end up being the most prominent topic of the corpus). This is usually where I stop cleaning. Some might suggest the removal of stop words like "the" "a" "an," but I have always felt very uncertain about the removal of these words. This is especially because the dictionary of stop words were generated through canon western texts that is not representative of the many variations of English. For example, if I were looking at the tweets of Singaporean youths, the stop word dictionary may not be appropriate.
 2. For me, the data is often destroyed (usually because IRB desires it) or it remains in the original "raw" file. The file that I clean will always be a duplicate file to allow for recovery in case I made a poor decision in the process of cleaning. 
@@ -416,7 +410,7 @@ Techniques geared towards testing a hypothesis about a population, based on your
 
 - - -
 
-### Example solution: Analysis
+### Example Response: Analysis
 
 1. I may choose to leave out data that are perceived to be outliers, especially if they differ to much from the "normal" curve. I end up representing only those who fall within the "normal" curve which may not actually be an equitable representation.
 2. The interpretation of the results should align itself with the type of analyses that I ran. In addition, it should be guided in some capacity by previous work in this area to inform my understanding.
@@ -520,7 +514,7 @@ As we transform our results into visuals, we are also trying to tell a narrative
 
 - - - 
 
-### Example solution: Visualizations  
+### Example Response: Visualizations  
 
 1. An underlying assumption we make is that the conventions of top-down, left-right is universal or at least universal enough for most folx to understand. This neglects potential right-to-left readers. Certain conventions that use color as a way to represent good and bad (e.g. green as good and red as bad) also assumes that this is an effective differentiation that excludes those who have visual impairments can decipher the data in a similar fashion. 
 2. Exploring [Voyant-Tools](https://voyant-tools.org/) can be a good place to start to see how visualization of qualitative data can look like. 
