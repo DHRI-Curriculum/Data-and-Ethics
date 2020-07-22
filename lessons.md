@@ -208,7 +208,7 @@ A small detour to discuss data formats. For accessibility, future-proofing, and 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard.
 
 <table>
-    <caption>A small list of open formats:</caption>
+    <caption>A small list of open formats (more information on file formats are linked in each example):</caption>
     <tr>
         <th>Types of multimedia</th>
         <th>Examples</th>
@@ -272,7 +272,7 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
         <td>.stl</td>
     </tr>
     <tr>
-        <th colspan="3"> More information on the file formats are linked in each example. For a list of file formats, consider the Library of Congress' list of <a href="https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml#"> Sustainability of Digital Formats</a>.</th>
+        <th colspan="3"> For a list of file formats, consider the Library of Congress' list of <a href="https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml#"> Sustainability of Digital Formats</a>.</th>
     <tr>
 </table>
 
