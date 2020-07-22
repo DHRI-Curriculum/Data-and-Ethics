@@ -208,7 +208,7 @@ A small detour to discuss data formats. For accessibility, future-proofing, and 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard.
 
 <table>
-    <caption>A small list of open formats (more information on file formats are linked in each example):</caption>
+    <caption>A small list of open formats (more information of each file formats are linked in their examples):</caption>
     <tr>
         <th>Types of multimedia</th>
         <th>Examples</th>
