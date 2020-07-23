@@ -82,7 +82,7 @@ This is one cycle in which data goes from collection to transformation to visual
 
 ## Naming Conventions for Directory Structures
 
-Before beginning your data collection, manipulation, and transformation, a good practice is to determine your file naming conventions. How many times have named something as "XXX_FinalFINALFINAL.pdf" or have difficulty searching for a version of the file that contained all that good idea that was edited out in the "XXX_FinalFINALFINALFINAL.pdf" version? While tools like version controlling with [git](https://github.com/DHRI-Curriculum/git/blob/v2.0-kristen-edits/lessons.md#what-is-git) can be helpful, we can also begin with setting up file naming conventions that can help us succeed! Here's an example from [Stanford](https://library.stanford.edu/research/data-management-services/case-studies/case-study-file-naming) that demonstrates the problems of badly name files in our projects.
+Before beginning your data collection, manipulation, and transformation, a good practice is to determine your file naming conventions. How many times have named something as `XXX_FinalFINALFINAL.pdf` or have difficulty searching for a version of the file that contained all that good idea that was edited out in the `XXX_FinalFINALFINALFINAL.pdf` version? While tools like version controlling with [git](https://github.com/DHRI-Curriculum/git/blob/v2.0-kristen-edits/lessons.md#what-is-git) can be helpful, we can also begin with setting up file naming conventions that can help us succeed! Here's an example from [Stanford](https://library.stanford.edu/research/data-management-services/case-studies/case-study-file-naming) that demonstrates the problems of badly name files in our projects.
 
 For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a sub-folder of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`). 
 
@@ -282,13 +282,13 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 
 # Side Note on Data Structures: Tidy Data
 
-There are guidelines to the processing of data, sometimes referred to as [**Tidy Data**](https://www.jstatsoft.org/article/view/v059i10). One manifestation of these rules:
+There are guidelines to the processing of data, sometimes referred to as **[Tidy Data](https://www.jstatsoft.org/article/view/v059i10)**. One manifestation of these rules:
 
 1. Each variable is in a column.
 2. Each observation is a row.
 3. Each value is a cell.
 
-Look back at our example of cats to see how they may or may not follow those guidelines. **Important note**: some data formats allow for more than one dimension of data! How might that complicate the concept of **Tidy Data**?
+Look back at our example of cats to see how they may or may not follow those guidelines. **Important note:** some data formats allow for more than one dimension of data (like the `JSON` file below)! How might that complicate the concept of **Tidy Data**?
 
 ```json
 {
@@ -397,6 +397,15 @@ Techniques geared towards testing a hypothesis about a population, based on your
 - Extrapolation
 - P-Value calculation
 
+### Qualitative Analysis
+
+Techniques geared towards understanding a phenomenon, rather than predicting and testing hypotheses, such as:
+
+- Grounded Theory/[Computational Grounded Theory](https://drive.google.com/file/d/0BxI6W5IIG74FeEtGbjQ0WF9uM0U/view)
+- Content Analysis
+- [Text Analysis](https://github.com/DHRI-Curriculum/text-analysis/blob/v2.0-rafa-edits/lessons.md)
+
+
 ## Challenge: Analysis
 
 1. As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out? 
@@ -415,7 +424,7 @@ Techniques geared towards testing a hypothesis about a population, based on your
 
 # More Stages of Data: Visualized
 
-Visualizing your data helps you tell a story and construct a narrative that guides your audience in understanding your interpretation of a collected, cleaned, and analyzed dataset. Depending on the type of analysis you ran, different kinds of visualization can be more effective than others. Below are some examples of data visualization that can help you convey the message of your data.
+Visualizing your data helps you tell a story and construct a narrative that guides your audience in understanding your interpretation of a collected, cleaned, and analyzed dataset. Depending on the type of analysis you ran, different kinds of visualization can be more effective than others. In the table below are some examples of data visualization that can help you convey the message of your data.
 
 <table>
     <caption>Examples of Data Visualization</caption>
