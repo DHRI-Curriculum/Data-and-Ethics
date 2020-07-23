@@ -96,9 +96,9 @@ If you are interested in further exploration and discussion of the ethics of "ra
 
 ## Data and Labor
 
-As we think about data collection, we should also consider the labor involved in the process. Many researchers rely on Amazon Mechanical Turk (sometimes also referred to as MTurk) for data collection, [often paying less than minimum wage for the task.](https://www.theatlantic.com/business/archive/2018/01/amazon-mechanical-turk/551192/) Often the assumption made of these workers is someone who is retired, bored, and participating in online gig work for fun or to kill time. While this may be true for some, [more than half of those surveyed in a Pew Research study cite that the income from this work is essential or important.](https://www.pewresearch.org/internet/2016/11/17/labor-platforms-technology-enabled-gig-work/) Often, those who view the income from this work as essential or important are also from underserved communities. 
+As we think about data collection, we should also consider the labor involved in the process. Many researchers rely on Amazon Mechanical Turk (sometimes also referred to as MTurk) for data collection, [often paying less than minimum wage for the task.](https://www.theatlantic.com/business/archive/2018/01/amazon-mechanical-turk/551192/) Often the assumption made of these workers is someone who is retired, bored, and participating in online gig work for fun or to kill time. While this may be true for some, [more than half of those surveyed in a Pew Research study cite that the income from this work is essential or important](https://www.pewresearch.org/internet/2016/11/17/labor-platforms-technology-enabled-gig-work/). Those who do view the income from this work as essential or important are also mostly from underserved communities. 
 
-In addition to being mindful of paying a fair wage to the workers on such platforms, this working environment also brings some further considerations to the data that is collected. Often times, for workers to get close to minimum wage, they cannot afford to spend much time on each task, increasing potential errors in the collected data. 
+In addition to being mindful of paying a fair wage to the workers on such platforms, this kind of working environment also brings some further considerations to the data that is collected. For instance, to get close to minimum wage, workers cannot afford to spend much time on each task. Thinking through these circumstances, how do you think it impacts the data we collected? 
 
 For a deeper discussion on data and labor, consider Catherine D'Ignazio and Lauren Klein's chapter [Show Your Work](https://mitpressonpubpub.mitpress.mit.edu/pub/9m0tiz66/release/3) in *[Data Feminism](https://mitpress.mit.edu/books/data-feminism)*.
 
@@ -381,12 +381,7 @@ Measurements must be uniform, in that the same unit of measure must be used in a
 Analysis can take many forms (just like the rest of this stuff!), but many techniques fall within a couple of categories:
 
 ### Descriptive Analysis
-
-Techniques geared towards summarizing a data set, such as:
-
-- Mean
-- Median
-- Mode
+folx
 - Average
 - Standard deviation
 
