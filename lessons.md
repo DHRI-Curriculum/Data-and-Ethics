@@ -68,15 +68,15 @@ These are some (most!) of the shapes your research data might transform into.
 We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. Stages of data typically consist of a) collection of "raw" data, b) processing and/or transforming data, c) cleaning, d) analysis, and e) visualization. For example, we can consider the stages in the following way:   
 
 - We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s). 
-    - E.g. What have young voters in Singapore discussed in the weeks leading up to the election? 
+    - E.g. What proportion of the artwork collected and/or hosted in the Met are by non cis-gender men artists and also in public domain? 
 - In the process of setting up the project, we make decisions on what kind of data we think can help us to answer the question 
-    - E.g. I think I can get the data from Twitter where young folx are engaging in political conversations online. I will search a set of keywords and hashtags to collect a set of data for analysis. 
+    - E.g. I think I can get the data from the Met's [open access data set](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv). I will need to look at what variables exist in the dataset to find out if I can filter by gender and the variables that will correspond to copyrights. 
 - After collecting our data we then consider and make decisions in the processes of cleaning. 
-    - E.g. removing empty fields, coding particular responses as 1 or 0s
+    - E.g. I have to transform some of the gender values and decide what to do with the missing fields. 
 - We then run our preliminary analysis of the data. 
-    - E..g. topic modelling to look at themes that emerge from the corpus.
+    - E.g. I can run an analysis of the subset of non cis-gender men and public domain media objects against the total number of media objects to find out the proportion.
 - At the end of our analysis, a decision is then made about how would we would present the data and its analysis. 
-    - E.g. is a word cloud useful to represent prevalent themes? Maybe a bar chart of proportion across the entire corpus?
+    - E.g. I can present the result in a pie chart.
 
 This is one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data.
 
@@ -107,17 +107,23 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 1. Do you think "big data" is "raw data"? Why or why not? Do quantity of data play into our assumptions of "rawness"?
 2. How should we approached data that we have "scraped"? 
 3. How do you collect "raw" data? What are some of your practices? What are your field's practices?
+4. If you have not done so, open up `moSmall.csv` from your local computer/laptop. As the original file has about 500,000 entries, we've taken a random sample of 1% of the [original dataset](https://github.com/metmuseum/openaccess). In this case, would you consider this file to be a "raw" dataset? 
 
 - - - 
 
-### An example: 
+## Solution: 
 
 1. I think big data can be raw data depending on how the data is obtained and the processes I need to take before I can apply an analysis. I think that with large datasets, I always assume "rawness" because I won't need all of the variables or there will be decisions that need to be made about missing entries. 
 2. I think my approach to scraped data is similar to big data. 
 3. Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications. 
+4. The dataset is "raw" to me as I will likely be working on removing certain variables/entries to work towards my question.
 
 
 # Stages of Data: Processed/Transformed
+
+Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, _e.g._, a table. Other common examples of file types you are likely to come across are (they all represent the same data!):
+
+Here are a few you're likely to come across, all representing the same data:
 
 **XML:** Or eXstensible Markup Language, uses a nested structure, where the "tags" like `<Cat>` contain other tags inside them, like `<firstName>`. This format is good for organizing the layout of a document in a tree-like format, just like HTML, where we want to nest elements like a sentence within a paragraph, for example. XML does not carry any information about how to be displayed and can be used in a variety of presentation scenarios. 
 
@@ -188,7 +194,7 @@ Tiger,Jaws
 ```
 
 ![Screenshot of CSV cats file](/images/cats_CSV.png)
-This file is viewed on my VSCode with the extension `Excel Viewer`. To view on VSCode, install the extension and then right click on the file and click `Open Preview`. You can also [download the CSV file](https://github.com/DHRI-Curriculum/data-literacies/tree/v2.0-di-edits/files) to open it in other viewers (e.g. Microsoft Excel, Notepad). To save the file onto your local computer, right click on `cats.csv` and click `Save Link As` to download the file to your local computer. 
+This file is viewed on my VSCode with the extension `Excel Viewer`. To view on VSCode, install the extension and then right click on the file and click `Open Preview`. You can also [download the CSV file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.csv) to open it in other viewers (e.g. Microsoft Excel, Notepad). To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer. 
 
 
 ## The Importance of Using Open Data Formats
@@ -272,12 +278,17 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 ## Challenge: Processed/Transformed
 
 1. How do you decide the formats to store your data when you transition from 'raw' to 'processed/transformed' data? What are some of your considerations?
+2. Explore the `moSmall.csv` dataset, what columns (variables) will you keep? 
+3. If you are saving the file `moSmall.csv` in a program like Microsoft Excel, you may be prompted to save the file as `.xlsx`. What format would you choose to save it in? Why would you choose to do so?
 
 - - - 
 
-### An example:
+## Solution:
 
-1. I usually go with the conventions of the field as it allows me to share my "in progress" work easily with my research lab and collaborators. The file conventions can range from CSVs to JSONs.
+1. I usually go with the conventions of the field as it allows me to share my "in progress" work easily with my research lab and collaborators. The file conventions can range from `.csv` to `.json`.
+2. I will keep columns (variables) relevant to my question, such as the `Artist Gender`, `Is Public Domain` and `Rights and Reproduction` columns. I will also keep some of the descriptive columns such as `Object ID` and `Artist Role` to help contextualize the results (e.g. what kind of roles do female artists tend to take on?)
+3. I will choose to keep it in a `.csv` file type as it can be opened up by more programs and if Microsoft stops supporting `.xlsx` file types I may no longer have access to opening the dataset. 
+**OR**  I will choose to switch to a `.xlsx` format as it is easier to use on a graphical user interface like Microsoft Excel. Any stylistic changes I've made to the file will remain as well, such as alternative highlighting rows for readability or bolding column headings. 
 
 
 # Side Note on Data Structures: Tidy Data
@@ -320,6 +331,17 @@ Look back at our example of cats to see how they may or may not follow those gui
 ```
 
 While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data. 
+
+## Challenge: Tidy Data
+1. Looking at the `moSmall.csv` dataset, there are a couple of columns with nested information that don't follow the rules of tidy data. Can you identify at least 2 of the columns that demonstrates this?
+2. Would you convert `moSmall.csv` to follow the tidy data format? Can you demonstrate how you would do so?
+
+## Solution
+1. `Artist Role`, `Artist Display Name`, `Artist Display Bio`, `Artist Alpha Sort`, `Artist Nationality`, `Artist Begin Date`, `Artist End Date`, or `Classification`.
+2. I will choose to convert to the tidy data format if I was interested in any of the variables listed above, so that it will be easier to analyse the entries. I will have to unnest the entries by separating the data into different rows. For example, if I am interested in understanding the type of roles that are predominantly held by non-cisgender men, I will unnest the column `Artist Role`. An entry like `Architect|Artist` will be separated into two rows as illustrated in the example:
+
+![Comparison of moSmall after tidy format](/images/moSmallComp.png)
+
 
 # More Stages of Data: Cleaned
     
@@ -367,13 +389,26 @@ Measurements must be uniform, in that the same unit of measure must be used in a
 
 1. How do we know when our data is cleaned enough? 
 2. What happens to the data that is removed? 
+3. Explore the `moSmall.csv` dataset. 
+    * Are all the measurements valid? Try checking the `Object ID` column for duplicates.
+    * How might you check if the `Is Public Domain` accurately represents the copyrights of the media objects?
+    * Is the data collected completed? How might you deal with the NA or empty fields? 
+        * What assumptions do you have to make when you clean NA or empty fields?
+    * Is the collected data consistent? Does the column `Is Public Domain` correspond with the data in `Rights and Reproduction`? If it does not, which would you follow? Why?
+    * As the dataset is not one that we personally collected, how do we make sense that only `Female` or `|` is collected as responses in the column (with the exception of NA and empty fields)? What do we have to do to the data to make sure it is uniform? What decisions do we make in this process?
 
 - - - 
 
-### An example:
+## Solution:
 
 1. I think this is often decided before the cleaning process begins, perhaps after some quick visualization or analysis of the "raw" data. I generally remove empty entries from my data sets. Working with social media data, I also usually remove URLs as these influence the topic modelling algorithms (e.g. "http" may end up being the most prominent topic of the corpus). This is usually where I stop cleaning. Some might suggest the removal of stop words like "the" "a" "an," but I have always felt very uncertain about the removal of these words. This is especially because the dictionary of stop words were generated through canon western texts that is not representative of the many variations of English. For example, if I were looking at the tweets of Singaporean youths, the stop word dictionary may not be appropriate.
 2. For me, the data is often destroyed (usually because IRB desires it) or it remains in the original "raw" file. The file that I clean will always be a duplicate file to allow for recovery in case I made a poor decision in the process of cleaning. 
+3. Exploring the dataset, here are my responses to the questions:
+    * Using `Object ID` indicates that there is no duplicates in the dataset. Every entry is unique.
+    * I will have to compare it to another trusted source like a database from [The Getty Research Institute](https://www.getty.edu/research/tools/).
+    * The data collected is not completed. There are missing fields. Depending on where the missing field is, I may choose to code it as `0` for the ease of analysis. For example, the column `Dynasty` only contain 1 meaningful entry within this sample data set, as such, I will not run any analysis that may rely on this column and choose to drop it. The column `Accession Year` only has 1 NA and I will choose to drop that row if this becomes a useful variable for my analysis. 
+    * While the `Rights and Reproduction` contains a lot of NA and inappropriate responses (e.g. "Ceramics"), for the most part, for the items labeled as `YES` in the column `Is Public Domain` the corresponding column in `Rights and Reproduction` does not record a copyright holder. I am assuming that the NA can stand in for the object being in the public domain.  
+    * Taking only `Female` as a valid gender response, everything else will be converted to a `0` for ease of analysis. I am assuming `|` as equivalent to a NA or an empty field rather than an alternative gender. Hence in my analysis, the proportion will only record female artists' objects against the rest of the collected items. I cannot necessarily answer the larger question of all non-cisgender men against the total in this case.
 
 
 # More Stages of Data: Analyzed
@@ -410,7 +445,7 @@ Techniques geared towards understanding a phenomenon, rather than predicting and
 
 - - -
 
-### An example: 
+## Solution: 
 
 1. I may choose to leave out data that are perceived to be outliers, especially if they differ to much from the "normal" curve. I end up representing only those who fall within the "normal" curve which may not actually be an equitable representation.
 2. The interpretation of the results should align itself with the type of analyses that I ran. In addition, it should be guided in some capacity by previous work in this area to inform my understanding.
@@ -511,16 +546,18 @@ As we transform our results into visuals, we are also trying to tell a narrative
 2. As you may have realized, many of the visualization examples work with quantitative data, as such, how do you think we can visualize qualitative data? (e.g. Word Clouds, Heat Map)
 3. How can data visualization mislead us? (for e.g. [Nathan Yau discusses how data visualization can lie](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
 4. How can data visualization help us tell a story? (for e.g. [Data Feminism's On rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints](https://mitpressonpubpub.mitpress.mit.edu/pub/8tjbs2x5/release/2))
+5. Can you try to plot the `moSmall.csv` dataset based on the `Artist Gender` variable? What would you have to do before you can plot this graph? How might you explain what your visualization represents?
+
 
 - - - 
 
-### An example:  
+## Solution:  
 
 1. An underlying assumption we make is that the conventions of top-down, left-right is universal or at least universal enough for most folx to understand. This neglects potential right-to-left readers. Certain conventions that use color as a way to represent good and bad (e.g. green as good and red as bad) also assumes that this is an effective differentiation that excludes those who have visual impairments can decipher the data in a similar fashion. 
 2. Exploring [Voyant-Tools](https://voyant-tools.org/) can be a good place to start to see how visualization of qualitative data can look like. 
 3. Exaggerated differences through the choice of scales on the x and y-axis can misled a casual viewer to think that the data is representing a larger difference than it actually is reporting.
 4. Data visualization can help us convey dense information quickly. The casual viewer can glance at the visualization and understand what we are trying to communicate with our data. Data visualization also can be affective device, like the DuBois' examples which helps to tell the urgency of the narrative/story. 
-
+5. ![Plot of media objects in public domain by gender of artist](/images/genderPD.png). The difficulty of representing this dataset is how at first glance there's an assumption that gender is binary given that only 2 bars are representing the dataset. Even though the other bar is labeled `Unknown` to suggest that this is not a comprehensive breakdown, I'm not sure how effective it is. 
 
 # Data Literacy and Ethics
 
@@ -551,5 +588,7 @@ You can definitely choose to discuss this with your partner! And we encourage yo
 # Some concluding thoughts
 
 Data and ethics are contextually driven. As such, there isn’t always a risk-free approach. We often have to work through ethical dilemmas while thinking through information that we may not have (what are the risks of doing/not doing this work?). We have approached a moment where the question is no longer what we could do but what we should do. Given this saturated data-driven world we currently live in, there is value is pausing and consider why and what we are collecting, researching, analyzing, and understanding. Starting on a new project, especially one dealing with "big" data can be exciting but we now also have to first consider who does the data collected benefit and why is it important are important.
+
+In addition, open access is not always the answer to concerns of reproducibility and/or ethical considerations. There are moments where the decision to not have a dataset or analysis openly accessible, for example, when you are working with marginalized or vulnerable population, there are justifications and reasons for not allowing open access. We may choose to control who has access to decrease the chances of misrepresentation (intentional or otherwise) or results taken out of contexts as these often times can have detrimental consequences to those already on the margins. 
 
 For a set of great questions to help you think through your data exploration and project planning, please check out Kristen Hackett's Tagging the Tower post, *[What to Consider when Planning a Digital Project.](https://digitalfellows.commons.gc.cuny.edu/2019/10/30/what-to-consider-when-planning-a-digital-project/)*
