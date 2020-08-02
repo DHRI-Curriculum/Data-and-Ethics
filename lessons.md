@@ -55,14 +55,12 @@ These are some (most!) of the shapes your research data might transform into.
 2. What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field. 
 3. Where do you usually get your data from?
 
-- - - 
 ## Solution: 
 
 1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS. 
 2. Often times outputs are statistical analysis and various data visualizations. This is also pretty comment in my field of psychology. 
 3. I can get them from large databases like pushshift.io or scrape certain social media outlets directly such as Twitter. 
 
-- - - 
 
 # Stages of Data
 
@@ -109,8 +107,6 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 2. How should we approached data that we have "scraped"? 
 3. How do you collect "raw" data? What are some of your practices? What are your field's practices?
 4. If you have not done so, open up `moSmall.csv` from your local computer/laptop. As the original file has about 500,000 entries, we've taken a random sample of 1% of the [original dataset](https://github.com/metmuseum/openaccess). In this case, would you consider this file to be a "raw" dataset? 
-
-- - - 
 
 ## Solution: 
 
@@ -282,8 +278,6 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 2. Explore the `moSmall.csv` dataset, what questions might you ask with this dataset? What columns (variables) will you keep? 
 3. If you are saving the file `moSmall.csv` in a program like Microsoft Excel, you may be prompted to save the file as `.xlsx`. What format would you choose to save it in? Why would you choose to do so?
 
-- - - 
-
 ## Solution:
 
 1. I usually go with the conventions of the field as it allows me to share my "in progress" work easily with my research lab and collaborators. The file conventions can range from `.csv` to `.json`.
@@ -398,8 +392,6 @@ Measurements must be uniform, in that the same unit of measure must be used in a
     * Is the collected data consistent? Does the column `Is Public Domain` correspond with the data in `Rights and Reproduction`? If it does not, which would you follow? Why?
     * As the dataset is not one that we personally collected, how do we make sense that only `Female` or `|` is collected as responses in the column (with the exception of NA and empty fields)? What do we have to do to the data to make sure it is uniform? What decisions do we make in this process?
 
-- - - 
-
 ## Solution:
 
 1. I think this is often decided before the cleaning process begins, perhaps after some quick visualization or analysis of the "raw" data. I generally remove empty entries from my data sets. Working with social media data, I also usually remove URLs as these influence the topic modelling algorithms (e.g. "http" may end up being the most prominent topic of the corpus). This is usually where I stop cleaning. Some might suggest the removal of stop words like "the" "a" "an," but I have always felt very uncertain about the removal of these words. This is especially because the dictionary of stop words were generated through canon western texts that is not representative of the many variations of English. For example, if I were looking at the tweets of Singaporean youths, the stop word dictionary may not be appropriate.
@@ -449,8 +441,6 @@ As we have discussed thus far, data are not neutral or objective. They are guide
 2. How do we guide our decisions of interpretation with our choices of analyses? 
 3. Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? What are potential misuses of our outputs? 
 4. What can happen when we are trying to just go for the next big thing (tool/methods/algorithms) or just ran out of time and/or budget for our project?
-
-- - -
 
 ## Solution: 
 
@@ -554,9 +544,6 @@ As we transform our results into visuals, we are also trying to tell a narrative
 3. How can data visualization mislead us? (for e.g. [Nathan Yau discusses how data visualization can lie](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
 4. How can data visualization help us tell a story? (for e.g. [Data Feminism's On rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/3?readingCollection=0cd867ef))
 5. Can you try to plot the `moSmall.csv` dataset based on the `Artist Gender` variable? What would you have to do before you can plot this graph? How might you explain what your visualization represents?
-
-
-- - - 
 
 ## Solution:  
 
