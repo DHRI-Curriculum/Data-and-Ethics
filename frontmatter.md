@@ -23,7 +23,8 @@ By the end of this workshop, participants will:
 ## Prerequisites
 
 - Introduction to Command Line
-- Download [`moSmall.csv`](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/moSmall.csv) dataset. To save the file onto your local computer, **right click** on the `Download` button (top right-hand corner of the `View raw` message) and choose `Save Link As...`. It will be used through the challenges in the workshop. Original dataset taken from [The Metropolitan Museum of Art's Creative Commons Zero](https://github.com/metmuseum/openaccess). 
+- Download [`moSmall.csv`](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/moSmall.csv) dataset. It will be used through the challenges in the workshop.
+    - To save the file onto your local computer, **right click** on the `Download` button (top right-hand corner of the `View raw` message) and choose `Save Link As...`.  Original dataset taken from [The Metropolitan Museum of Art's Creative Commons Zero](https://github.com/metmuseum/openaccess). 
 
 ## Contexts
 
@@ -37,7 +38,7 @@ By the end of this workshop, participants will:
 ### Projects that use these skills
 
 - The [Data for Public Good](https://dataforgood.commons.gc.cuny.edu/) is a semester-long collaborative project led by CUNY graduate students. Each semester, a different public-interest dataset is explored to present information that is useful and informative to a public audience.
-- [SAFElab](https://safelab.socialwork.columbia.edu/) , led by Dr. Desmond U. Patton, uses computational and social work approaches to understand the mechanisms of violence and work on prevention and intervention in violence that occur in neighborhoods and on social media. 
+- [SAFElab](https://safelab.socialwork.columbia.edu/), led by Dr. Desmond U. Patton, uses computational and social work approaches to understand the mechanisms of violence and work on prevention and intervention in violence that occur in neighborhoods and on social media. 
 
 ### Ethical Considerations  
 
