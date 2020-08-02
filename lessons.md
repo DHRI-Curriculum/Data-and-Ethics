@@ -33,7 +33,7 @@ There are many ways to represent data, just as there are many sources of data. W
 - Protein or genetic sequences
 - Artistic products
 - Curriculum materials (e.g. course syllabi)
-- Spreadsheets (e.g. .xlsx, .csv, .tsv)
+- Spreadsheets (e.g. .xlsx, .numbers, .csv)
 - Audio (e.g. .mp3, .wav, .aac)
 - Video (e.g. .mov, .mp4)
 - Computer Aided Design/CAD (.cad)
@@ -91,7 +91,7 @@ For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.e
 
 But "raw" data is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw" data. For example, I may consider the [General Social Survey](http://gss.norc.org/) data to be "raw" as it will require me to filter out missing entries and collapse variables or fields before I can run my analysis. A researcher who participated in the creation of this survey may not consider the version on the site as "raw" because the "raw" version is the physical paper copies of the file. As you can see, this consideration of what is "raw" is non-definitive and is dependent on the project you are working on and the narrative you want to tell with the results. 
 
-If you are interested in further exploration and discussion of the ethics of "raw" data, please consider reading [Drucker's article](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html) who has made useful distinctions between "data" (understood as given) and "capta (taken or "captured") that also troubles the distinction between "raw" and "processed" data. 
+If you are interested in further exploration and discussion of the ethics of "raw" data, please consider reading [Drucker's article](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html) which has made useful distinctions between "data" (understood as given) and "capta" (taken or "captured") that also troubles the distinction between "raw" and "processed" data. 
 
 ## Data and Labor
 
@@ -104,7 +104,7 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 ## Challenge: Raw Data and Labor
 
 1. Do you think "big data" is "raw data"? Why or why not? Do quantity of data play into our assumptions of "rawness"?
-2. How should we approached data that we have "scraped"? 
+2. How should we approach data that we have "scraped"? 
 3. How do you collect "raw" data? What are some of your practices? What are your field's practices?
 4. If you have not done so, open up `moSmall.csv` from your local computer/laptop. As the original file has about 500,000 entries, we've taken a random sample of 1% of the [original dataset](https://github.com/metmuseum/openaccess). In this case, would you consider this file to be a "raw" dataset? 
 
@@ -118,11 +118,9 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 
 # Stages of Data: Processed/Transformed
 
-Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, e.g., a table. Other common examples of file types you are likely to come across are (they all represent the same data!):
+Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, e.g., a table. Here are a few you're likely to come across, all representing the same data:
 
-Here are a few you're likely to come across, all representing the same data:
-
-**XML:** Or eXstensible Markup Language, uses a nested structure, where the "tags" like `<Cat>` contain other tags inside them, like `<firstName>`. This format is good for organizing the layout of a document in a tree-like format, just like HTML, where we want to nest elements like a sentence within a paragraph, for example. XML does not carry any information about how to be displayed and can be used in a variety of presentation scenarios. 
+**XML** or eXstensible Markup Language, uses a nested structure, where the "tags" like `<Cat>` contain other tags inside them, like `<firstName>`. This format is good for organizing the layout of a document in a tree-like format, just like HTML, where we want to nest elements like a sentence within a paragraph, for example. XML does not carry any information about how to be displayed and can be used in a variety of presentation scenarios. 
 
 ```xml
 <Cats> 
@@ -146,11 +144,13 @@ Here are a few you're likely to come across, all representing the same data:
 ```
 
 ![Screenshot of XML cats file](/images/cats_XML.png)
-This file is viewer on a online [XML Viewer](https://www.xmlviewer.org/). If you would like to, you can either copy the code chunk above to try it out on [XML Viewer](https://www.xmlviewer.org) or [download the XML file](https://github.com/DHRI-Curriculum/data-literacies/tree/v2.0-di-edits/files) to try it out in other viewers. To save the file onto your local computer, right click on `cats.xml` and click `Save Link As` to download the file to your local computer. For example, after downloading the file, can you try to open this file in your browser? (Psst! Try right clicking on `cats.xml` in your local directory and choosing `Open with Other Application` in the drop down menu to select the browser of your choice.)
+This file is viewed on an online [XML Viewer](https://www.xmlviewer.org/). If you would like to, you can either copy the code chunk above to try it out on [XML Viewer](https://www.xmlviewer.org) or [download the XML file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.xml) to try it out in other viewers. To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer.  
+
+For example, after downloading the file, can you try to open this file in your browser? (Psst! Try right clicking on `cats.xml` in your local directory and choosing `Open with Other Application` in the drop down menu to select the browser of your choice.)
 
 - - - 
 
-**JSON:** Or JavaScript Object Notation, also uses a nesting structure, but with the addition of "key/value" pairs, like the firstName key which is tied to the `Smally` value (at least for the first cat!). JSON is popular with web applications that save and send data from your browser to web servers, because it uses the main language of web browsers, JavaScript, to work with data.
+**JSON** or JavaScript Object Notation, also uses a nesting structure, but with the addition of *key/value* pairs, like the `"firstName"` *key* which is tied to the `Smally` *value* (at least for the first cat!). JSON is popular with web applications that save and send data from your browser to web servers, because it uses the main language of web browsers, JavaScript, to work with data.
 
 ```json
 {
@@ -176,11 +176,11 @@ This file is viewer on a online [XML Viewer](https://www.xmlviewer.org/). If you
 ```
 
 ![Screenshot of JSON cats file](/images/cats_JSON.png)
-This file is viewed on my Firefox browser from my local directory. To view it in your browser, you can drag and drop the local file onto a open tab or window. You can also [download the JSON file](https://github.com/DHRI-Curriculum/data-literacies/tree/v2.0-di-edits/files) and try opening it in other viewers (e.g. R Studio, webviewers like Code Beautify's [JSON Viewer](https://codebeautify.org/jsonviewer)). To save the file onto your local computer, right click on `cats.json` and click `Save Link As` to download the file to your local computer. 
+This file is viewed on my Firefox browser from my local directory. To view it in your browser, you can drag and drop the local file onto a open tab or window. You can also [download the JSON file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.json) and try opening it in other viewers (e.g. R Studio, webviewers like Code Beautify's [JSON Viewer](https://codebeautify.org/jsonviewer)). To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer. 
 
 - - -
 
-**CSV:** Or Comma Separated Values uses---you guessed it!---commas to separate values. Each line (First Name, Last Name) is a new "record" and each column (separated by a comma) is a new "field." This data format stores tabular data in a clean way that facilitates the transfer between different data architectures. As data types go, it is very rudimentary (even predating computers!) and is easy to type, without needing special characters beyond a comma.
+**CSV** or Comma Separated Values uses---you guessed it!---commas to separate values. Each line (First Name, Last Name) is a new "record" and each column (separated by a comma) is a new "field." This data format stores tabular data in a clean way that facilitates the transfer between different data architectures. As data types go, it is very rudimentary (even predating computers!) and is easy to type, without needing special characters beyond a comma.
 
 ```
 First Name,Last Name
@@ -191,12 +191,12 @@ Tiger,Jaws
 ```
 
 ![Screenshot of CSV cats file](/images/cats_CSV.png)
-This file is viewed on my VSCode with the extension `Excel Viewer`. To view on VSCode, install the extension and then right click on the file and click `Open Preview`. You can also [download the CSV file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.csv) to open it in other viewers (e.g. Microsoft Excel, Notepad). To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer. 
+This file is viewed on my VSCode with the extension `Excel Viewer`. To view on VSCode, [install the extension](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer) in VSCode, open the .csv, and then right click on the file and click `Open Preview`. You can also [download the CSV file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.csv) to open it in other viewers (e.g. Microsoft Excel, Notepad). To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer. 
 
 
 ## The Importance of Using Open Data Formats
 
-A small detour to discuss data formats. Open data formats are usually available to anyone free-of-charge and allows for easy reusability. Proprietary formats often hold copyrights, patents, or have other restrictions placed on them, and are dependent on (expensive) licensed softwares. For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
+A small detour to discuss data formats. Open data formats are usually available to anyone free-of-charge and allows for easy reusability. Proprietary formats often hold copyrights, patents, or have other restrictions placed on them, and are dependent on (expensive) licensed softwares. If the licensed software cease to support its proprietary format or it becomes obsolete, you may be stuck with a file format that cannot be easily open or (re)used (e.g. .mac). For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
 
 1. Open [this file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0-di-edits/files/cats.csv) in a [text editor](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#choosing-a-text-editor) (e.g. VS Code, TextEdit (MacOs), NotePad (Windows) ), and then in an app like Excel. This is a CSV, an open, text-only, file format. To save the file onto your local computer, right click on `cats.csv` and click `Save Link As` to download the file to your local computer (it's the same cats.csv from above!)
 2. Now do the same with [this Excel file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.xlsx). Unlike the previous, this is a proprietary format! 
@@ -276,25 +276,25 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 
 1. How do you decide the formats to store your data when you transition from 'raw' to 'processed/transformed' data? What are some of your considerations?
 2. Explore the `moSmall.csv` dataset, what questions might you ask with this dataset? What columns (variables) will you keep? 
-3. If you are saving the file `moSmall.csv` in a program like Microsoft Excel, you may be prompted to save the file as `.xlsx`. What format would you choose to save it in? Why would you choose to do so?
+3. If you are saving the file `moSmall.csv` in a proprietary spreadsheet application like Microsoft Excel (Windows/macOS) or Numbers (macOS), you may be prompted to save the file as `.xlsx` or `.numbers`. What format would you choose to save it in? Why would you choose to do so?
 
 ## Solution:
 
 1. I usually go with the conventions of the field as it allows me to share my "in progress" work easily with my research lab and collaborators. The file conventions can range from `.csv` to `.json`.
 2. I will keep columns (variables) relevant to my question, such as the `Artist Gender`, `Is Public Domain` and `Rights and Reproduction` columns. I will also keep some of the descriptive columns such as `Object ID` and `Artist Role` to help contextualize the results (e.g. what kind of roles do female artists tend to take on?)
-3. I will choose to keep it in a `.csv` file type as it can be opened up by more programs and if Microsoft stops supporting `.xlsx` file types I may no longer have access to opening the dataset. 
+3. I will choose to keep it in a `.csv` file type as it can be opened up by more programs and if Microsoft stops supporting `.xlsx` file types I may no longer have access to opening the dataset.   
 **OR**  I will choose to switch to a `.xlsx` format as it is easier to use on a graphical user interface like Microsoft Excel. Any stylistic changes I've made to the file will remain as well, such as alternative highlighting rows for readability or bolding column headings. 
 
 
 # Side Note on Data Structures: Tidy Data
 
-There are guidelines to the processing of data, sometimes referred to as **[Tidy Data](https://www.jstatsoft.org/article/view/v059i10)**. One manifestation of these rules:
+There are different guidelines to the processing of data, one of which is the **[Tidy Data](https://www.jstatsoft.org/article/view/v059i10)** format, which follows these rules in structuring data:
 
 1. Each variable is in a column.
 2. Each observation is a row.
 3. Each value is a cell.
 
-Look back at our example of cats to see how they may or may not follow those guidelines. **Important note:** some data formats allow for more than one dimension of data (like the `JSON` file below)! How might that complicate the concept of **Tidy Data**?
+Look back at our example of cats to see how they may or may not follow those guidelines. **Important note:** some data formats allow for more than one dimension of data (like the `JSON` file below). How might that complicate the concept of **Tidy Data**?
 
 ```json
 {
@@ -431,15 +431,16 @@ Techniques geared towards understanding a phenomenon, rather than predicting and
 
 - Grounded Theory/[Computational Grounded Theory](https://drive.google.com/file/d/0BxI6W5IIG74FeEtGbjQ0WF9uM0U/view)
 - Content Analysis
-- [Text Analysis](https://github.com/DHRI-Curriculum/text-analysis/blob/v2.0-rafa-edits/lessons.md)
+- [Text Analysis](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/text-analysis.md)
 
-As we have discussed thus far, data are not neutral or objective. They are guided by and produced through our interests and assumptions, often shaped by our socio-political contexts. Hence, we must also understand that the forms of analyses we take to our data further shapes how we are choosing to tell the story. We are crafting a narrative with each step in the stages of data that helps us communicate our understandings to a wider audience. This is not to say that our analyses are not "empirical" or "scientific" but to make transparent the theoretical foundations that guides our interpretations. For a more nuanced perspective, consider [The Numbers Don't Speak for Themselves](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/2) in *[Data Feminism](https://data-feminism.mitpress.mit.edu/).*
+As we have discussed thus far, data are not neutral or objective. They are guided by and produced through our interests and assumptions, often shaped by our socio-political contexts. Hence, we must also understand that the forms of analyses we take to our data further shapes how we are choosing to tell the story. We are crafting a narrative through each of the stages of data that helps us communicate our projects to a wider audience. This is not to say that our analyses are not "empirical" or "scientific" but a suggestion to make transparent the theoretical foundations and perspectives that are guiding our interpretations. For a more nuanced perspective, consider [The Numbers Don't Speak for Themselves](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/2) in *[Data Feminism](https://data-feminism.mitpress.mit.edu/).*
 
 ## Challenge: Analysis
 
 1. As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out? 
 2. How do we guide our decisions of interpretation with our choices of analyses? 
-3. Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? What are potential misuses of our outputs? 
+3. Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? 
+    * What are potential misuses of our outputs? 
 4. What can happen when we are trying to just go for the next big thing (tool/methods/algorithms) or just ran out of time and/or budget for our project?
 
 ## Solution: 
@@ -541,8 +542,8 @@ As we transform our results into visuals, we are also trying to tell a narrative
 
 1. What are we assuming when we choose to visually represent data in particular ways? 
 2. As you may have realized, many of the visualization examples work with quantitative data, as such, how do you think we can visualize qualitative data? (e.g. Word Clouds, Heat Map)
-3. How can data visualization mislead us? (for e.g. [Nathan Yau discusses how data visualization can lie](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
-4. How can data visualization help us tell a story? (for e.g. [Data Feminism's On rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/3?readingCollection=0cd867ef))
+3. How can data visualization mislead us? (for e.g. Nathan Yau discusses [how data visualization can lie](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/))
+4. How can data visualization help us tell a story? (for e.g. Data Feminism's [On rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/3?readingCollection=0cd867ef))
 5. Can you try to plot the `moSmall.csv` dataset based on the `Artist Gender` variable? What would you have to do before you can plot this graph? How might you explain what your visualization represents?
 
 ## Solution:  
@@ -562,9 +563,9 @@ Throughout the workshop we have been thinking together through some of the poten
 
 In this final activity, we would like for you to think about some of the potential concerns that might come up in the scenario below and think about how you might approach them.
 
-You are interested in looking at the reactions to the democratic party presidential debates across time. You decided that you would use data from twitter to analyze the responses. After collecting your data, you learned that your data has information from users who were later banned and included some tweets that were removed/deleted from the site.
+You are interested in looking at the reactions to the democratic party presidential debates across time. You decided that you would use data from Twitter to analyze the responses. After collecting your data, you learned that your data has information from users who were later banned and included some tweets that were removed/deleted from the site.
 
-You can definitely choose to discuss this with your partner! And we encourage you to do so! Different perspectives can offer us different insights to our own gaps and help us think through our decisions more concretely. Be prepared to discuss your thoughts and ideas when we "meet" for our sessions. 
+As you work through this activity, you can definitely choose to do so with your partner! And we highly encourage you to do so! Different perspectives can offer us different insights to our own gaps and help us in thinking through our decisions. Be prepared to discuss your thoughts and ideas when we "meet" for our sessions. 
 
 ### If you would like some guiding questions:
 
@@ -573,7 +574,7 @@ You can definitely choose to discuss this with your partner! And we encourage yo
 - Would you remove the data in your initially downloaded corpus?
     - How might you be aware of the differences in the corpus you downloaded v. the most current information?
 - Would the number of tweets generated impact your decisions?
-- How might where you are at in your project (e.g. "raw" data v. "cleaned" data v. analysed) affect your choices?
+- How might where you are at in the stages of data (e.g. "raw" data v. "cleaned" data v. analysed) affect your choices?
 
 ### Some additional exploration:
 
@@ -582,8 +583,8 @@ You can definitely choose to discuss this with your partner! And we encourage yo
 
 # Some concluding thoughts
 
-Data and ethics are contextually driven. As such, there isn’t always a risk-free approach. We often have to work through ethical dilemmas while thinking through information that we may not have (what are the risks of doing/not doing this work?). We have approached a moment where the question is no longer what we could do but what we should do. Given this saturated data-driven world we currently live in, there is value is pausing and consider why and what we are collecting, researching, analyzing, and understanding. Starting on a new project, especially one dealing with "big" data can be exciting but we now also have to first consider who does the data collected benefit and why is it important are important.
+Data and ethics are contextually driven. As such, there isn’t always a risk-free approach. We often have to work through ethical dilemmas while thinking through information that we may not have (what are the risks of doing/not doing this work?). We have approached a moment where the question is no longer what we could do but what we should do. Given this saturated data-driven world we currently live in, there is value in pausing and consider why and what we are collecting, researching, analyzing, and understanding. Starting on a new project, especially one dealing with "big" data can be exciting but we now also have to first consider who does the data collected benefit and [why is it important are important](https://www.manifestno.com/). The IRB (Institutional Review Board)'s regulations may form the starting point of our considerations but should not be the ending point of how we consider contextually-driven ethics and data projects. 
 
-In addition, open access is not always the answer to concerns of reproducibility and/or ethical considerations. There are moments where the decision to not have a dataset or analysis openly accessible, for example, when you are working with marginalized or vulnerable population, there are justifications and reasons for not allowing open access. We may choose to control who has access to decrease the chances of misrepresentation (intentional or otherwise) or results taken out of contexts as these often times can have detrimental consequences to those already on the margins. 
+In addition, open access is not always the answer to concerns of reproducibility and/or ethical considerations. There are moments where the decision to not have a dataset or analysis openly accessible is valid. For example, when you are working with marginalized or vulnerable populations, concerns for causing more harm justifies restricting access. We may choose to control who has access to decrease the chances of misrepresentations (intentional or otherwise) or having results taken out of contexts. 
 
 For a set of great questions to help you think through your data exploration and project planning, please check out Kristen Hackett's Tagging the Tower post, *[What to Consider when Planning a Digital Project.](https://digitalfellows.commons.gc.cuny.edu/2019/10/30/what-to-consider-when-planning-a-digital-project/)*

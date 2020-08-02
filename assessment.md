@@ -6,7 +6,7 @@ Before beginning the workshop, how confident did you feel about the idea of data
 
 - I've explored and applied the concepts introduced in data literacies on a variety of data types and formats, so this was nothing new to me.
 - I've some experience in applying the concepts introduced in data literacies, but felt I could get a better understanding.
-- I've done some rudimentary exploration, but I have not considered the process through the concepts in data literacies.
+- I've done some rudimentary exploration, but I have not considered the process through the concepts introduced in data literacies.
 - I have heard about data literacies before, but I have not explored it myself.
 - I didn't know what makes up data literacies was about and have no experience with it.
 
@@ -23,11 +23,11 @@ What types of questions might you ask yourself when collecting or reusing data?
 
 What are the considerations and assumptions we make when we move from cleaning to analysis? 
 
-What are some ethical considerations do you want to integrate in your upcoming project? How do they fit with IRB requirements (if applicable)?
+What are some ethical considerations do you want to integrate in your upcoming project? How do they fit with IRB regulation (if applicable)?
 
 ## Feedback on this Workshop
 
-Which of the following statements best describes your experience completing this workshop: 
+Which of the following statements best describe your experience in completing this workshop: 
 
 - The workshop was clear and easy to follow. 
 - The workshop was usually clear, though some concepts could be better explained. 
@@ -38,7 +38,7 @@ Which of the following statements best describes your experience completing this
 
 Please select all that apply. Which section(s) of the Project Lab were most valuable to you? 
 
-- Data is foundational
+- Data is Foundational (Introduction)
 - Stages of Data: Raw
 - Stages of Data: Processed/Transformed
 - Side Note on Data Structures: Tidy Data
@@ -49,7 +49,7 @@ Please select all that apply. Which section(s) of the Project Lab were most valu
 
 What additional topics or information do you wish was covered in this workshop? 
 
-If the opportunity arose, how likely would you be to suggest that someone take this workshop? 
+If the opportunity arose, how likely would you suggest this workshop to someone else? 
 - Extremely likely
 - Very likely
 - Likely

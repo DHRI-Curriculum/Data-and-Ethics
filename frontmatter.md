@@ -30,7 +30,7 @@ By the end of this workshop, participants will:
 ### Pre-reading suggestions
 
 - In [Big? Smart? Clean? Messy? Data in the Humanities](http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/), Christof Schöch discusses what data means in the humanities and the necessity of "smart big data."
-- This book, [Bit By Bit: Social Research in Digital Age](https://www.bitbybitbook.com/en/1st-ed/preface/), written by Matthew Salganik, approaches data and social research from a computational social science perspective. He also discusses the idea of "readymade" and "custommade" data alongside ethics.
+- The book, [Bit By Bit: Social Research in Digital Age](https://www.bitbybitbook.com/en/1st-ed/preface/), written by Matthew Salganik, approaches data and social research from a computational social science perspective. He also discusses the idea of "readymade" and "custommade" data alongside ethics.
 - [Ten Simple Rules for Responsible Big Data Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5373508/) explores some guidelines for addressing complex ethical issues that arise in any research project.  
 
 
