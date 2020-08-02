@@ -2,7 +2,9 @@
 
 ## Abstract
 
-What is data? What counts as data? Data is the foundation of nearly all digital projects and often help us to understand and express ideas and narratives. Rarely are we presented with data that is already cleaned and ready for analysis. Hence, in order to do digital work, we ought to know how data is captured, constructed, and manipulated. In this workshop we will be discussing the basics of research data, in terms of material, transformation, and presentation. We will also engage with the ethical dimensions of what it means to work with data, from collection to visualization and representation. 
+What is data? What counts as data? These are questions we will explore throughout the workshop.   
+
+Data is foundational to nearly all digital projects and often help us to understand and express our ideas and narratives. Hence, in order to do digital work, we should know how data is captured, constructed, and manipulated. In this workshop we will be discussing the basics of research data, in terms of its material, transformation, and presentation. We will also engage with the ethical dimensions of what it means to work with data, from collection to visualization to representation. 
 
 ## Learning Objectives
 
@@ -16,7 +18,7 @@ By the end of this workshop, participants will:
 
 ## Estimated time
 
-- 4 hours
+- 3 - 4 hours
 
 ## Prerequisites
 
@@ -27,15 +29,15 @@ By the end of this workshop, participants will:
 
 ### Pre-reading suggestions
 
-- [Big? Smart? Clean? Messy? Data in the Humanities](http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/)
-- [Bit By Bit: Social Research in Digital Age](https://www.bitbybitbook.com/en/1st-ed/preface/)
-- [Ten Simple Rules for Responsible Big Data Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5373508/) 
+- In [Big? Smart? Clean? Messy? Data in the Humanities](http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/), Christof Schöch discusses what data means in the humanities and the necessity of "smart big data."
+- This book, [Bit By Bit: Social Research in Digital Age](https://www.bitbybitbook.com/en/1st-ed/preface/), written by Matthew Salganik, approaches data and social research from a computational social science perspective. He also discusses the idea of "readymade" and "custommade" data alongside ethics.
+- [Ten Simple Rules for Responsible Big Data Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5373508/) explores some guidelines for addressing complex ethical issues that arise in any research project.  
 
 
 ### Projects that use these skills
 
-- [Data for Public Good](https://dataforgood.commons.gc.cuny.edu/): Graduate student fellows creates a semester-long collaborative project that makes public-interest dataset useful and informative to a public audience.
-- [SAFElab](https://safelab.socialwork.columbia.edu/): Uses computational and social work approaches to understand mechanisms of violence and how to prevent and intervene in violence that occur in neighborhoods and on social media. 
+- The [Data for Public Good](https://dataforgood.commons.gc.cuny.edu/) is a semester-long collaborative project led by CUNY graduate students. Each semester, a different public-interest dataset is explored to present information that is useful and informative to a public audience.
+- [SAFElab](https://safelab.socialwork.columbia.edu/) , led by Dr. Desmond U. Patton, uses computational and social work approaches to understand the mechanisms of violence and work on prevention and intervention in violence that occur in neighborhoods and on social media. 
 
 ### Ethical Considerations  
 

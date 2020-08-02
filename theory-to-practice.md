@@ -2,19 +2,22 @@
 
 ## Suggested Further Readings
 
-- Marieke Guy's [data management presentation](https://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management)
-- Queensland University of Technology's [Management of Research Data](http://www.mopp.qut.edu.au/D/D_02_08.jsp)
-- The Graduate Center, CUNY's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045072) guide
-- The Council for Big Data, Ethics, and Society's publication [Perspectives on Big Data, Ethics, and Society](https://bdes.datasociety.net/council-output/perspectives-on-big-data-ethics-and-society/)
-- Catherine D'Ignazio & Lauren F. Klein's [Data Feminism](https://data-feminism.mitpress.mit.edu/). Click [here for access to the (free) manuscript review copy](https://mitpressonpubpub.mitpress.mit.edu/data-feminism)
-- Feminist Data [Manifest-No](https://www.manifestno.com) 
-- Mimi Onuoha's [Missing Data Sets](https://github.com/MimiOnuoha/missing-datasets)
+### Data management
+- Marieke Guy's [data management presentation](https://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management) discusses some ideas around planning for data management before, during, and after a project.
+- Queensland University of Technology's [Management of Research Data](http://www.mopp.qut.edu.au/D/D_02_08.jsp) provides some ideas around ownership, roles and responsibilities of data-driven projects (specific to Queensland University of Technology but may be useful to understand different roles in a research project).
+- The Graduate Center, CUNY's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045072) research guide provides resources and specific steps for CUNY faculty, staff, and students. 
+
+### Ethics and ("big" data) research
+- The Council for Big Data, Ethics, and Society's [Perspectives on Big Data, Ethics, and Society](https://bdes.datasociety.net/council-output/perspectives-on-big-data-ethics-and-society/) is a white paper that consolidates the councils discussions around big data, ethics, and society.
+- Catherine D'Ignazio & Lauren F. Klein's [Data Feminism](https://data-feminism.mitpress.mit.edu/). Click [here for access to the (free) manuscript review copy](https://mitpressonpubpub.mitpress.mit.edu/data-feminism). It looks at "big" data from a feminist perspective, and discuss the importance of understanding long histories and socio-political concerns into research, as well as an overview of the field.
+- Feminist Data [Manifest-No](https://www.manifestno.com) discusses the realities of "big" data and the fallacies of unequal harm and risk distribution, particularly towards marginalized communities.
+- Mimi Onuoha's [Missing Data Sets](https://github.com/MimiOnuoha/missing-datasets) looks at "blank spots that exist in spaces that are otherwise data-saturated," that usually affect those who are the most vulnerable.
 
 ## Other Tutorials
 
-- [Computational social science with R](https://compsocialscience.github.io/summer-institute/curriculum#day_2) by the Summer Institutes in Computational Social Science
-- [The Data Visualisation Catalogue](https://datavizcatalogue.com/search.html) by Severino Ribecca
-- [From Data to Viz](https://www.data-to-viz.com/) by From Data to Viz
+- [Computational social science with R](https://compsocialscience.github.io/summer-institute/curriculum#day_2) by the Summer Institutes in Computational Social Science. This is a 2-week summer institute program that follows the [Bit By Bit: Social Research in Digital Age](https://www.bitbybitbook.com/en/1st-ed/preface/) format. The current repository (Jul, 2020) contains workshops and materials from the institute. 
+- [The Data Visualisation Catalogue](https://datavizcatalogue.com/search.html) by Severino Ribecca provides a guide to data visualizations for different types of data and narratives.
+- [From Data to Viz](https://www.data-to-viz.com/) by From Data to Viz also provides a guide to data visualization for different types of data and narratives.
 
 ## Projects or Challenges to Try
 
