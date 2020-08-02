@@ -1,6 +1,6 @@
 # Data is Foundational
 
-In this brief workshop we will be discussing the basics of research data in terms of material, transformation, and presentation. We will also be discussing the complicated ethics of data collection, cleaning, and representation. Because everyone has a different approach and understanding to data and ethics, this workshop will also include multiple sites for discussions to help us think through what data literacy means within our projects and broader applications.
+In this workshop we will be discussing the basics of research data in terms of material, transformation, and presentation. We will also be discussing the ethical issues that arise in data collection, cleaning, and representation. Because everyone has a different approach and understanding to data and ethics, this workshop will also include multiple sites for discussions to help us think through what data literacies mean within our projects and broader applications.
 
 ## What Constitutes Research Data?
 
@@ -56,7 +56,8 @@ These are some (most!) of the shapes your research data might transform into.
 3. Where do you usually get your data from?
 
 - - - 
-### An example: 
+## Solution: 
+
 1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS. 
 2. Often times outputs are statistical analysis and various data visualizations. This is also pretty comment in my field of psychology. 
 3. I can get them from large databases like pushshift.io or scrape certain social media outlets directly such as Twitter. 
@@ -100,7 +101,7 @@ As we think about data collection, we should also consider the labor involved in
 
 In addition to being mindful of paying a fair wage to the workers on such platforms, this kind of working environment also brings some further considerations to the data that is collected. For instance, to get close to minimum wage, workers cannot afford to spend much time on each task. Thinking through these circumstances, how do you think it impacts the data we collected? 
 
-For a deeper discussion on data and labor, consider Catherine D'Ignazio and Lauren Klein's chapter [Show Your Work](https://mitpressonpubpub.mitpress.mit.edu/pub/9m0tiz66/release/3) in *[Data Feminism](https://mitpress.mit.edu/books/data-feminism)*.
+For a deeper discussion on data and labor, consider Catherine D'Ignazio and Lauren Klein's chapter [Show Your Work](https://data-feminism.mitpress.mit.edu/pub/0vgzaln4/release/2?readingCollection=0cd867ef) in *[Data Feminism](https://data-feminism.mitpress.mit.edu/)*.
 
 ## Challenge: Raw Data and Labor
 
@@ -121,7 +122,7 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 
 # Stages of Data: Processed/Transformed
 
-Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, _e.g._, a table. Other common examples of file types you are likely to come across are (they all represent the same data!):
+Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, e.g., a table. Other common examples of file types you are likely to come across are (they all represent the same data!):
 
 Here are a few you're likely to come across, all representing the same data:
 
@@ -153,7 +154,7 @@ This file is viewer on a online [XML Viewer](https://www.xmlviewer.org/). If you
 
 - - - 
 
-**JSON:** Or JavaScript Object Notation, also uses a nesting structure, but with the addition of "key/value" pairs, like the firstName key which is tied to the Smally value (at least for the first cat!). JSON is popular with web applications that save and send data from your browser to web servers, because it uses the main language of web browsers, JavaScript, to work with data.
+**JSON:** Or JavaScript Object Notation, also uses a nesting structure, but with the addition of "key/value" pairs, like the firstName key which is tied to the `Smally` value (at least for the first cat!). JSON is popular with web applications that save and send data from your browser to web servers, because it uses the main language of web browsers, JavaScript, to work with data.
 
 ```json
 {
@@ -179,7 +180,7 @@ This file is viewer on a online [XML Viewer](https://www.xmlviewer.org/). If you
 ```
 
 ![Screenshot of JSON cats file](/images/cats_JSON.png)
-This file is viewed on my Firefox browser from my local directory. To view it in your browser, you can drag and drop the local file onto a open tab/window. You can also [download the JSON file](https://github.com/DHRI-Curriculum/data-literacies/tree/v2.0-di-edits/files) to try opening it in other viewers (e.g. R Studio, webviewers like Code Beautify's [JSON Viewer](https://codebeautify.org/jsonviewer)). To save the file onto your local computer, right click on `cats.json` and click `Save Link As` to download the file to your local computer. 
+This file is viewed on my Firefox browser from my local directory. To view it in your browser, you can drag and drop the local file onto a open tab or window. You can also [download the JSON file](https://github.com/DHRI-Curriculum/data-literacies/tree/v2.0-di-edits/files) and try opening it in other viewers (e.g. R Studio, webviewers like Code Beautify's [JSON Viewer](https://codebeautify.org/jsonviewer)). To save the file onto your local computer, right click on `cats.json` and click `Save Link As` to download the file to your local computer. 
 
 - - -
 
@@ -199,7 +200,7 @@ This file is viewed on my VSCode with the extension `Excel Viewer`. To view on V
 
 ## The Importance of Using Open Data Formats
 
-A small detour to discuss data formats. For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
+A small detour to discuss data formats. Open data formats are usually available to anyone free-of-charge and allows for easy reusability. Proprietary formats often hold copyrights, patents, or have other restrictions placed on them, and are dependent on (expensive) licensed softwares. For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
 
 1. Open [this file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0-di-edits/files/cats.csv) in a [text editor](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#choosing-a-text-editor) (e.g. VS Code, TextEdit (MacOs), NotePad (Windows) ), and then in an app like Excel. This is a CSV, an open, text-only, file format. To save the file onto your local computer, right click on `cats.csv` and click `Save Link As` to download the file to your local computer (it's the same cats.csv from above!)
 2. Now do the same with [this Excel file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.xlsx). Unlike the previous, this is a proprietary format! 
@@ -278,7 +279,7 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 ## Challenge: Processed/Transformed
 
 1. How do you decide the formats to store your data when you transition from 'raw' to 'processed/transformed' data? What are some of your considerations?
-2. Explore the `moSmall.csv` dataset, what columns (variables) will you keep? 
+2. Explore the `moSmall.csv` dataset, what questions might you ask with this dataset? What columns (variables) will you keep? 
 3. If you are saving the file `moSmall.csv` in a program like Microsoft Excel, you may be prompted to save the file as `.xlsx`. What format would you choose to save it in? Why would you choose to do so?
 
 - - - 
@@ -416,7 +417,12 @@ Measurements must be uniform, in that the same unit of measure must be used in a
 Analysis can take many forms (just like the rest of this stuff!), but many techniques fall within a couple of categories:
 
 ### Descriptive Analysis
-folx
+
+Techniques geared towards summarizing a data set, such as:
+
+- Mean
+- Median
+- Mode
 - Average
 - Standard deviation
 
@@ -435,6 +441,7 @@ Techniques geared towards understanding a phenomenon, rather than predicting and
 - Content Analysis
 - [Text Analysis](https://github.com/DHRI-Curriculum/text-analysis/blob/v2.0-rafa-edits/lessons.md)
 
+As we have discussed thus far, data are not neutral or objective. They are guided by and produced through our interests and assumptions, often shaped by our socio-political contexts. Hence, we must also understand that the forms of analyses we take to our data further shapes how we are choosing to tell the story. We are crafting a narrative with each step in the stages of data that helps us communicate our understandings to a wider audience. This is not to say that our analyses are not "empirical" or "scientific" but to make transparent the theoretical foundations that guides our interpretations. For a more nuanced perspective, consider [The Numbers Don't Speak for Themselves](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/2) in *[Data Feminism](https://data-feminism.mitpress.mit.edu/).*
 
 ## Challenge: Analysis
 
@@ -545,7 +552,7 @@ As we transform our results into visuals, we are also trying to tell a narrative
 1. What are we assuming when we choose to visually represent data in particular ways? 
 2. As you may have realized, many of the visualization examples work with quantitative data, as such, how do you think we can visualize qualitative data? (e.g. Word Clouds, Heat Map)
 3. How can data visualization mislead us? (for e.g. [Nathan Yau discusses how data visualization can lie](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
-4. How can data visualization help us tell a story? (for e.g. [Data Feminism's On rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints](https://mitpressonpubpub.mitpress.mit.edu/pub/8tjbs2x5/release/2))
+4. How can data visualization help us tell a story? (for e.g. [Data Feminism's On rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/3?readingCollection=0cd867ef))
 5. Can you try to plot the `moSmall.csv` dataset based on the `Artist Gender` variable? What would you have to do before you can plot this graph? How might you explain what your visualization represents?
 
 
