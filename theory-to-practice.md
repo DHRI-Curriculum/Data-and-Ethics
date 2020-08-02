@@ -16,6 +16,7 @@
 ## Other Tutorials
 
 - [Computational social science with R](https://compsocialscience.github.io/summer-institute/curriculum#day_2) by the Summer Institutes in Computational Social Science. This is a 2-week summer institute program that follows the [Bit By Bit: Social Research in Digital Age](https://www.bitbybitbook.com/en/1st-ed/preface/) format. The current repository (Jul, 2020) contains workshops and materials from the institute. 
+- The European Data Portal's tutorial on [Open Data](https://www.europeandataportal.eu/elearning/en/module9/#/id/co-01) offers a guided insight to the importance of choosing the right format for open datasets.
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/search.html) by Severino Ribecca provides a guide to data visualizations for different types of data and narratives.
 - [From Data to Viz](https://www.data-to-viz.com/) by From Data to Viz also provides a guide to data visualization for different types of data and narratives.
 
