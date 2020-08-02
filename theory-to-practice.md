@@ -9,7 +9,7 @@
 
 ### Ethics and ("big" data) research
 - The Council for Big Data, Ethics, and Society's [Perspectives on Big Data, Ethics, and Society](https://bdes.datasociety.net/council-output/perspectives-on-big-data-ethics-and-society/) is a white paper that consolidates the councils discussions around big data, ethics, and society.
-- Catherine D'Ignazio & Lauren F. Klein's [Data Feminism](https://data-feminism.mitpress.mit.edu/). Click [here for access to the (free) manuscript review copy](https://mitpressonpubpub.mitpress.mit.edu/data-feminism). It looks at "big" data from a feminist perspective, and discuss the importance of understanding long histories and socio-political concerns into research, as well as an overview of the field.
+- Catherine D'Ignazio & Lauren F. Klein's [Data Feminism](https://data-feminism.mitpress.mit.edu/). Scroll down the page to access the book chapters for free. It looks at "big" data from a feminist perspective, and discuss the importance of understanding long histories and socio-political concerns into research, as well as an overview of the field.
 - Feminist Data [Manifest-No](https://www.manifestno.com) discusses the realities of "big" data and the fallacies of unequal harm and risk distribution, particularly towards marginalized communities.
 - Mimi Onuoha's [Missing Data Sets](https://github.com/MimiOnuoha/missing-datasets) looks at "blank spots that exist in spaces that are otherwise data-saturated," that usually affect those who are the most vulnerable.
 
