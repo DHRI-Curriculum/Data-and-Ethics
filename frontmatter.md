@@ -11,10 +11,9 @@ Data is foundational to nearly all digital projects and often help us to underst
 By the end of this workshop, participants will:
 
 - Know the stages of data analysis
-- Learn how to clean/tidy data
 - Understand the difference between proprietary and open data formats
 - Become familiar with the specific requirements of "high quality data"
-- Learn about potential ethical concerns around working with different types of data and analysis
+- Learn about ethical issues around working with different types of data and analysis
 
 ## Estimated time
 
