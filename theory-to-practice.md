@@ -1,5 +1,7 @@
 # Theory to Practice
 
+Now that you've gained an understanding of some of the considerations around data and ethics, let's think a bit further about how you may apply some of what we have discussed in your work.  Below you will find some additional readings that dives deeper into some of the topics that were covered in our lessons. If you would like, you can also consider exploring the `Projects or Challenges to Try` to see how you might apply what you've learnt.
+
 ## Suggested Further Readings
 
 ### Data management
