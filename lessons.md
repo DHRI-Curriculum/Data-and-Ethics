@@ -47,6 +47,15 @@ There are many ways to represent data, just as there are many sources of data. W
 
 Adapted from: [Georgia Tech](https://www.gatech.edu/)
 
+## Evaluation
+
+Research data can be defined as:
+
+- materials or information necessary to come to my conclusion.*
+- the recorded factual material commonly accepted in the scientific community as necessary to validate research findings.*
+- method of collection and analysis.
+- objective and error-free.
+
 ## Challenge: Forms of Data
 
 These are some (most!) of the shapes your research data might transform into. 
@@ -100,6 +109,18 @@ As we think about data collection, we should also consider the labor involved in
 In addition to being mindful of paying a fair wage to the workers on such platforms, this kind of working environment also brings some further considerations to the data that is collected. For instance, to get close to minimum wage, workers cannot afford to spend much time on each task. Thinking through these circumstances, how do you think it impacts the data we collected? 
 
 For a deeper discussion on data and labor, consider Catherine D'Ignazio and Lauren Klein's chapter [Show Your Work](https://data-feminism.mitpress.mit.edu/pub/0vgzaln4/release/2?readingCollection=0cd867ef) in *[Data Feminism](https://data-feminism.mitpress.mit.edu/)*.
+
+## Evaluation
+
+The stages of data is a single iteration process, i.e. there is a fixed stage progression from data collection to visualization.
+- True
+- False*
+
+"Raw" data:
+- is data that is yet to be processed.*
+- is data that is received and/or collected.*
+- is the same to every researcher/research team.
+- can only be collected from participants.
 
 ## Challenge: Raw Data and Labor
 
@@ -272,6 +293,20 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
     <tr>
 </table>
 
+## Evaluation
+
+Structured data can be 
+- a XML list.* 
+- a Excel table.*
+- an email chain.
+- a collection of text files.
+
+We may choose to store our data in open data formats because they
+- are sustainable.
+- allow for easy reusability.
+- are free-of-charge to use.
+- All of the above.*
+
 ## Challenge: Processed/Transformed
 
 1. How do you decide the formats to store your data when you transition from 'raw' to 'processed/transformed' data? What are some of your considerations?
@@ -327,6 +362,14 @@ Look back at our example of cats to see how they may or may not follow those gui
 
 While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data. 
 
+## Evaluation
+
+Tiny data format only allows one value per cell.
+- True*
+- False
+
+Do you think you can explain the rules of tidy data structuring?
+
 ## Challenge: Tidy Data
 1. Looking at the `moSmall.csv` dataset, there are a couple of columns with nested information that don't follow the rules of tidy data. Can you identify at least 2 of the columns that demonstrates this?
 2. Would you convert `moSmall.csv` to follow the tidy data format? Can you demonstrate how you would do so?
@@ -379,6 +422,14 @@ Measurements must be consistent, in that different observations must not contrad
 ### Uniformity 
 
 Measurements must be uniform, in that the same unit of measure must be used in all relevant measurements. If one person's height is listed in meters and another in feet, one measurement must be converted.
+
+## Evaluation
+
+Measurements are *accurate* when 
+- observations do not contradict each other.
+- they represent the correct values.*
+- when they are unique responses (e.g. no duplication).
+- when the same unit of measure is used in all relevant measurements.
 
 ## Challenge: When do we stop cleaning?  
 
@@ -434,6 +485,12 @@ Techniques geared towards understanding a phenomenon, rather than predicting and
 - Text Analysis
 
 As we have discussed thus far, data are not neutral or objective. They are guided by and produced through our interests and assumptions, often shaped by our socio-political contexts. Hence, we must also understand that the forms of analyses we take to our data further shapes how we are choosing to tell the story. We are crafting a narrative through each of the stages of data that helps us communicate our projects to a wider audience. This is not to say that our analyses are not "empirical" or "scientific" but a suggestion to make transparent the theoretical foundations and perspectives that are guiding our interpretations. For a more nuanced perspective, consider [The Numbers Don't Speak for Themselves](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/2) in *[Data Feminism](https://data-feminism.mitpress.mit.edu/).*
+
+## Evaluation
+
+Descriptive analysis help us summarize a data set.
+- True*
+- False
 
 ## Challenge: Analysis
 
