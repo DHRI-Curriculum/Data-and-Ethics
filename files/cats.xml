@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cats> 
+    <Cat> 
+        <firstName>Smally</firstName> 
+        <lastName>McTiny</lastName> 
+    </Cat> 
+    <Cat> 
+        <firstName>Kitty</firstName> 
+        <lastName>Kitty</lastName> 
+    </Cat> 
+    <Cat> 
+        <firstName>Foots</firstName> 
+        <lastName>Smith</lastName> 
+    </Cat> 
+    <Cat> 
+        <firstName>Tiger</firstName> 
+        <lastName>Jaws</lastName> 
+    </Cat> 
+</Cats> 

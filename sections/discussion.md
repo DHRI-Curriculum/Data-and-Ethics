@@ -1,6 +1,4 @@
-[<<< Previous](cleaned.md)
-
-Discussion
+# Discussion
 ================
 
 Throughout the workshop we have been thinking together through some of
@@ -21,7 +19,7 @@ from twitter to analyze the responses. After collecting your data, you
 learned that your data has information from users who were later banned
 and included some tweets that were removed/deleted from the site.
 
-#### If you would like some guiding questions:
+### If you would like some guiding questions:
 
   - Would your approach differ if the responses were anonymized v. not?
   - Would the number of tweets generated impact your decisions?
@@ -35,4 +33,4 @@ thinking through information that we may not have (what are the risks of
 doing/not doing this work?). We may be approaching a moment where the
 question is no longer what we could do but what we should do.
 
-[<<< Previous](cleaned.md)
+

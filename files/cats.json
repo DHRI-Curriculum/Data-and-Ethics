@@ -1,0 +1,20 @@
+{
+    "Cats": [ 
+        {
+            "firstName": "Smally",
+            "lastName": "McTiny"
+        }, 
+        {
+            "firstName": "Kitty",
+            "lastName": "Kitty"
+        },
+        {
+            "firstName": "Foots",
+            "lastName":"Smith"
+        }, 
+        {
+            "firstName": "Tiger",
+            "lastName":"Jaws"
+        } 
+    ]
+} 

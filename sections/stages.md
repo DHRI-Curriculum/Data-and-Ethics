@@ -1,5 +1,3 @@
-[<<< Previous](forms.md) | [Next >>>](cleaned.md)
-
 # Stages of Data
 
 We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations:
@@ -113,4 +111,4 @@ Look back at our example of cats to see how they may or may not follow those gui
 
  <sup>1</sup>Wickham, Hadley. "Tidy Data". Journal of Statistical Software.
 
-[<<< Previous](forms.md) | [Next >>>](cleaned.md)
+
