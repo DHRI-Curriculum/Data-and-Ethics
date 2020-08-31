@@ -54,8 +54,9 @@ By the end of this workshop, participants will:
 
 ## Acknowledgements
 
-- Current author: Di Yoong
-- Contributing author: Stephen Zweibel
-- Reviewer: Stefano Morello
-- Reviewer: Filipa Calado
-
+- Current author: [Di Yoong](https://github.com/dyoong)
+- Contributing author: [Stephen Zweibel](https://github.com/szweibel)
+- Reviewer: [Stefano Morello](https://github.com/smorello87)
+- Reviewer: [Filipa Calado](https://github.com/gofilipa)
+- Editor: [Lisa Rhody](https://github.com/lmrhody)
+- Editor: [Kalle Westerling](https://github.com/kallewesterling)
