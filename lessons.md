@@ -116,7 +116,7 @@ The stages of data is a single iteration process, i.e. there is a fixed stage pr
 - True
 - False*
 
-"Raw" data:
+Which of the following statements are true for "raw" data:
 - is data that is yet to be processed.*
 - is data that is received and/or collected.*
 - is the same to every researcher/research team.
@@ -129,7 +129,7 @@ The stages of data is a single iteration process, i.e. there is a fixed stage pr
 3. How do you collect "raw" data? What are some of your practices? What are your field's practices?
 4. If you have not done so, open up `moSmall.csv` from your local computer/laptop. As the original file has about 500,000 entries, we've taken a random sample of 1% of the [original dataset](https://github.com/metmuseum/openaccess). In this case, would you consider this file to be a "raw" dataset? 
 
-## Solution: 
+## Solution:
 
 1. I think big data can be raw data depending on how the data is obtained and the processes I need to take before I can apply an analysis. I think that with large datasets, I always assume "rawness" because I won't need all of the variables or there will be decisions that need to be made about missing entries. 
 2. I think my approach to scraped data is similar to big data. 
@@ -201,7 +201,7 @@ This file is viewed on my Firefox browser from my local directory. To view it in
 
 - - -
 
-**CSV** or Comma Separated Values uses---you guessed it!---commas to separate values. Each line (First Name, Last Name) is a new "record" and each column (separated by a comma) is a new "field." This data format stores tabular data in a clean way that facilitates the transfer between different data architectures. As data types go, it is very rudimentary (even predating computers!) and is easy to type, without needing special characters beyond a comma.
+**CSV** or Comma Separated Values uses—you guessed it!—commas to separate values. Each line (First Name, Last Name) is a new "record" and each column (separated by a comma) is a new "field." This data format stores tabular data in a clean way that facilitates the transfer between different data architectures. As data types go, it is very rudimentary (even predating computers!) and is easy to type, without needing special characters beyond a comma.
 
 ```
 First Name,Last Name
@@ -219,7 +219,7 @@ This file is viewed on my VSCode with the extension `Excel Viewer`. To view on V
 
 A small detour to discuss data formats. Open data formats are usually available to anyone free-of-charge and allows for easy reusability. Proprietary formats often hold copyrights, patents, or have other restrictions placed on them, and are dependent on (expensive) licensed softwares. If the licensed software cease to support its proprietary format or it becomes obsolete, you may be stuck with a file format that cannot be easily open or (re)used (e.g. .mac). For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
 
-1. Open [this file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0-di-edits/files/cats.csv) in a [text editor](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#choosing-a-text-editor) (e.g. VS Code, TextEdit (MacOs), NotePad (Windows) ), and then in an app like Excel. This is a CSV, an open, text-only, file format. To save the file onto your local computer, right click on `cats.csv` and click `Save Link As` to download the file to your local computer (it's the same cats.csv from above!)
+1. Open [this file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0-di-edits/files/cats.csv) in a [text editor](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#choosing-a-text-editor) (e.g. VS Code, TextEdit (macOS), NotePad (Windows) ), and then in an app like Excel. This is a CSV, an open, text-only, file format. To save the file onto your local computer, right click on `cats.csv` and click `Save Link As` to download the file to your local computer (it's the same cats.csv from above!)
 2. Now do the same with [this Excel file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.xlsx). Unlike the previous, this is a proprietary format! 
 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard.
@@ -234,59 +234,55 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
     <tr>
         <th rowspan="3">Images</th>
         <td><a href="https://www.lifewire.com/tif-tiff-file-2622393">TIFF</a> (Tagged Image File Format) </td>
-        <td>.tiff</td>
+        <td>`.tiff`, `.tif`</td>
     </tr>
     <tr>
         <td><a href="https://en.wikipedia.org/wiki/JPEG_2000">JPEG2000</a></td>
-        <td>.jp2, .jpf, .jpx</td>
+        <td>`.jp2`, `.jpf`, `.jpx`</td>
     </tr>
     <tr>
         <td><a href="http://www.libpng.org/pub/png/pngintro.html">PNG</a> (Portable Network Graphics)</td>
-        <td>.png</td>
+        <td>`.png`</td>
     </tr>
     <tr>
         <th rowspan="3">Text</th>
         <td><a href="https://help.ceda.ac.uk/article/4429-ascii-formats">ASCII</a>  (American Standard Code for Information Interchange)</td>
-        <td>.ascii, .dat, .txt</td>
+        <td>`.ascii`, `.dat`, `.txt`</td>
     </tr>
     <tr>
         <td><a href="https://en.wikipedia.org/wiki/PDF">PDF</a> (Portable Document Format)</td>
-        <td>.pdf</td>
+        <td>`.pdf`</td>
     </tr>
     <tr>
         <td><a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV</a> (Comma-Separated Values</td>
-        <td>.csv</td>
+        <td>`.csv`</td>
     </tr>
     <tr>
         <th rowspan="2">Audio</th>
         <td><a href="https://xiph.org/flac/index.html">FLAC</a> (Free Lossless Audio Codec)</td>
-        <td>.flac</td>
+        <td>`.flac`</td>
     </tr>
         <tr>
         <td><a href="https://xiph.org/ogg/">ogg</a></td>
-        <td>.ogg</td>
+        <td>`.ogg`</td>
     </tr>
     <tr>
         <th rowspan="2">Video</th>
         <td><a href="https://www.lifewire.com/mp4-file-2622024">MPEG-4</a></td>
-        <td>.mp4</td>
-    </tr>
-    <tr>
-        <td><a href="https://xiph.org/ogg/">ogg</a></td>
-        <td>.ogg</td>
+        <td>`.mp4`</td>
     </tr>
     <tr>
         <th rowspan="3">Others</th>
         <td><a href="https://www.w3schools.com/xml/xml_whatis.asp">XML</a> (Extensible Markup Language)</td>
-        <td>.xml</td>
+        <td>`.xml`</td>
     </tr>
     <tr>
         <td><a href="https://www.json.org/json-en.html">JSON</a> (JavaScript Object Notation</td>
-        <td>.json</td>
+        <td>`.json`</td>
     </tr>
     <tr>
-        <td><a href="https://www.3dsystems.com/quickparts/learning-center/what-is-stl-file">STL</a> (STereoLithography file format -- used in 3D modeling)</td>
-        <td>.stl</td>
+        <td><a href="https://www.3dsystems.com/quickparts/learning-center/what-is-stl-file">STL</a> (STereoLithography file format—used in 3D modeling)</td>
+        <td>`.stl`</td>
     </tr>
     <tr>
         <th colspan="3"> For a list of file formats, consider the Library of Congress' list of <a href="https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml#"> Sustainability of Digital Formats</a>.</th>
@@ -295,13 +291,13 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 
 ## Evaluation
 
-Structured data can be 
+Structured data can be:
 - a XML list.* 
 - a Excel table.*
 - an email chain.
 - a collection of text files.
 
-We may choose to store our data in open data formats because they
+We may choose to store our data in open data formats because they:
 - are sustainable.
 - allow for easy reusability.
 - are free-of-charge to use.
@@ -317,9 +313,7 @@ We may choose to store our data in open data formats because they
 
 1. I usually go with the conventions of the field as it allows me to share my "in progress" work easily with my research lab and collaborators. The file conventions can range from `.csv` to `.json`.
 2. I will keep columns (variables) relevant to my question, such as the `Artist Gender`, `Is Public Domain` and `Rights and Reproduction` columns. I will also keep some of the descriptive columns such as `Object ID` and `Artist Role` to help contextualize the results (e.g. what kind of roles do female artists tend to take on?)
-3. I will choose to keep it in a `.csv` file type as it can be opened up by more programs and if Microsoft stops supporting `.xlsx` file types I may no longer have access to opening the dataset.   
-**OR**  I will choose to switch to a `.xlsx` format as it is easier to use on a graphical user interface like Microsoft Excel. Any stylistic changes I've made to the file will remain as well, such as alternative highlighting rows for readability or bolding column headings. 
-
+3. I will choose to keep it in a `.csv` file type as it can be opened up by more programs and if Microsoft stops supporting `.xlsx` file types I may no longer have access to opening the dataset. **or** I will choose to switch to a `.xlsx` format as it is easier to use on a graphical user interface like Microsoft Excel. Any stylistic changes I've made to the file will remain as well, such as alternative highlighting rows for readability or bolding column headings. 
 
 # Side Note on Data Structures: Tidy Data
 
@@ -329,7 +323,7 @@ There are different guidelines to the processing of data, one of which is the **
 2. Each observation is a row.
 3. Each value is a cell.
 
-Look back at our example of cats to see how they may or may not follow those guidelines. **Important note:** some data formats allow for more than one dimension of data (like the `JSON` file below). How might that complicate the concept of **Tidy Data**?
+Look back at our example of cats to see how they may or may not follow those guidelines. **Important note:** some data formats allow for more than one dimension of data (like the `JSON` structure below). How might that complicate the concept of **Tidy Data**?
 
 ```json
 {
@@ -376,10 +370,9 @@ Do you think you can explain the rules of tidy data structuring?
 
 ## Solution
 1. `Artist Role`, `Artist Display Name`, `Artist Display Bio`, `Artist Alpha Sort`, `Artist Nationality`, `Artist Begin Date`, `Artist End Date`, or `Classification`.
-2. I will choose to convert to the tidy data format if I was interested in any of the variables listed above, so that it will be easier to analyse the entries. I will have to unnest the entries by separating the data into different rows. For example, if I am interested in understanding the type of roles that are predominantly held by non-cisgender men, I will unnest the column `Artist Role`. An entry like `Architect|Artist` will be separated into two rows as illustrated in the example:
+2. I will choose to convert to the tidy data format if I was interested in any of the variables listed above, so that it will be easier to analyse the entries. I will have to unnest the entries by separating the data into different rows. For example, if I am interested in understanding the type of roles that are predominantly held by non-cisgender men, I will unnest the column `Artist Role`. An entry like `Architect|Artist` will be separated into two rows as illustrated in this example:
 
 ![Comparison of moSmall after tidy format](/images/moSmallComp.png)
-
 
 # More Stages of Data: Cleaned
     
@@ -511,8 +504,8 @@ Descriptive analysis help us summarize a data set.
 
 Visualizing your data helps you tell a story and construct a narrative that guides your audience in understanding your interpretation of a collected, cleaned, and analyzed dataset. Depending on the type of analysis you ran, different kinds of visualization can be more effective than others. In the table below are some examples of data visualization that can help you convey the message of your data.
 
+## Examples of Data Visualization
 <table>
-    <caption>Examples of Data Visualization</caption>
     <tr>
         <th>Types of Analysis</th>
         <th>Types of Visualization</th>
@@ -644,4 +637,4 @@ Data and ethics are contextually driven. As such, there isn’t always a risk-fr
 
 In addition, open access is not always the answer to concerns of reproducibility and/or ethical considerations. There are moments where the decision to not have a dataset or analysis openly accessible is valid. For example, when you are working with marginalized or vulnerable populations, concerns for causing more harm justifies restricting access. We may choose to control who has access to decrease the chances of misrepresentations (intentional or otherwise) or having results taken out of contexts. 
 
-For a set of great questions to help you think through your data exploration and project planning, please check out Kristen Hackett's Tagging the Tower post, *[What to Consider when Planning a Digital Project.](https://digitalfellows.commons.gc.cuny.edu/2019/10/30/what-to-consider-when-planning-a-digital-project/)*
+For a set of great questions to help you think through your data exploration and project planning, please check out Kristen Hackett's Tagging the Tower post, [_What to Consider when Planning a Digital Project_.](https://digitalfellows.commons.gc.cuny.edu/2019/10/30/what-to-consider-when-planning-a-digital-project/)
