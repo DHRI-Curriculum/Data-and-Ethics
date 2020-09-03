@@ -38,16 +38,16 @@ There are many ways to represent data, just as there are many sources of data. W
 - Protein or genetic sequences
 - Artistic products
 - Curriculum materials (e.g. course syllabi)
-- Spreadsheets (e.g. .xlsx, .numbers, .csv)
-- Audio (e.g. .mp3, .wav, .aac)
-- Video (e.g. .mov, .mp4)
-- Computer Aided Design/CAD (.cad)
-- Databases (e.g. .sql)
-- Geographic Information Systems (GIS) and spatial data (e.g. .shp, .dbf, .shx)
-- Digital copies of images (e.g. .png, .jpeg, .tiff)
-- Web files (e.g. .html, .asp, .php)
-- Matlab files & 3D Models (e.g. .stl, .dae, .3ds)
-- Metadata & Paradata (e.g. .xml, .json)
+- Spreadsheets (e.g. `.xlsx`, `.numbers`, `.csv`)
+- Audio (e.g. `.mp3`, `.wav`, `.aac`)
+- Video (e.g. `.mov`, `.mp4`)
+- Computer Aided Design/CAD (`.cad`)
+- Databases (e.g. `.sql`)
+- Geographic Information Systems (GIS) and spatial data (e.g. `.shp`, `.dbf`, `.shx`)
+- Digital copies of images (e.g. `.png`, `.jpeg`, `.tiff`)
+- Web files (e.g. `.html`, `.asp`, `.php`)
+- Matlab files & 3D Models (e.g. `.stl`, `.dae`, `.3ds`)
+- Metadata & Paradata (e.g. `.xml`, `.json`)
 - Collection of digital objects acquired and generated during research
 
 Adapted from: [Georgia Tech](https://www.gatech.edu/)
@@ -99,6 +99,12 @@ Before beginning your data collection, manipulation, and transformation, a good 
 
 For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a sub-folder of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`). 
 
+## Keywords
+
+Do you remember the glossary terms from this section?
+
+- [Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/data.md)
+
 # Stages of Data: Raw
     
 "Raw" data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc.. It could be in any of the forms listed in the previous section.
@@ -141,10 +147,18 @@ Which of the following statements are true for "raw" data:
 3. Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications. 
 4. The dataset is "raw" to me as I will likely be working on removing certain variables/entries to work towards my question.
 
+## Keywords
+
+Do you remember the glossary terms from this section?
+
+- [Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/data.md)
+- [Raw Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/raw-data.md)
 
 # Stages of Data: Processed/Transformed
 
 Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, e.g., a table. Here are a few you're likely to come across, all representing the same data:
+
+## XML
 
 **XML** or eXstensible Markup Language, uses a nested structure, where the "tags" like `<Cat>` contain other tags inside them, like `<firstName>`. This format is good for organizing the layout of a document in a tree-like format, just like HTML, where we want to nest elements like a sentence within a paragraph, for example. XML does not carry any information about how to be displayed and can be used in a variety of presentation scenarios. 
 
@@ -174,7 +188,7 @@ This file is viewed on an online [XML Viewer](https://www.xmlviewer.org/). If yo
 
 For example, after downloading the file, can you try to open this file in your browser? (Psst! Try right clicking on `cats.xml` in your local directory and choosing `Open with Other Application` in the drop down menu to select the browser of your choice.)
 
-- - - 
+## JSON
 
 **JSON** or JavaScript Object Notation, also uses a nesting structure, but with the addition of *key/value* pairs, like the `"firstName"` *key* which is tied to the `Smally` *value* (at least for the first cat!). JSON is popular with web applications that save and send data from your browser to web servers, because it uses the main language of web browsers, JavaScript, to work with data.
 
@@ -204,7 +218,7 @@ For example, after downloading the file, can you try to open this file in your b
 ![Screenshot of JSON cats file](/images/cats_JSON.png)
 This file is viewed on my Firefox browser from my local directory. To view it in your browser, you can drag and drop the local file onto a open tab or window. You can also [download the JSON file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.json) and try opening it in other viewers (e.g. R Studio, webviewers like Code Beautify's [JSON Viewer](https://codebeautify.org/jsonviewer)). To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer. 
 
-- - -
+## CSV
 
 **CSV** or Comma Separated Values uses—you guessed it!—commas to separate values. Each line (First Name, Last Name) is a new "record" and each column (separated by a comma) is a new "field." This data format stores tabular data in a clean way that facilitates the transfer between different data architectures. As data types go, it is very rudimentary (even predating computers!) and is easy to type, without needing special characters beyond a comma.
 
@@ -320,6 +334,15 @@ We may choose to store our data in open data formats because they:
 2. I will keep columns (variables) relevant to my question, such as the `Artist Gender`, `Is Public Domain` and `Rights and Reproduction` columns. I will also keep some of the descriptive columns such as `Object ID` and `Artist Role` to help contextualize the results (e.g. what kind of roles do female artists tend to take on?)
 3. I will choose to keep it in a `.csv` file type as it can be opened up by more programs and if Microsoft stops supporting `.xlsx` file types I may no longer have access to opening the dataset. **or** I will choose to switch to a `.xlsx` format as it is easier to use on a graphical user interface like Microsoft Excel. Any stylistic changes I've made to the file will remain as well, such as alternative highlighting rows for readability or bolding column headings. 
 
+## Keywords
+
+Do you remember the glossary terms from this section?
+
+- [CSV (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/csv.md)
+- [XML (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/xml.md)
+- [JSON (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/json.md)
+- [Open Data Formats](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/open-data-formats.md)
+
 # Side Note on Data Structures: Tidy Data
 
 There are different guidelines to the processing of data, one of which is the **[Tidy Data](https://www.jstatsoft.org/article/view/v059i10)** format, which follows these rules in structuring data:
@@ -378,6 +401,12 @@ Do you think you can explain the rules of tidy data structuring?
 2. I will choose to convert to the tidy data format if I was interested in any of the variables listed above, so that it will be easier to analyse the entries. I will have to unnest the entries by separating the data into different rows. For example, if I am interested in understanding the type of roles that are predominantly held by non-cisgender men, I will unnest the column `Artist Role`. An entry like `Architect|Artist` will be separated into two rows as illustrated in this example:
 
 ![Comparison of moSmall after tidy format](/images/moSmallComp.png)
+
+## Keywords
+
+Do you remember the glossary terms from this section?
+
+- [Tidy Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/tidy-data.md)
 
 # More Stages of Data: Cleaned
     
@@ -504,6 +533,14 @@ Descriptive analysis help us summarize a data set.
 2. The interpretation of the results should align itself with the type of analyses that I ran. In addition, it should be guided in some capacity by previous work in this area to inform my understanding.
 3. Potential misuse that I am always concern with is the weaponziation of marginalized participants' words and thoughts. I think I remain somewhat uncomfortable with the unintended use of my research because I don't think I can ever consider every circumstances that the analysis can be misused or misquoted. When I was working on an oral history project, I have set up some layers of boundaries to prevent too easy of an access to audio files as an attempt at negotiating access and protection of my narrators. 
 4. In chasing the next big thing, the original intentions for beginning the project might be lost. For me, making sure that my work is meaningful to my communities is important and the excitement of exploring a new tool can sometimes distract me from this intention. Running out of time and/or budget can also mean that the project may end abruptly, and relationships built could be strained in a haphazard wrap up. This brings me back to making sure that before the project begins to spend a significant amount of time on project planning to reduce the chances of this happening.
+
+## Keywords
+
+Do you remember the glossary terms from this section?
+
+- [Descriptive Analysis](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/desc-analysis.md)
+- [Inferential Analysis](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/inferential-analysis.md)
+- [Qualitative Analysis](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/qual-analysis.md)
 
 # More Stages of Data: Visualized
 
