@@ -6,21 +6,26 @@ In this workshop we will be discussing the basics of research data in terms of m
 
 These quotes below offers a variety of perspectives to understanding research data across different stakeholders. The inclusion of these different approaches to research data is to suggest that there is no singular, definitive approach, and is dependent on multiple factors, including your project considerations. 
 
+
 > Material or information on which an argument, theory, test or hypothesis, or another research output is based.
 > 
 > — <cite>[Queensland University of Technology. Manual of Procedures and Policies. Section 2.8.3.](http://www.mopp.qut.edu.au/D/D_02_08.jsp)</cite>
+
 
 > What constitutes such data will be determined by the community of interest through the process of peer review and program management. This may include, but is not limited to: data, publications, samples, physical collections, software and models.
 > 
 > — <cite>[Marieke Guy](http://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management)</cite>
 
+
 > Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings, but not any of the following: preliminary analyses, drafts of scientific papers, plans for future research, peer reviews, or communications with colleagues.
 > 
 > — <cite>[OMB-110, Subpart C, section 36, (d) (i)](http://www.whitehouse.gov/omb/circulars_a110/)</cite>
 
+
 > The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions
 > 
 > — <cite>[Angela Bassa](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4)</cite>
+
 
 Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information is depends on your project. 
 
@@ -538,9 +543,9 @@ Descriptive analysis help us summarize a data set.
 
 Do you remember the glossary terms from this section?
 
-- [Descriptive Analysis](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/desc-analysis.md)
+- [Descriptive Analysis](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/descriptive-analysis.md)
 - [Inferential Analysis](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/inferential-analysis.md)
-- [Qualitative Analysis](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/qual-analysis.md)
+- [Qualitative Analysis](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/qualitative-analysis.md)
 
 # More Stages of Data: Visualized
 
