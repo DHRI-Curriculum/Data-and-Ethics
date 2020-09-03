@@ -55,6 +55,7 @@ There are many ways to represent data, just as there are many sources of data. W
 - Metadata & Paradata (e.g. `.xml`, `.json`)
 - Collection of digital objects acquired and generated during research
 
+
 Adapted from: [Georgia Tech](https://www.gatech.edu/)
 
 ## Evaluation
