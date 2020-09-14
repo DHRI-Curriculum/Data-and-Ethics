@@ -158,7 +158,7 @@ Which of the following statements are true for "raw" data:
 Do you remember the glossary terms from this section?
 
 - [Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/data.md)
-- [Raw Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/raw-data.md)
+- ["Raw" Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/raw-data.md)
 
 # Stages of Data: Processed/Transformed
 
