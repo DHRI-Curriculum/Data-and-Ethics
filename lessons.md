@@ -237,7 +237,8 @@ Tiger,Jaws
 ```
 
 ![Screenshot of CSV cats file](/images/cats_CSV.png)
-This file is viewed on my VSCode with the extension `Excel Viewer`. To view on VSCode, [install the extension](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer) in VSCode, open the .csv, and then right click on the file and click `Open Preview`. You can also [download the CSV file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.csv) to open it in other viewers (e.g. Microsoft Excel, Notepad). To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer. 
+
+This file is viewed on my VSCode with the extension `Excel Viewer`. To view in VSCode, [install the extension](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer) in VSCode, open the .csv, and then right click on the file and click `Open Preview`. You can also [download the CSV file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0-di-edits/files/cats.csv) to open it in other viewers (e.g. Microsoft Excel, Notepad). To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer. 
 
 
 ## The Importance of Using Open Data Formats
@@ -399,7 +400,7 @@ Tiny data format only allows one value per cell.
 Do you think you can explain the rules of tidy data structuring?
 
 ## Challenge: Tidy Data
-1. Looking at the `moSmall.csv` dataset, there are a couple of columns with nested information that don't follow the rules of tidy data. Can you identify at least 2 of the columns that demonstrates this?
+1. Looking at the `moSmall.csv` dataset, there are a couple of columns with nested information that don't follow the rules of tidy data. Can you identify at least two of the columns that demonstrates this?
 2. Would you convert `moSmall.csv` to follow the tidy data format? Can you demonstrate how you would do so?
 
 ## Solution
@@ -481,11 +482,11 @@ Measurements are *accurate* when
 1. I think this is often decided before the cleaning process begins, perhaps after some quick visualization or analysis of the "raw" data. I generally remove empty entries from my data sets. Working with social media data, I also usually remove URLs as these influence the topic modelling algorithms (e.g. "http" may end up being the most prominent topic of the corpus). This is usually where I stop cleaning. Some might suggest the removal of stop words like "the" "a" "an," but I have always felt very uncertain about the removal of these words. This is especially because the dictionary of stop words were generated through canon western texts that is not representative of the many variations of English. For example, if I were looking at the tweets of Singaporean youths, the stop word dictionary may not be appropriate.
 2. For me, the data is often destroyed (usually because IRB desires it) or it remains in the original "raw" file. The file that I clean will always be a duplicate file to allow for recovery in case I made a poor decision in the process of cleaning. 
 3. Exploring the dataset, here are my responses to the questions:
-    * Using `Object ID` indicates that there is no duplicates in the dataset. Every entry is unique.
-    * I will have to compare it to another trusted source like a database from [The Getty Research Institute](https://www.getty.edu/research/tools/).
-    * The data collected is not completed. There are missing fields. Depending on where the missing field is, I may choose to code it as `0` for the ease of analysis. For example, the column `Dynasty` only contain 1 meaningful entry within this sample data set, as such, I will not run any analysis that may rely on this column and choose to drop it. The column `Accession Year` only has 1 NA and I will choose to drop that row if this becomes a useful variable for my analysis. 
-    * While the `Rights and Reproduction` contains a lot of NA and inappropriate responses (e.g. "Ceramics"), for the most part, for the items labeled as `YES` in the column `Is Public Domain` the corresponding column in `Rights and Reproduction` does not record a copyright holder. I am assuming that the NA can stand in for the object being in the public domain.  
-    * Taking only `Female` as a valid gender response, everything else will be converted to a `0` for ease of analysis. I am assuming `|` as equivalent to a NA or an empty field rather than an alternative gender. Hence in my analysis, the proportion will only record female artists' objects against the rest of the collected items. I cannot necessarily answer the larger question of all non-cisgender men against the total in this case.
+    - Using `Object ID` indicates that there is no duplicates in the dataset. Every entry is unique.
+    - I will have to compare it to another trusted source like a database from [The Getty Research Institute](https://www.getty.edu/research/tools/).
+    - The data collected is not completed. There are missing fields. Depending on where the missing field is, I may choose to code it as `0` for the ease of analysis. For example, the column `Dynasty` only contain 1 meaningful entry within this sample data set, as such, I will not run any analysis that may rely on this column and choose to drop it. The column `Accession Year` only has 1 NA and I will choose to drop that row if this becomes a useful variable for my analysis. 
+    - While the `Rights and Reproduction` contains a lot of NA and inappropriate responses (e.g. "Ceramics"), for the most part, for the items labeled as `YES` in the column `Is Public Domain` the corresponding column in `Rights and Reproduction` does not record a copyright holder. I am assuming that the NA can stand in for the object being in the public domain.  
+    - Taking only `Female` as a valid gender response, everything else will be converted to a `0` for ease of analysis. I am assuming `|` as equivalent to a NA or an empty field rather than an alternative gender. Hence in my analysis, the proportion will only record female artists' objects against the rest of the collected items. I cannot necessarily answer the larger question of all non-cisgender men against the total in this case.
 
 
 # More Stages of Data: Analyzed
