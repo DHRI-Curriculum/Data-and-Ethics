@@ -55,8 +55,8 @@ By the end of this workshop, participants will:
 ## Acknowledgements
 
 - Current author: [Di Yoong](https://github.com/dyoong)
-- Contributing author: [Stephen Zweibel](https://github.com/szweibel)
-- Reviewer: [Stefano Morello](https://github.com/smorello87)
-- Reviewer: [Filipa Calado](https://github.com/gofilipa)
-- Editor: [Lisa Rhody](https://github.com/lmrhody)
-- Editor: [Kalle Westerling](https://github.com/kallewesterling)
+- Past contributing author: [Stephen Zweibel](https://github.com/szweibel)
+- Past reviewer: [Stefano Morello](https://github.com/smorello87)
+- Past reviewer: [Filipa Calado](https://github.com/gofilipa)
+- Current editor: [Lisa Rhody](https://github.com/lmrhody)
+- Current editor: [Kalle Westerling](https://github.com/kallewesterling)
