@@ -4,7 +4,7 @@ In this workshop we will be discussing the basics of research data in terms of m
 
 ## What Constitutes Research Data?
 
-These quotes below offers a variety of perspectives to understanding research data across different stakeholders. The inclusion of these different approaches to research data is to suggest that there is no singular, definitive approach, and is dependent on multiple factors, including your project considerations. 
+These quotes below offers a variety of perspectives to understanding research data across different stakeholders. The inclusion of these different approaches to research data is to suggest that there is no singular, definitive approach, and is dependent on multiple factors, including your project considerations.
 
 
 > Material or information on which an argument, theory, test or hypothesis, or another research output is based.
@@ -27,11 +27,11 @@ These quotes below offers a variety of perspectives to understanding research da
 > — <cite>[Angela Bassa](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4)</cite>
 
 
-Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information is depends on your project. 
+Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information is depends on your project.
 
 ## Forms of Data
 
-There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities: 
+There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities:
 
 - Non-digital text (lab books, field notebooks)
 - Digital texts or digital copies of text
@@ -69,32 +69,32 @@ Research data can be defined as:
 
 ## Challenge: Forms of Data
 
-These are some (most!) of the shapes your research data might transform into. 
+These are some (most!) of the shapes your research data might transform into.
 
-1. What are some forms of data you use in your work? 
-2. What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field. 
+1. What are some forms of data you use in your work?
+2. What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field.
 3. Where do you usually get your data from?
 
-## Solution: 
+## Solution:
 
-1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS. 
-2. Often times outputs are statistical analysis and various data visualizations. This is also pretty comment in my field of psychology. 
-3. I can get them from large databases like pushshift.io or scrape certain social media outlets directly such as Twitter. 
+1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS.
+2. Often times outputs are statistical analysis and various data visualizations. This is also pretty comment in my field of psychology.
+3. I can get them from large databases like pushshift.io or scrape certain social media outlets directly such as Twitter.
 
 
 # Stages of Data
 
-We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. Stages of data typically consist of a) collection of "raw" data, b) processing and/or transforming data, c) cleaning, d) analysis, and e) visualization. For example, we can consider the stages in the following way:   
+We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. Stages of data typically consist of a) collection of "raw" data, b) processing and/or transforming data, c) cleaning, d) analysis, and e) visualization. For example, we can consider the stages in the following way:
 
-- We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s). 
-    - E.g. What proportion of the artwork collected and/or hosted in the Met are by non cis-gender men artists and also in public domain? 
-- In the process of setting up the project, we make decisions on what kind of data we think can help us to answer the question 
-    - E.g. I think I can get the data from the Met's [open access data set](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv). I will need to look at what variables exist in the dataset to find out if I can filter by gender and the variables that will correspond to copyrights. 
-- After collecting our data we then consider and make decisions in the processes of cleaning. 
-    - E.g. I have to transform some of the gender values and decide what to do with the missing fields. 
-- We then run our preliminary analysis of the data. 
+- We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s).
+    - E.g. What proportion of the artwork collected and/or hosted in the Met are by non cis-gender men artists and also in public domain?
+- In the process of setting up the project, we make decisions on what kind of data we think can help us to answer the question
+    - E.g. I think I can get the data from the Met's [open access data set](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv). I will need to look at what variables exist in the dataset to find out if I can filter by gender and the variables that will correspond to copyrights.
+- After collecting our data we then consider and make decisions in the processes of cleaning.
+    - E.g. I have to transform some of the gender values and decide what to do with the missing fields.
+- We then run our preliminary analysis of the data.
     - E.g. I can run an analysis of the subset of non cis-gender men and public domain media objects against the total number of media objects to find out the proportion.
-- At the end of our analysis, a decision is then made about how would we would present the data and its analysis. 
+- At the end of our analysis, a decision is then made about how would we would present the data and its analysis.
     - E.g. I can present the result in a pie chart.
 
 This is one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data.
@@ -103,7 +103,7 @@ This is one cycle in which data goes from collection to transformation to visual
 
 Before beginning your data collection, manipulation, and transformation, a good practice is to determine your file naming conventions. How many times have named something as `XXX_FinalFINALFINAL.pdf` or have difficulty searching for a version of the file that contained all that good idea that was edited out in the `XXX_FinalFINALFINALFINAL.pdf` version? While tools like version controlling with git can be helpful, we can also begin with setting up file naming conventions that can help us succeed! Here's an example from [Stanford](https://library.stanford.edu/research/data-management-services/case-studies/case-study-file-naming) that demonstrates the problems of badly name files in our projects.
 
-For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a sub-folder of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`). 
+For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a sub-folder of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`).
 
 ## Keywords
 
@@ -112,10 +112,10 @@ Do you remember the glossary terms from this section?
 - [Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/data.md)
 
 # Stages of Data: Raw
-    
+
 "Raw" data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc.. It could be in any of the forms listed in the previous section.
 
-But "raw" data is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw" data. For example, I may consider the [General Social Survey](http://gss.norc.org/) data to be "raw" as it will require me to filter out missing entries and collapse variables or fields before I can run my analysis. A researcher who participated in the creation of this survey may not consider the version on the site as "raw" because the "raw" version is the physical paper copies of the file. As you can see, this consideration of what is "raw" is non-definitive and is dependent on the project you are working on and the narrative you want to tell with the results. 
+But "raw" data is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw" data. For example, I may consider the [General Social Survey](http://gss.norc.org/) data to be "raw" as it will require me to filter out missing entries and collapse variables or fields before I can run my analysis. A researcher who participated in the creation of this survey may not consider the version on the site as "raw" because the "raw" version is the physical paper copies of the file. As you can see, this consideration of what is "raw" is non-definitive and is dependent on the project you are working on and the narrative you want to tell with the results.
 
 If you are interested in further exploration and discussion of the ethics of "raw" data, please consider reading [Drucker's article](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html) which has made useful distinctions between "data" (understood as given) and "capta" (taken or "captured") that also troubles the distinction between "raw" and "processed" data. 
 
@@ -142,15 +142,15 @@ Which of the following statements are true for "raw" data:
 ## Challenge: Raw Data and Labor
 
 1. Do you think "big data" is "raw data"? Why or why not? Do quantity of data play into our assumptions of "rawness"?
-2. How should we approach data that we have "scraped"? 
+2. How should we approach data that we have "scraped"?
 3. How do you collect "raw" data? What are some of your practices? What are your field's practices?
-4. If you have not done so, open up `moSmall.csv` from your local computer/laptop. As the original file has about 500,000 entries, we've taken a random sample of 1% of the [original dataset](https://github.com/metmuseum/openaccess). In this case, would you consider this file to be a "raw" dataset? 
+4. If you have not done so, open up `moSmall.csv` from your local computer/laptop. As the original file has about 500,000 entries, we've taken a random sample of 1% of the [original dataset](https://github.com/metmuseum/openaccess). In this case, would you consider this file to be a "raw" dataset?
 
 ## Solution:
 
-1. I think big data can be raw data depending on how the data is obtained and the processes I need to take before I can apply an analysis. I think that with large datasets, I always assume "rawness" because I won't need all of the variables or there will be decisions that need to be made about missing entries. 
-2. I think my approach to scraped data is similar to big data. 
-3. Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications. 
+1. I think big data can be raw data depending on how the data is obtained and the processes I need to take before I can apply an analysis. I think that with large datasets, I always assume "rawness" because I won't need all of the variables or there will be decisions that need to be made about missing entries.
+2. I think my approach to scraped data is similar to big data.
+3. Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications.
 4. The dataset is "raw" to me as I will likely be working on removing certain variables/entries to work towards my question.
 
 ## Keywords
@@ -166,31 +166,31 @@ Processing data puts it into a state more readily available for analysis and mak
 
 ## XML
 
-**XML** or eXstensible Markup Language, uses a nested structure, where the "tags" like `<Cat>` contain other tags inside them, like `<firstName>`. This format is good for organizing the layout of a document in a tree-like format, just like HTML, where we want to nest elements like a sentence within a paragraph, for example. XML does not carry any information about how to be displayed and can be used in a variety of presentation scenarios. 
+**XML** or eXstensible Markup Language, uses a nested structure, where the "tags" like `<Cat>` contain other tags inside them, like `<firstName>`. This format is good for organizing the layout of a document in a tree-like format, just like HTML, where we want to nest elements like a sentence within a paragraph, for example. XML does not carry any information about how to be displayed and can be used in a variety of presentation scenarios.
 
 ```xml
-<Cats> 
-    <Cat> 
-        <firstName>Smally</firstName> 
-        <lastName>McTiny</lastName> 
-    </Cat> 
-    <Cat> 
-        <firstName>Kitty</firstName> 
-        <lastName>Kitty</lastName> 
-    </Cat> 
-    <Cat> 
-        <firstName>Foots</firstName> 
-        <lastName>Smith</lastName> 
-    </Cat> 
-    <Cat> 
-        <firstName>Tiger</firstName> 
-        <lastName>Jaws</lastName> 
-    </Cat> 
-</Cats> 
+<Cats>
+    <Cat>
+        <firstName>Smally</firstName>
+        <lastName>McTiny</lastName>
+    </Cat>
+    <Cat>
+        <firstName>Kitty</firstName>
+        <lastName>Kitty</lastName>
+    </Cat>
+    <Cat>
+        <firstName>Foots</firstName>
+        <lastName>Smith</lastName>
+    </Cat>
+    <Cat>
+        <firstName>Tiger</firstName>
+        <lastName>Jaws</lastName>
+    </Cat>
+</Cats>
 ```
 
 ![Screenshot of XML cats file](/images/cats_XML.png)
-This file is viewed on an online [XML Viewer](https://www.xmlviewer.org/). If you would like to, you can either copy the code chunk above to try it out on [XML Viewer](https://www.xmlviewer.org) or [download the XML file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/cats.xml) to try it out in other viewers. To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer.  
+This file is viewed on an online [XML Viewer](https://www.xmlviewer.org/). If you would like to, you can either copy the code chunk above to try it out on [XML Viewer](https://www.xmlviewer.org) or [download the XML file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/cats.xml) to try it out in other viewers. To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer.
 
 For example, after downloading the file, can you try to open this file in your browser? (Psst! Try right clicking on `cats.xml` in your local directory and choosing `Open with Other Application` in the drop down menu to select the browser of your choice.)
 
@@ -200,11 +200,11 @@ For example, after downloading the file, can you try to open this file in your b
 
 ```json
 {
-    "Cats": [ 
+    "Cats": [
         {
             "firstName": "Smally",
             "lastName": "McTiny"
-        }, 
+        },
         {
             "firstName": "Kitty",
             "lastName": "Kitty"
@@ -212,17 +212,17 @@ For example, after downloading the file, can you try to open this file in your b
         {
             "firstName": "Foots",
             "lastName":"Smith"
-        }, 
+        },
         {
             "firstName": "Tiger",
             "lastName":"Jaws"
-        } 
+        }
     ]
 } 
 ```
 
 ![Screenshot of JSON cats file](/images/cats_JSON.png)
-This file is viewed on my Firefox browser from my local directory. To view it in your browser, you can drag and drop the local file onto a open tab or window. You can also [download the JSON file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/cats.json) and try opening it in other viewers (e.g. R Studio, webviewers like Code Beautify's [JSON Viewer](https://codebeautify.org/jsonviewer)). To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer. 
+This file is viewed on my Firefox browser from my local directory. To view it in your browser, you can drag and drop the local file onto a open tab or window. You can also [download the JSON file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/cats.json) and try opening it in other viewers (e.g. R Studio, webviewers like Code Beautify's [JSON Viewer](https://codebeautify.org/jsonviewer)). To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer.
 
 ## CSV
 
@@ -238,14 +238,14 @@ Tiger,Jaws
 
 ![Screenshot of CSV cats file](/images/cats_CSV.png)
 
-This file is viewed on my VSCode with the extension `Excel Viewer`. To view in VSCode, [install the extension](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer) in VSCode, open the .csv, and then right click on the file and click `Open Preview`. You can also [download the CSV file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/cats.csv) to open it in other viewers (e.g. Microsoft Excel, Notepad). To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer. 
+This file is viewed on my VSCode with the extension `Excel Viewer`. To view in VSCode, [install the extension](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer) in VSCode, open the .csv, and then right click on the file and click `Open Preview`. You can also [download the CSV file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/cats.csv) to open it in other viewers (e.g. Microsoft Excel, Notepad). To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer.
 
 ## The Importance of Using Open Data Formats
 
 A small detour to discuss data formats. Open data formats are usually available to anyone free-of-charge and allows for easy reusability. Proprietary formats often hold copyrights, patents, or have other restrictions placed on them, and are dependent on (expensive) licensed softwares. If the licensed software cease to support its proprietary format or it becomes obsolete, you may be stuck with a file format that cannot be easily open or (re)used (e.g. .mac). For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
 
 1. Open [this file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/cats.csv) in a [text editor](https://github.com/DHRI-Curriculum/insights/blob/v2.0/pages/choosing-a-text-editor.md) (e.g. Visual Studio Code, TextEdit (macOS), NotePad (Windows) ), and then in an app like Excel. This is a CSV, an open, text-only, file format. To save the file onto your local computer, right click on `cats.csv` and click `Save Link As` to download the file to your local computer (it's the same cats.csv from above!)
-2. Now do the same with [this Excel file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0/files/cats.xlsx?raw=true). Unlike the previous, this is a proprietary format! 
+2. Now do the same with [this Excel file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0/files/cats.xlsx?raw=true). Unlike the previous, this is a proprietary format!
 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard.
 
@@ -317,7 +317,7 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 ## Evaluation
 
 Structured data can be:
-- a XML list.* 
+- a XML list.*
 - a Excel table.*
 - an email chain.
 - a collection of text files.
@@ -331,14 +331,14 @@ We may choose to store our data in open data formats because they:
 ## Challenge: Processed/Transformed
 
 1. How do you decide the formats to store your data when you transition from 'raw' to 'processed/transformed' data? What are some of your considerations?
-2. Explore the `moSmall.csv` dataset, what questions might you ask with this dataset? What columns (variables) will you keep? 
+2. Explore the `moSmall.csv` dataset, what questions might you ask with this dataset? What columns (variables) will you keep?
 3. If you are saving the file `moSmall.csv` in a proprietary spreadsheet application like Microsoft Excel (Windows/macOS) or Numbers (macOS), you may be prompted to save the file as `.xlsx` or `.numbers`. What format would you choose to save it in? Why would you choose to do so?
 
 ## Solution:
 
 1. I usually go with the conventions of the field as it allows me to share my "in progress" work easily with my research lab and collaborators. The file conventions can range from `.csv` to `.json`.
 2. I will keep columns (variables) relevant to my question, such as the `Artist Gender`, `Is Public Domain` and `Rights and Reproduction` columns. I will also keep some of the descriptive columns such as `Object ID` and `Artist Role` to help contextualize the results (e.g. what kind of roles do female artists tend to take on?)
-3. I will choose to keep it in a `.csv` file type as it can be opened up by more programs and if Microsoft stops supporting `.xlsx` file types I may no longer have access to opening the dataset. **or** I will choose to switch to a `.xlsx` format as it is easier to use on a graphical user interface like Microsoft Excel. Any stylistic changes I've made to the file will remain as well, such as alternative highlighting rows for readability or bolding column headings. 
+3. I will choose to keep it in a `.csv` file type as it can be opened up by more programs and if Microsoft stops supporting `.xlsx` file types I may no longer have access to opening the dataset. **or** I will choose to switch to a `.xlsx` format as it is easier to use on a graphical user interface like Microsoft Excel. Any stylistic changes I've made to the file will remain as well, such as alternative highlighting rows for readability or bolding column headings.
 
 ## Keywords
 
@@ -388,7 +388,7 @@ Look back at our example of cats to see how they may or may not follow those gui
 }
 ```
 
-While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data. 
+While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data.
 
 ## Evaluation
 
@@ -415,7 +415,7 @@ Do you remember the glossary terms from this section?
 - [Tidy Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/tidy-data.md)
 
 # More Stages of Data: Cleaned
-    
+
 High quality data is measured in its **validity**, **accuracy**, **completeness**, **consistency**, and **uniformity**.
 
 Processed data, even in a table, is going to be full of errors:
@@ -428,8 +428,8 @@ Processed data, even in a table, is going to be full of errors:
 6. Duplicated rows
 7. And many more!
 
-Cleaning data is the work of correcting the errors listed above, and moving towards high quality. This work can be done manually or programmatically. 
-    
+Cleaning data is the work of correcting the errors listed above, and moving towards high quality. This work can be done manually or programmatically.
+
 ### Validity
 
 Measurements must be valid, in that they must conform to set constraints:
@@ -437,7 +437,7 @@ Measurements must be valid, in that they must conform to set constraints:
 1. The aforementioned "yes" or "y" or "1" should all be changed to one response.
 2. Certain fields cannot be empty, or the whole observation must be thrown out.
 3. Uniqueness, for instance no two people should have the same social security number.
-    
+
 ### Accuracy
 
 Measurements must be accurate, in that they must represent the correct values. While an observation may be valid, it might at the same time be inaccurate. 123 Fake street is a valid, inaccurate street address.
@@ -446,45 +446,45 @@ Unfortunately, accuracy is mostly achieved in the observation process. To be ach
 
 ### Completeness
 
-Measurements must be complete, in that they must represent everything that might be known. This also is nearly impossible to achieve in the cleaning process! For instance in a survey, it would be necessary to re-interview someone whose previous answer to a question was left blank. 
-    
+Measurements must be complete, in that they must represent everything that might be known. This also is nearly impossible to achieve in the cleaning process! For instance in a survey, it would be necessary to re-interview someone whose previous answer to a question was left blank.
+
 ### Consistency
 
-Measurements must be consistent, in that different observations must not contradict each other. For instance, one person cannot be represented as both dead and still alive in different observations. 
-    
-### Uniformity 
+Measurements must be consistent, in that different observations must not contradict each other. For instance, one person cannot be represented as both dead and still alive in different observations.
+
+### Uniformity
 
 Measurements must be uniform, in that the same unit of measure must be used in all relevant measurements. If one person's height is listed in meters and another in feet, one measurement must be converted.
 
 ## Evaluation
 
-Measurements are *accurate* when 
+Measurements are *accurate* when
 - observations do not contradict each other.
 - they represent the correct values.*
 - when they are unique responses (e.g. no duplication).
 - when the same unit of measure is used in all relevant measurements.
 
-## Challenge: When do we stop cleaning?  
+## Challenge: When Do We Stop Cleaning?
 
-1. How do we know when our data is cleaned enough? 
-2. What happens to the data that is removed? 
-3. Explore the `moSmall.csv` dataset. 
-    * Are all the measurements valid? Try checking the `Object ID` column for duplicates.
-    * How might you check if the `Is Public Domain` accurately represents the copyrights of the media objects?
-    * Is the data collected completed? How might you deal with the NA or empty fields? 
-        * What assumptions do you have to make when you clean NA or empty fields?
-    * Is the collected data consistent? Does the column `Is Public Domain` correspond with the data in `Rights and Reproduction`? If it does not, which would you follow? Why?
-    * As the dataset is not one that we personally collected, how do we make sense that only `Female` or `|` is collected as responses in the column (with the exception of NA and empty fields)? What do we have to do to the data to make sure it is uniform? What decisions do we make in this process?
+1. How do we know when our data is cleaned enough?
+2. What happens to the data that is removed?
+3. Explore the `moSmall.csv` dataset.
+    - Are all the measurements valid? Try checking the `Object ID` column for duplicates.
+    - How might you check if the `Is Public Domain` accurately represents the copyrights of the media objects?
+    - Is the data collected completed? How might you deal with the NA or empty fields?
+        - What assumptions do you have to make when you clean NA or empty fields?
+    - Is the collected data consistent? Does the column `Is Public Domain` correspond with the data in `Rights and Reproduction`? If it does not, which would you follow? Why?
+    - As the dataset is not one that we personally collected, how do we make sense that only `Female` or `|` is collected as responses in the column (with the exception of NA and empty fields)? What do we have to do to the data to make sure it is uniform? What decisions do we make in this process?
 
 ## Solution:
 
 1. I think this is often decided before the cleaning process begins, perhaps after some quick visualization or analysis of the "raw" data. I generally remove empty entries from my data sets. Working with social media data, I also usually remove URLs as these influence the topic modelling algorithms (e.g. "http" may end up being the most prominent topic of the corpus). This is usually where I stop cleaning. Some might suggest the removal of stop words like "the" "a" "an," but I have always felt very uncertain about the removal of these words. This is especially because the dictionary of stop words were generated through canon western texts that is not representative of the many variations of English. For example, if I were looking at the tweets of Singaporean youths, the stop word dictionary may not be appropriate.
-2. For me, the data is often destroyed (usually because IRB desires it) or it remains in the original "raw" file. The file that I clean will always be a duplicate file to allow for recovery in case I made a poor decision in the process of cleaning. 
+2. For me, the data is often destroyed (usually because IRB desires it) or it remains in the original "raw" file. The file that I clean will always be a duplicate file to allow for recovery in case I made a poor decision in the process of cleaning.
 3. Exploring the dataset, here are my responses to the questions:
     - Using `Object ID` indicates that there is no duplicates in the dataset. Every entry is unique.
     - I will have to compare it to another trusted source like a database from [The Getty Research Institute](https://www.getty.edu/research/tools/).
-    - The data collected is not completed. There are missing fields. Depending on where the missing field is, I may choose to code it as `0` for the ease of analysis. For example, the column `Dynasty` only contain 1 meaningful entry within this sample data set, as such, I will not run any analysis that may rely on this column and choose to drop it. The column `Accession Year` only has 1 NA and I will choose to drop that row if this becomes a useful variable for my analysis. 
-    - While the `Rights and Reproduction` contains a lot of NA and inappropriate responses (e.g. "Ceramics"), for the most part, for the items labeled as `YES` in the column `Is Public Domain` the corresponding column in `Rights and Reproduction` does not record a copyright holder. I am assuming that the NA can stand in for the object being in the public domain.  
+    - The data collected is not completed. There are missing fields. Depending on where the missing field is, I may choose to code it as `0` for the ease of analysis. For example, the column `Dynasty` only contain 1 meaningful entry within this sample data set, as such, I will not run any analysis that may rely on this column and choose to drop it. The column `Accession Year` only has 1 NA and I will choose to drop that row if this becomes a useful variable for my analysis.
+    - While the `Rights and Reproduction` contains a lot of NA and inappropriate responses (e.g. "Ceramics"), for the most part, for the items labeled as `YES` in the column `Is Public Domain` the corresponding column in `Rights and Reproduction` does not record a copyright holder. I am assuming that the NA can stand in for the object being in the public domain.
     - Taking only `Female` as a valid gender response, everything else will be converted to a `0` for ease of analysis. I am assuming `|` as equivalent to a NA or an empty field rather than an alternative gender. Hence in my analysis, the proportion will only record female artists' objects against the rest of the collected items. I cannot necessarily answer the larger question of all non-cisgender men against the total in this case.
 
 
