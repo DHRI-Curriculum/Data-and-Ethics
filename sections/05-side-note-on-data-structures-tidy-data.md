@@ -41,7 +41,7 @@ Look back at our example of cats to see how they may or may not follow those gui
 }
 ```
 
-While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data. 
+While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data.
 
 ## Evaluation
 

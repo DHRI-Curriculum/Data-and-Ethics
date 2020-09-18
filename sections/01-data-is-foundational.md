@@ -8,7 +8,7 @@ In this workshop we will be discussing the basics of research data in terms of m
 
 ## What Constitutes Research Data?
 
-These quotes below offers a variety of perspectives to understanding research data across different stakeholders. The inclusion of these different approaches to research data is to suggest that there is no singular, definitive approach, and is dependent on multiple factors, including your project considerations. 
+These quotes below offers a variety of perspectives to understanding research data across different stakeholders. The inclusion of these different approaches to research data is to suggest that there is no singular, definitive approach, and is dependent on multiple factors, including your project considerations.
 
 
 > Material or information on which an argument, theory, test or hypothesis, or another research output is based.
@@ -31,11 +31,11 @@ These quotes below offers a variety of perspectives to understanding research da
 > — <cite>[Angela Bassa](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4)</cite>
 
 
-Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information is depends on your project. 
+Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information is depends on your project.
 
 ## Forms of Data
 
-There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities: 
+There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities:
 
 - Non-digital text (lab books, field notebooks)
 - Digital texts or digital copies of text
@@ -73,16 +73,16 @@ Research data can be defined as:
 
 ## Challenge: Forms of Data
 
-These are some (most!) of the shapes your research data might transform into. 
+These are some (most!) of the shapes your research data might transform into.
 
-1. What are some forms of data you use in your work? 
-2. What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field. 
+1. What are some forms of data you use in your work?
+2. What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field.
 3. Where do you usually get your data from?
 
-## Solution: 
+## Solution:
 
-1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS. 
-2. Often times outputs are statistical analysis and various data visualizations. This is also pretty comment in my field of psychology. 
+1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS.
+2. Often times outputs are statistical analysis and various data visualizations. This is also pretty comment in my field of psychology.
 3. I can get them from large databases like pushshift.io or scrape certain social media outlets directly such as Twitter.
 
 ---

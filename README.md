@@ -31,7 +31,7 @@ By the end of this workshop, participants will:
 7. [More Stages of Data: Analyzed](sections/07-more-stages-of-data-analyzed.md)
 8. [More Stages of Data: Visualized](sections/08-more-stages-of-data-visualized.md)
 9. [Data Literacy and Ethics](sections/09-data-literacy-and-ethics.md)
-10. [Some concluding thoughts](sections/10-some-concluding-thoughts.md)
+10. [Some Concluding Thoughts](sections/10-some-concluding-thoughts.md)
 
 ---
 

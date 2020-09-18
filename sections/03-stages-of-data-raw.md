@@ -6,7 +6,7 @@
 
 "Raw" data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc.. It could be in any of the forms listed in the previous section.
 
-But "raw" data is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw" data. For example, I may consider the [General Social Survey](http://gss.norc.org/) data to be "raw" as it will require me to filter out missing entries and collapse variables or fields before I can run my analysis. A researcher who participated in the creation of this survey may not consider the version on the site as "raw" because the "raw" version is the physical paper copies of the file. As you can see, this consideration of what is "raw" is non-definitive and is dependent on the project you are working on and the narrative you want to tell with the results. 
+But "raw" data is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw" data. For example, I may consider the [General Social Survey](http://gss.norc.org/) data to be "raw" as it will require me to filter out missing entries and collapse variables or fields before I can run my analysis. A researcher who participated in the creation of this survey may not consider the version on the site as "raw" because the "raw" version is the physical paper copies of the file. As you can see, this consideration of what is "raw" is non-definitive and is dependent on the project you are working on and the narrative you want to tell with the results.
 
 If you are interested in further exploration and discussion of the ethics of "raw" data, please consider reading [Drucker's article](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html) which has made useful distinctions between "data" (understood as given) and "capta" (taken or "captured") that also troubles the distinction between "raw" and "processed" data. 
 
@@ -33,15 +33,15 @@ Which of the following statements are true for "raw" data:
 ## Challenge: Raw Data and Labor
 
 1. Do you think "big data" is "raw data"? Why or why not? Do quantity of data play into our assumptions of "rawness"?
-2. How should we approach data that we have "scraped"? 
+2. How should we approach data that we have "scraped"?
 3. How do you collect "raw" data? What are some of your practices? What are your field's practices?
-4. If you have not done so, open up `moSmall.csv` from your local computer/laptop. As the original file has about 500,000 entries, we've taken a random sample of 1% of the [original dataset](https://github.com/metmuseum/openaccess). In this case, would you consider this file to be a "raw" dataset? 
+4. If you have not done so, open up `moSmall.csv` from your local computer/laptop. As the original file has about 500,000 entries, we've taken a random sample of 1% of the [original dataset](https://github.com/metmuseum/openaccess). In this case, would you consider this file to be a "raw" dataset?
 
 ## Solution:
 
-1. I think big data can be raw data depending on how the data is obtained and the processes I need to take before I can apply an analysis. I think that with large datasets, I always assume "rawness" because I won't need all of the variables or there will be decisions that need to be made about missing entries. 
-2. I think my approach to scraped data is similar to big data. 
-3. Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications. 
+1. I think big data can be raw data depending on how the data is obtained and the processes I need to take before I can apply an analysis. I think that with large datasets, I always assume "rawness" because I won't need all of the variables or there will be decisions that need to be made about missing entries.
+2. I think my approach to scraped data is similar to big data.
+3. Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications.
 4. The dataset is "raw" to me as I will likely be working on removing certain variables/entries to work towards my question.
 
 ## Keywords

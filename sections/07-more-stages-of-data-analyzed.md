@@ -41,17 +41,16 @@ Descriptive analysis help us summarize a data set.
 
 ## Challenge: Analysis
 
-1. As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out? 
-2. How do we guide our decisions of interpretation with our choices of analyses? 
-3. Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? 
-    * What are potential misuses of our outputs? 
+1. As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out?
+2. How do we guide our decisions of interpretation with our choices of analyses?
+3. Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? What are potential misuses of our outputs?
 4. What can happen when we are trying to just go for the next big thing (tool/methods/algorithms) or just ran out of time and/or budget for our project?
 
-## Solution: 
+## Solution:
 
 1. I may choose to leave out data that are perceived to be outliers, especially if they differ to much from the "normal" curve. I end up representing only those who fall within the "normal" curve which may not actually be an equitable representation.
 2. The interpretation of the results should align itself with the type of analyses that I ran. In addition, it should be guided in some capacity by previous work in this area to inform my understanding.
-3. Potential misuse that I am always concern with is the weaponziation of marginalized participants' words and thoughts. I think I remain somewhat uncomfortable with the unintended use of my research because I don't think I can ever consider every circumstances that the analysis can be misused or misquoted. When I was working on an oral history project, I have set up some layers of boundaries to prevent too easy of an access to audio files as an attempt at negotiating access and protection of my narrators. 
+3. Potential misuse that I am always concern with is the weaponziation of marginalized participants' words and thoughts. I think I remain somewhat uncomfortable with the unintended use of my research because I don't think I can ever consider every circumstances that the analysis can be misused or misquoted. When I was working on an oral history project, I have set up some layers of boundaries to prevent too easy of an access to audio files as an attempt at negotiating access and protection of my narrators.
 4. In chasing the next big thing, the original intentions for beginning the project might be lost. For me, making sure that my work is meaningful to my communities is important and the excitement of exploring a new tool can sometimes distract me from this intention. Running out of time and/or budget can also mean that the project may end abruptly, and relationships built could be strained in a haphazard wrap up. This brings me back to making sure that before the project begins to spend a significant amount of time on project planning to reduce the chances of this happening.
 
 ## Keywords
