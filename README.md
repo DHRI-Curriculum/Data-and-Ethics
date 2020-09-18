@@ -74,7 +74,7 @@ You may also want to check out a couple of projects that use the skills discusse
 
 ## Acknowledgements
 
-This workshop is the result of a collaborative effort of a team of people, mostly involved presently or in the past, with the Graduate Center's Digital Initiatives. If you want to see statistics for contributions to this workshop, you can do so [here](https://github.com/DHRI-Curriculum/python/graphs/contributors). This is a list of all the contributors:
+This workshop is the result of a collaborative effort of a team of people, mostly involved presently or in the past, with the Graduate Center's Digital Initiatives. If you want to see statistics for contributions to this workshop, you can do so [here](https://www.github.com/DHRI-Curriculum/data-literacies/graphs/contributors). This is a list of all the contributors:
 
 - Current author: [Di Yoong](https://github.com/dyoong)
 - Past contributing author: [Stephen Zweibel](https://github.com/szweibel)
