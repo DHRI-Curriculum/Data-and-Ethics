@@ -16,7 +16,7 @@ By the end of this workshop, participants will:
 
 ---
 
-<p align="center">This workshop is estimated to take you - 3 - 4 hours to complete.</p><p align="center"><a href="sections/01-data-is-foundational.md">Get Started</a> →</p>
+<p align="center">This workshop is estimated to take you - 3–4 hours to complete.</p><p align="center"><a href="sections/01-data-is-foundational.md">Get Started</a> →</p>
 
 ---
 
