@@ -17,7 +17,7 @@ By the end of this workshop, participants will:
 
 ## Estimated time
 
-- 3 - 4 hours
+- 3–4 hours
 
 ## Prerequisites
 
