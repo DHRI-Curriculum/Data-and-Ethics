@@ -292,7 +292,7 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
         <td>`.ogg`</td>
     </tr>
     <tr>
-        <th rowspan="2">Video</th>
+        <th rowspan="1">Video</th>
         <td><a href="https://www.lifewire.com/mp4-file-2622024">MPEG-4</a></td>
         <td>`.mp4`</td>
     </tr>
