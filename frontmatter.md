@@ -46,7 +46,7 @@ By the end of this workshop, participants will:
 - Big data projects often times requiring sharing data sets across different individuals and teams. In addition, to ensure that our work is reproducible and accountable, we may also feel inclined to share the data collected. As such, figuring out [how to share such data](https://techscience.org/a/2015101601/) is crucial in the project planning stage. 
 
 
-## Resources (optional)
+## Resources
 
 - [National Science Foundataion's open datasets](https://catalog.data.gov/organization/nsf-gov)
 - [Resources to Find the Data You Need (2016)](https://flowingdata.com/2016/11/10/find-the-data-you-need-2016-edition/)
