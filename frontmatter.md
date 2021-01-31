@@ -22,7 +22,7 @@ By the end of this workshop, participants will:
 ## Prerequisites
 
 - [Introduction to the Command Line](https://www.github.com/DHRI-Curriculum/command-line) (required)
-- Download [`moSmall.csv`](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/moSmall.csv) dataset. It will be used through the challenges in the workshop. To save the file onto your local computer, **right click** on the `Download` button (top right-hand corner of the `View raw` message) and choose `Save Link As...`.  Original dataset taken from [The Metropolitan Museum of Art's Creative Commons Zero](https://github.com/metmuseum/openaccess). 
+- [Download the workshop dataset](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/moSmall.csv) (required) The dataset, `moSmall.csv`, will be used throughout the challenges in the workshop. To save the file to your local computer, right click on the link and choose `Save Link As...`. Original dataset taken from [The Metropolitan Museum of Art's Creative Commons Zero](https://github.com/metmuseum/openaccess).
 
 ## Contexts
 
