@@ -16,7 +16,7 @@ By the end of this workshop, participants will:
 
 ---
 
-<p align="center">This workshop is estimated to take you - 3–4 hours to complete.</p><p align="center"><a href="sections/01-data-is-foundational.md">Get Started</a> →</p>
+<p align="center">This workshop is estimated to take you 3–4 hours to complete.</p><p align="center"><a href="sections/01-data-is-foundational.md">Get Started</a> →</p>
 
 ---
 
@@ -35,15 +35,12 @@ By the end of this workshop, participants will:
 
 ---
 
-## Prerequisites
+## Before you get started
 
 If you do not have experience or basic knowledge of the following workshops, you may want to look into those before you start with Data Literacies:
 
-- Introduction to Command Line
-- Download [`moSmall.csv`](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0/files/moSmall.csv) dataset. It will be used through the challenges in the workshop.
-    - To save the file onto your local computer, **right click** on the `Download` button (top right-hand corner of the `View raw` message) and choose `Save Link As...`.  Original dataset taken from [The Metropolitan Museum of Art's Creative Commons Zero](https://github.com/metmuseum/openaccess).
-    
-## Contexts
+- [Introduction to the Command Line](https://www.github.com/DHRI-Curriculum/command-line) (required)
+- [Download the workshop dataset](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/moSmall.csv) (required) The dataset, `moSmall.csv`, will be used throughout the challenges in the workshop. To save the file to your local computer, right click on the link and choose `Save Link As...`. Original dataset taken from [The Metropolitan Museum of Art's Creative Commons Zero](https://github.com/metmuseum/openaccess).
 
 ### Ethical Considerations
 
