@@ -2,8 +2,8 @@
 
 ## Abstract
 
-What is data? What counts as data? These are questions we will explore throughout the workshop.   
-
+What is data? What counts as data? These are questions we will explore throughout the workshop.  
+  
 Data is foundational to nearly all digital projects and often help us to understand and express our ideas and narratives. Hence, in order to do digital work, we should know how data is captured, constructed, and manipulated. In this workshop we will be discussing the basics of research data, in terms of its material, transformation, and presentation. We will also engage with the ethical dimensions of what it means to work with data, from collection to visualization to representation. 
 
 ## Learning Objectives
