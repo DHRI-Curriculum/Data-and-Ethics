@@ -2,12 +2,14 @@
 
 Now that you've gained an understanding of some of the considerations around data and ethics, let's think a bit further about how you may apply some of what we have discussed in your work.  Below you will find some additional readings that dives deeper into some of the topics that were covered in our lessons. If you would like, you can also consider exploring the "Projects or Challenges to Try" to see how you might apply what you've learnt.
 
-## Suggested Further Readings: Data management
+## Suggested Further Readings
+
+### Data management
 - Marieke Guy's [data management presentation](https://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management) discusses some ideas around planning for data management before, during, and after a project.
 - Queensland University of Technology's [Management of Research Data](http://www.mopp.qut.edu.au/D/D_02_08.jsp) provides some ideas around ownership, roles and responsibilities of data-driven projects. While this is specific to Queensland University of Technology, it is useful for understanding some of the different roles in a research project.
 - The Graduate Center, CUNY's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045072) research guide provides resources and specific steps for CUNY faculty, staff, and students. 
 
-## Suggested Further Readings: Ethics and ("big" data) research
+### Ethics and ("big" data) research
 - The Council for Big Data, Ethics, and Society's [Perspectives on Big Data, Ethics, and Society](https://bdes.datasociety.net/council-output/perspectives-on-big-data-ethics-and-society/) is a white paper that consolidates the council's discussions on big data, ethics, and society.
 - Catherine D'Ignazio & Lauren F. Klein's [Data Feminism](https://data-feminism.mitpress.mit.edu/) (scroll down the page to access the book chapters for free). It looks at "big" data from a feminist perspective, and discuss the importance of understanding long histories and socio-political contexts in research, as well as providing an overview of the field.
 - Feminist Data's [Manifest-No](https://www.manifestno.com) discusses the realities of "big" data and the fallacies of unequal harm and risk distribution, particularly towards marginalized communities.
