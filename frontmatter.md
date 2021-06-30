@@ -42,7 +42,8 @@ By the end of this workshop, participants will:
 
 - Data and data analysis is [not free from bias](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4). There is no magic blackbox for which data emerges from and is contextually driven. As we think about the automation process of looking at "big" data, we have to be aware of [the biases that gets reproduced that is "hidden."](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
 - De-identified information can be [reconstructed from piecemeal data](https://techscience.org/a/2015092903/) found across different sources. When we consider what we are doing with the data we have collected, we also need to think about the possible re-identification of our participants. 
-- Big data projects often times requiring sharing data sets across different individuals and teams. In addition, to ensure that our work is reproducible and accountable, we may also feel inclined to share the data collected. As such, figuring out [how to share such data](https://techscience.org/a/2015101601/) is crucial in the project planning stage. 
+- Consider how you may use [differential privacy](https://theconversation.com/explainer-what-is-differential-privacy-and-how-can-it-protect-your-data-90686) as a strategy against re-identification. Consider the [US Census 2020 example](https://www.ncsl.org/research/redistricting/differential-privacy-for-census-data-explained.aspx) on utilizing this strategy to address privacy concerns.
+- Big data projects often times requiring sharing data sets across different individuals and teams. In addition, to ensure that our work is reproducible and accountable, we may also feel inclined to share the data collected. As such, figuring out [how to share such data](https://techscience.org/a/2015101601/) is crucial in the project planning stage.
 
 ### Datasets
 
