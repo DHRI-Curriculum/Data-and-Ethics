@@ -1,8 +1,8 @@
 ![Header image for the Data Literacies workshop](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/_django-meta/header%403x.png)
 
 
-What is data? What counts as data? These are questions we will explore throughout the workshop.   
-
+What is data? What counts as data? These are questions we will explore throughout the workshop.  
+  
 Data is foundational to nearly all digital projects and often help us to understand and express our ideas and narratives. Hence, in order to do digital work, we should know how data is captured, constructed, and manipulated. In this workshop we will be discussing the basics of research data, in terms of its material, transformation, and presentation. We will also engage with the ethical dimensions of what it means to work with data, from collection to visualization to representation.
 
 In this workshop, you will:
@@ -39,8 +39,8 @@ By the end of this workshop, participants will:
 
 If you do not have experience or basic knowledge of the following workshops, you may want to look into those before you start with Data Literacies:
 
-- [Introduction to the Command Line](https://www.github.com/DHRI-Curriculum/command-line) (required)
-- [Download the workshop dataset](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/moSmall.csv) (required) The dataset, `moSmall.csv`, will be used throughout the challenges in the workshop. To save the file to your local computer, right click on the link and choose `Save Link As...`. Original dataset taken from [The Metropolitan Museum of Art's Creative Commons Zero](https://github.com/metmuseum/openaccess).
+- [Introduction to the Command Line](https://www.github.com/DHRI-Curriculum/command-line) (required) This workshop makes reference to concepts from the Command Line workshop, and having some knowledge about how to use the command line will be central for anyone who wants to learn about how to handle and process data and data analysis.
+- [Download the workshop dataset](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/moSmall.csv) (required) The dataset, `moSmall.csv`, will be used throughout the challenges in the workshop. To save the file to your local computer, right click on the "Download the workshop dataset" link and choose `Save Link As...`. Note: It is important to make sure your file is saved as a `.csv` file. Original dataset taken from [The Metropolitan Museum of Art's Creative Commons Zero](https://github.com/metmuseum/openaccess).
 
 ### Ethical Considerations
 
